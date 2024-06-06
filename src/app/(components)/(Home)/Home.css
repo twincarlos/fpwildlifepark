@@ -113,12 +113,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
     gap: 1em;
-    background: var(--primary-color);
+    background: var(--fourth-color);
 }
 
 .home-component-3 {
