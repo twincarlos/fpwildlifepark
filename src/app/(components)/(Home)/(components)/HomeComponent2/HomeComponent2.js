@@ -62,7 +62,7 @@ export function HomeComponent2() {
                             </div>
                             <div className="tour-description">
                                 <p>
-                                    For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close and enjoy special activities that are not available to the general public.
+                                    {"For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close and enjoy special activities that are not available to the general public."}
                                 </p>
                                 <p>
                                     Your VIP ATV Tour includes:
