@@ -232,18 +232,18 @@
 
 .home-component-4 {
     background: var(--tertiary-color);
+    padding: 0;
+    justify-content: flex-start;
 }
 
 .home-component-4 .container {
     display: flex;
     align-items: center;
+    height: 600px;
 }
 
 .park-location {
-    width: 700px;
-    height: 600px;
-    position: relative;
-    left: 50px;
+    height: 100%;
 }
 
 .park-location img {
