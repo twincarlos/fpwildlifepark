@@ -4,6 +4,7 @@
   --paragraph-font-family: "Montserrat", sans-serif;
   --primary-color: #689941;
   --secondary-color: #F58422;
+  --tertiary-color: hsla( 45,11.76%,86.67% ,1);
 }
 
 * {
