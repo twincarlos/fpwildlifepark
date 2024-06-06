@@ -20,10 +20,10 @@ export function HomeComponent5() {
                         <h2>Follow Us</h2>
                     </div>
                     <div className="social-media-links">
-                        <Link href="/"><i className="fa-brands fa-facebook" /></Link>
-                        <Link href="/"><i className="fa-brands fa-instagram" /></Link>
-                        <Link href="/"><i className="fa-brands fa-tiktok" /></Link>
-                        <Link href="/"><i className="fa-brands fa-youtube" /></Link>
+                        <Link href="https://m.facebook.com/FragilePlanetWildlifePark" target="_blank"><i className="fa-brands fa-facebook" /></Link>
+                        <Link href="https://www.instagram.com/fragileplanetwildlifepark" target="_blank"><i className="fa-brands fa-instagram" /></Link>
+                        <Link href="https://www.tiktok.com/@fragileplanetsafaripark" target="_blank"><i className="fa-brands fa-tiktok" /></Link>
+                        <Link href="https://www.youtube.com/@FragilePlanetWildlifePark" target="_blank"><i className="fa-brands fa-youtube" /></Link>
                     </div>
                 </div>
             </div>
