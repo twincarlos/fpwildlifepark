@@ -291,7 +291,7 @@ p.get-directions-button {
 }
 
 .home-component-5 {
-    height: 600px;
+    height: 700px;
 }
 
 .home-component-5 .container {
@@ -351,4 +351,29 @@ p.get-directions-button {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+.follow-us-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 100px;
+}
+
+.follow-us-text h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.social-media-links a {
+    font-size: 30px;
 }
