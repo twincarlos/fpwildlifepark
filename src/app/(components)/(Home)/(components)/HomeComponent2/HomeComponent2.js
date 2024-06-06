@@ -1,10 +1,10 @@
 import Image from "next/image";
-import tour1Image from "../../../../assets/tour-1.png";
-import tour2Image from "../../../../assets/tour-2.png";
-import tour3Image from "../../../../assets/tour-3.png";
+import tour1Image from "../../../../(assets)/tour-1.png";
+import tour2Image from "../../../../(assets)/tour-2.png";
+import tour3Image from "../../../../(assets)/tour-3.png";
 import Link from "next/link";
 
-export function HomeComponent2() {
+export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3 }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -29,10 +29,28 @@ export function HomeComponent2() {
                                 </p>
                             </div>
                         </div>
-                        <div className="tour-button">
-                            <Link href="/">
-                                <i className="fa-solid fa-cart-shopping" />Book tour
-                            </Link>
+                        <div className="tour-footer">
+                            <div className="tour-button">
+                                <Link href="/">
+                                    <div className="book-tour-text">
+                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                    </div>
+                                    {
+                                        tourPrice1 ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tourPrice1}</p>
+                                            </div>
+                                        ) : null
+                                    }
+                                </Link>
+                            </div>
+                            {
+                                tourPrice1 ? (
+                                    <div className="tour-price">
+                                        <p className="per-person-text">(Per Person)</p>
+                                    </div>
+                                ) : null
+                            }
                         </div>
                     </div>
                     <div className="tour-container">
@@ -49,10 +67,28 @@ export function HomeComponent2() {
                                 </p>
                             </div>
                         </div>
-                        <div className="tour-button">
-                            <Link href="/">
-                                <i className="fa-solid fa-cart-shopping" />Book tour
-                            </Link>
+                        <div className="tour-footer">
+                            <div className="tour-button">
+                                <Link href="/">
+                                    <div className="book-tour-text">
+                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                    </div>
+                                    {
+                                        tourPrice2 ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tourPrice2}</p>
+                                            </div>
+                                        ) : null
+                                    }
+                                </Link>
+                            </div>
+                            {
+                                tourPrice2 ? (
+                                    <div className="tour-price">
+                                        <p className="per-person-text">(Private ATV)</p>
+                                    </div>
+                                ) : null
+                            }
                         </div>
                     </div>
                     <div className="tour-container">
@@ -69,10 +105,28 @@ export function HomeComponent2() {
                                 </p>
                             </div>
                         </div>
-                        <div className="tour-button">
-                            <Link href="/">
-                                <i className="fa-solid fa-cart-shopping" />Book tour
-                            </Link>
+                        <div className="tour-footer">
+                            <div className="tour-button">
+                                <Link href="/">
+                                    <div className="book-tour-text">
+                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                    </div>
+                                    {
+                                        tourPrice3 ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tourPrice3}</p>
+                                            </div>
+                                        ) : null
+                                    }
+                                </Link>
+                            </div>
+                            {
+                                tourPrice3 ? (
+                                    <div className="tour-price">
+                                        <p className="per-person-text">(Full Wagon)</p>
+                                    </div>
+                                ) : null
+                            }
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 .home-component-1 {
     height: 725px;
-    background: url("../../assets/home-component-1-background-image.png");
+    background: url("../../(assets)/home-component-1-background-image.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -117,8 +117,36 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
-    gap: 1em;
+    gap: .5em;
     background: var(--fourth-color);
+    flex-direction: column;
+}
+
+.tour-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.book-tour-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.tour-price-text {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.per-person-text {
+    font-size: 12px;
+    text-align: center;
 }
 
 .home-component-3 {
@@ -185,30 +213,30 @@
 }
 
 .cell-2 .cell-image {
-    background-image: url("../../assets/cell-2.png");
+    background-image: url("../../(assets)/cell-2.png");
 }
 
 .cell-3 .cell-image {
-    background-image: url("../../assets/cell-3.png");
+    background-image: url("../../(assets)/cell-3.png");
 }
 
 .cell-4 .cell-image {
-    background-image: url("../../assets/cell-4.png");
+    background-image: url("../../(assets)/cell-4.png");
 }
 
 .cell-2 .cell-image:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.6)), url("../../assets/cell-2.png");
+            rgba(0, 0, 0, 0.6)), url("../../(assets)/cell-2.png");
 }
 
 .cell-3 .cell-image:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.6)), url("../../assets/cell-3.png");
+            rgba(0, 0, 0, 0.6)), url("../../(assets)/cell-3.png");
 }
 
 .cell-4 .cell-image:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),
-            rgba(0, 0, 0, 0.6)), url("../../assets/cell-4.png");
+            rgba(0, 0, 0, 0.6)), url("../../(assets)/cell-4.png");
 }
 
 .cell-2 .cell-image:hover p {

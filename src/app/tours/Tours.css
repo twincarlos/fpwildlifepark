@@ -1,0 +1,8 @@
+.tours-header {
+    background: var(--fourth-color);
+    padding: 4em;
+}
+
+section.tours-header h2 {
+    font-size: 30px;
+}

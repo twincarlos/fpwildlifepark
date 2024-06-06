@@ -1,5 +1,5 @@
 import Image from "next/image";
-import parkLocation from "../../../../assets/park-location.png";
+import parkLocation from "../../../../(assets)/park-location.png";
 
 export function HomeComponent4() {
     return (
