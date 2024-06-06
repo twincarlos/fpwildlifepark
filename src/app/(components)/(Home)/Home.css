@@ -113,6 +113,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
+    gap: 1em;
 }
 
 .tour-button a.primary-color {

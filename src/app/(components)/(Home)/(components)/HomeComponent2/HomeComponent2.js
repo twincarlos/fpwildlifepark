@@ -36,7 +36,9 @@ export function HomeComponent2() {
                             </div>
                         </div>
                         <div className="tour-button">
-                            <Link className="primary-color" href="/">Book tour</Link>
+                            <Link className="primary-color" href="/">
+                                <i className="fa-solid fa-cart-shopping" />Book tour
+                            </Link>
                         </div>
                     </div>
                     <div className="tour-container">
@@ -64,7 +66,9 @@ export function HomeComponent2() {
                             </div>
                         </div>
                         <div className="tour-button">
-                            <Link className="secondary-color" href="/">Book tour</Link>
+                            <Link className="secondary-color" href="/">
+                                <i className="fa-solid fa-cart-shopping" />Book tour
+                            </Link>
                         </div>
                     </div>
                 </div>
