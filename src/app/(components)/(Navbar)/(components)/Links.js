@@ -5,11 +5,7 @@ export function Links() {
     return (
         <div className="links">
             <Link href="/"><i className="fa-solid fa-ticket" />Tickets</Link>
-            <DropdownMenu
-                dropdownHeaderIcon={<i className="fa-solid fa-tractor" />}
-                dropdownHeaderValue="Tours"
-                dropdownOptions={[{ value: "Tour Prices" }, { value: "Tour Departures" }]}
-            />
+            <Link href="/"><i className="fa-solid fa-tractor" />Tours</Link>
             <Link href="/"><i className="fa-solid fa-calendar-days" />Events</Link>
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
