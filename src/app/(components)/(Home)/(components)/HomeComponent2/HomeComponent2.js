@@ -50,7 +50,7 @@ export function HomeComponent2() {
                                 <p>VIP ATV Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>TIMES: 8:45, 9:45,……., 7:45 (last one)</p>
+                                <p>TIMES: 8:45, 9:45,……., 7:45 {"(last one)"}</p>
                                 <p>
                                     2 hour private ATV tour through our Safari Park where you will get to experience animals like never before.
                                     Come for an evening of animal fun and learn about our animal SAFARI ambassadors!
