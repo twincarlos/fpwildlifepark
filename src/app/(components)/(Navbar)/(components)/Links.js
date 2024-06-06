@@ -4,17 +4,20 @@ import { DropdownMenu } from "./DropdownMenu";
 export function Links() {
     return (
         <div className="links">
-            <Link href="/">Tickets</Link>
+            <Link href="/"><i className="fa-solid fa-ticket" />Tickets</Link>
             <DropdownMenu
+                dropdownHeaderIcon={<i className="fa-solid fa-tractor" />}
                 dropdownHeaderValue="Tours"
                 dropdownOptions={[{ value: "Tour Prices" }, { value: "Tour Departures" }]}
             />
-            <Link href="/">Events</Link>
+            <Link href="/"><i className="fa-solid fa-calendar-days" />Events</Link>
             <DropdownMenu
+                dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 dropdownHeaderValue="About"
                 dropdownOptions={[{ value: "Our Story" }, { value: "Our Team" }, { value: "Education" }]}
             />
             <DropdownMenu
+                dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
                 dropdownHeaderValue="Contact Us"
                 dropdownOptions={[{ value: "Let's Connect" }, { value: "Volunteer Application" }, { value: "Job Application" }, { value: "Internship Application" }]}
             />
@@ -23,7 +26,7 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             />
-            <Link href="/">Cart</Link>
+            <Link href="/"><i className="fa-solid fa-cart-shopping" />Cart</Link>
         </div>
     );
 };

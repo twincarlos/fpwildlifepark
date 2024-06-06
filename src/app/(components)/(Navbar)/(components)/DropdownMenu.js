@@ -2,14 +2,7 @@ export function DropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdown
     return (
         <div className="dropdow-menu">
             <div className="dropdown-menu-header">
-                {
-                    dropdownHeaderIcon ? (
-                        <div className="dropdown-header-icon">
-                            <i className="fa-solid fa-globe" />
-                        </div>
-                    ) :
-                        null
-                }
+                { dropdownHeaderIcon ? dropdownHeaderIcon : null }
                 <div className="dropdown-header-value">
                     <p>{dropdownHeaderValue}</p>
                 </div>
