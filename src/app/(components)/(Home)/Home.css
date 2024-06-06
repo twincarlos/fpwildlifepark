@@ -149,6 +149,14 @@
     text-align: center;
 }
 
+.tour-departures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
 .home-component-3 {
     background: white;
 }

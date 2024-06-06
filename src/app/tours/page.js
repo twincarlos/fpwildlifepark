@@ -6,7 +6,7 @@ export default function Tours() {
     return (
         <main>
             <ToursHeader/>
-            <HomeComponent2 tourPrice1="$15" tourPrice2="$200" tourPrice3="$500" />
+            <HomeComponent2 tourPrice1="$15" tourPrice2="$200" tourPrice3="$500" tourDepartureDetails={true} />
         </main>
     );
 };

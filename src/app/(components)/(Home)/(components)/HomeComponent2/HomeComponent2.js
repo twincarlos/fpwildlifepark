@@ -4,7 +4,7 @@ import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import Link from "next/link";
 
-export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3 }) {
+export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartureDetails }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -129,6 +129,10 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3 }) {
                             }
                         </div>
                     </div>
+                </div>
+                <div className="component-description tour-departures">
+                    <h2>Tour Departures: 9 AM to 7 PM</h2>
+                    <p>{"At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife and conservation efforts. Our tours depart regularly from 9 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule."}</p>
                 </div>
             </div>
         </section>
