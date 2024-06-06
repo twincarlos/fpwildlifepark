@@ -5,7 +5,7 @@ export function HomeComponent5() {
         <section className="home-component home-component-5">
             <div className="container">
                 <div className="email-icon">
-                    <i className="fa-solid fa-envelope" />
+                    <i className="fa-regular fa-envelope" />
                     <p>Subscribe to Our Newsletter</p>
                 </div>
                 <div className="sign-up-text">
@@ -21,7 +21,6 @@ export function HomeComponent5() {
                     </div>
                     <div className="social-media-links">
                         <Link href="/"><i className="fa-brands fa-facebook" /></Link>
-                        <Link href="/"><i className="fa-brands fa-twitter" /></Link>
                         <Link href="/"><i className="fa-brands fa-instagram" /></Link>
                         <Link href="/"><i className="fa-brands fa-tiktok" /></Link>
                         <Link href="/"><i className="fa-brands fa-youtube" /></Link>

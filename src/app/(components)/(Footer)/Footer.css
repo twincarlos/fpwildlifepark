@@ -1,0 +1,29 @@
+footer {
+    background: var(--primary-color);
+    padding: 2em 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.footer-logo img {
+    width: 331px;
+    height: 135px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    gap: 5em;
+    font-size: 18px;
+}

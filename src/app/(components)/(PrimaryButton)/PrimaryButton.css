@@ -1,6 +1,6 @@
 a.primary-button {
     padding: .7em 1.5em;
-    background: hsla( 143.04,66.14%,37.06% ,1);
+    background-color: var(--primary-color);
     color: white;
     border-radius: 300px;
 }
