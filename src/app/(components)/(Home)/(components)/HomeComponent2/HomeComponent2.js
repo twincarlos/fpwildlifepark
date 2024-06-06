@@ -26,9 +26,11 @@ export function HomeComponent2() {
                                 <p>
                                     Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through their habitats. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals.
                                 </p>
+                                <br />
                                 <p>
                                     Your Safari Wagon Tour includes:
                                 </p>
+                                <br />
                                 <p>
                                     - A guided Safari Wagon Tour
                                 </p>
@@ -38,9 +40,11 @@ export function HomeComponent2() {
                                 <p>
                                     - Access to our charming Petting Zoo
                                 </p>
+                                <br />
                                 <p>
                                     General Admission: $15
                                 </p>
+                                <br />
                                 <p>
                                     Experience the thrill of the wild and create lasting memories with your loved ones. Book your Safari Wagon Tour today and let the adventure begin!
                                 </p>
@@ -64,9 +68,11 @@ export function HomeComponent2() {
                                 <p>
                                     {"For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close and enjoy special activities that are not available to the general public."}
                                 </p>
+                                <br />
                                 <p>
                                     Your VIP ATV Tour includes:
                                 </p>
+                                <br />
                                 <p>
                                     - A thrilling 2-hour private ATV tour
                                 </p>
@@ -85,9 +91,11 @@ export function HomeComponent2() {
                                 <p>
                                     - Complimentary animal food for the feeding
                                 </p>
+                                <br />
                                 <p>
                                     Private Tour: $200 (for up to 3 guests)
                                 </p>
+                                <br />
                                 <p>
                                     This tour is designed for small groups of up to three guests, ensuring a personal and unforgettable experience.
                                 </p>

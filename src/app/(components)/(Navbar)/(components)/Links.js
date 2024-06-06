@@ -5,13 +5,20 @@ export function Links() {
     return (
         <div className="links">
             <Link href="/">Tickets</Link>
+            <DropdownMenu
+                dropdownHeaderValue="Tours"
+                dropdownOptions={[{ value: "Tour Prices" }, { value: "Tour Departures" }]}
+            />
             <Link href="/">Tours</Link>
             <Link href="/">Events</Link>
             <DropdownMenu
                 dropdownHeaderValue="About"
-                dropdownOptions={[{ value: "Our Story" }, { value: "Our Team" }]}
+                dropdownOptions={[{ value: "Our Story" }, { value: "Our Team" }, { value: "Education" }]}
             />
-            <Link href="/">Contact</Link>
+            <DropdownMenu
+                dropdownHeaderValue="Contact Us"
+                dropdownOptions={[{ value: "Let's Connect" }, { value: "Volunteer Application" }, { value: "Job Application" }, { value: "Internship Application" }]}
+            />
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-globe" />}
                 dropdownHeaderValue="English"

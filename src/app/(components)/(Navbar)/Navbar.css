@@ -47,22 +47,24 @@ img.logo {
     position: absolute;
     top: 59%;
     background: white;
+    flex-direction: column;
+    gap: .5em;
 }
 
 .dropdown-menu-header:hover + .dropdown-menu-body {
-    display: block
+    display: flex;
 }
 
 .dropdown-menu-body:hover {
-    display: block;
+    display: flex;
 }
 
 .dropdown-option button {
     background: transparent;
     border: none;
-    font-size: 1em;
+    font-size: 16px;
     font-family: "Montserrat", sanse;
-    font-weight: 200;
+    font-weight: 300;
     cursor: pointer;
     width: 100%;
     text-align: left;

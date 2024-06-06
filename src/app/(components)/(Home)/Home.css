@@ -96,7 +96,10 @@
 .tour-description {
     display: flex;
     flex-direction: column;
-    gap: .5em;
+}
+
+.tour-description p {
+    text-align: justify;
 }
 
 .tour-button {
