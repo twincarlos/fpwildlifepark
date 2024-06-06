@@ -1,0 +1,124 @@
+.home-component-1 {
+    height: 725px;
+    background: url("../../assets/home-component-1-background-image.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5em;
+}
+
+.home-component-1 .container {
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.home-component-1 .text-box p {
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-component-2 {
+    background: hsla( 45,11.76%,86.67% ,1);
+}
+
+.home-component-2 .container {
+    max-width: 1248px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.component-header h2 {
+    font-family: Poppins;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.component-description {
+    max-width: 900px;
+}
+
+.component-description p {
+    text-align: center;
+}
+
+.tours-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3em;
+    height: fit-content;
+}
+
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 34%;
+    background: white;
+    padding: 15px;
+    height: 100%;
+    gap: 1em;
+}
+
+.tour-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.tour-image {
+    width: 100%;
+}
+
+.tour-image img {
+    width: 100%;
+    height: 220px;
+}
+
+.tour-name p {
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tour-description {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.tour-button {
+    width: 100%;
+}
+
+.tour-button a {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tour-button a.primary-color {
+    background: var(--primary-color);
+}
+
+.tour-button a.secondary-color {
+    background: var(--secondary-color);
+}
