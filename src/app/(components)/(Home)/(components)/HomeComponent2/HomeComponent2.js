@@ -66,16 +66,13 @@ export function HomeComponent2() {
                             </div>
                             <div className="tour-description">
                                 <p>
-                                    {"For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close and enjoy special activities that are not available to the general public."}
+                                    {"For an exclusive and personalized experience, our VIP ATV Tour offers the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll see magnificent animals up close, enjoy special activities not available to the public, and receive complimentary animal food for feeding."}
                                 </p>
                                 <br />
                                 <p>
                                     Your VIP ATV Tour includes:
                                 </p>
                                 <br />
-                                <p>
-                                    - A thrilling 2-hour private ATV tour
-                                </p>
                                 <p>
                                     - A guided Safari Wagon Sunset Tour
                                 </p>
@@ -87,9 +84,6 @@ export function HomeComponent2() {
                                 </p>
                                 <p>
                                     - Rhino Iguana Feeding experience
-                                </p>
-                                <p>
-                                    - Complimentary animal food for the feeding
                                 </p>
                                 <br />
                                 <p>
