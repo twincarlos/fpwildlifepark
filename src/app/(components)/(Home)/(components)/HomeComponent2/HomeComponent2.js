@@ -65,7 +65,7 @@ export function HomeComponent2() {
                             </div>
                             <div className="tour-description">
                                 <p>
-                                    Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 20 people! Explore the habitats of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for families, friends, or special occasions, this tour offers a unique and unforgettable connection with nature.
+                                    Experience the wild in an exclusive setting with our Private Safari Wagon Tour for groups of 40 to 50 people! Explore the habitats of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique and unforgettable connection with nature.
                                 </p>
                             </div>
                         </div>
