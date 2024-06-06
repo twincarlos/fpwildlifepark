@@ -9,7 +9,6 @@ export function Links() {
                 dropdownHeaderValue="Tours"
                 dropdownOptions={[{ value: "Tour Prices" }, { value: "Tour Departures" }]}
             />
-            <Link href="/">Tours</Link>
             <Link href="/">Events</Link>
             <DropdownMenu
                 dropdownHeaderValue="About"

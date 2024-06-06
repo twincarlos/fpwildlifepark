@@ -37,7 +37,7 @@ img.logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: .5em;
+    gap: 1em;
 }
 
 .dropdown-menu-body {
