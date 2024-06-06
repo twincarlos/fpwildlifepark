@@ -149,12 +149,13 @@
 .cell-image {
     width: 100%;
     height: 300px;
-}
-
-.cell-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-size: cover !important;
+    background-position: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    transition: .5s;
 }
 
 .main-cell .component-header h2 {
@@ -180,4 +181,51 @@
 
 .container-cell .component-description p {
     text-align: left;
+}
+
+.cell-2 .cell-image {
+    background-image: url("../../assets/cell-2.png");
+}
+
+.cell-3 .cell-image {
+    background-image: url("../../assets/cell-3.png");
+}
+
+.cell-4 .cell-image {
+    background-image: url("../../assets/cell-4.png");
+}
+
+.cell-2 .cell-image:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.6)), url("../../assets/cell-2.png");
+}
+
+.cell-3 .cell-image:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.6)), url("../../assets/cell-3.png");
+}
+
+.cell-4 .cell-image:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.6)), url("../../assets/cell-4.png");
+}
+
+.cell-2 .cell-image:hover p {
+    display: flex;
+}
+
+.cell-3 .cell-image:hover p {
+    display: flex;
+}
+
+.cell-4 .cell-image:hover p {
+    display: flex;
+}
+
+.cell-image p {
+    text-align: justify;
+    color: var(--tertiary-color);
+    font-size: 18px;
+    display: none;
+    transition: 0.5s;
 }
