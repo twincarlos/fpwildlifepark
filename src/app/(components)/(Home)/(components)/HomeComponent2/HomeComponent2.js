@@ -1,6 +1,7 @@
 import Image from "next/image";
 import tour1Image from "../../../../assets/tour-1.png";
-import tour2Image from "../../../../assets/home-component-1-background-image.png";
+import tour2Image from "../../../../assets/tour-2.png";
+import tour3Image from "../../../../assets/tour-3.png";
 import Link from "next/link";
 
 export function HomeComponent2() {
@@ -26,28 +27,6 @@ export function HomeComponent2() {
                                 <p>
                                     Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through their habitats. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals.
                                 </p>
-                                <br />
-                                <p>
-                                    Your Safari Wagon Tour includes:
-                                </p>
-                                <br />
-                                <p>
-                                    - A guided Safari Wagon Tour
-                                </p>
-                                <p>
-                                    - Visits to our Kangaroo and Wallaby exhibits
-                                </p>
-                                <p>
-                                    - Access to our charming Petting Zoo
-                                </p>
-                                <br />
-                                <p>
-                                    General Admission: $15
-                                </p>
-                                <br />
-                                <p>
-                                    Experience the thrill of the wild and create lasting memories with your loved ones. Book your Safari Wagon Tour today and let the adventure begin!
-                                </p>
                             </div>
                         </div>
                         <div className="tour-button">
@@ -68,30 +47,25 @@ export function HomeComponent2() {
                                 <p>
                                     {"For an exclusive and personalized experience, our VIP ATV Tour offers the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll see magnificent animals up close, enjoy special activities not available to the public, and receive complimentary animal food for feeding."}
                                 </p>
-                                <br />
+                            </div>
+                        </div>
+                        <div className="tour-button">
+                            <Link href="/">
+                                <i className="fa-solid fa-cart-shopping" />Book tour
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="tour-container">
+                        <div className="tour-body">
+                            <div className="tour-image">
+                                <Image alt="tour-3" src={tour3Image} />
+                            </div>
+                            <div className="tour-name">
+                                <p>Safari Wagon Private Tour</p>
+                            </div>
+                            <div className="tour-description">
                                 <p>
-                                    Your VIP ATV Tour includes:
-                                </p>
-                                <br />
-                                <p>
-                                    - A guided Safari Wagon Sunset Tour
-                                </p>
-                                <p>
-                                    - Visits to our Kangaroo and Wallaby exhibits
-                                </p>
-                                <p>
-                                    - Access to our Petting Zoo
-                                </p>
-                                <p>
-                                    - Rhino Iguana Feeding experience
-                                </p>
-                                <br />
-                                <p>
-                                    Private Tour: $200 (for up to 3 guests)
-                                </p>
-                                <br />
-                                <p>
-                                    This tour is designed for small groups of up to three guests, ensuring a personal and unforgettable experience.
+                                    Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 20 people! Explore the habitats of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for families, friends, or special occasions, this tour offers a unique and unforgettable connection with nature.
                                 </p>
                             </div>
                         </div>
