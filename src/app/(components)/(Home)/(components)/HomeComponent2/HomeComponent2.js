@@ -11,7 +11,7 @@ export function HomeComponent2() {
                     <h2>Discover Wildlife Wonders on Every Tour!</h2>
                 </div>
                 <div className="component-description">
-                    <p>Embark on an unforgettable adventure and witness the magic of the animal kingdom with our exclusive tours. Whether you're looking for a fun-filled family outing or an intimate experience with nature, we have the perfect tour for you. Book now and dive into the wild wonders of our animal park!</p>
+                    <p>{"Embark on an unforgettable adventure and witness the magic of the animal kingdom with our exclusive tours. Whether you're looking for a fun-filled family outing or an intimate experience with nature, we have the perfect tour for you. Book now and dive into the wild wonders of our animal park!"}</p>
                 </div>
                 <div className="tours-list">
                     <div className="tour-container">
@@ -50,7 +50,7 @@ export function HomeComponent2() {
                                 <p>VIP ATV Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>TIMES: 8:45, 9:45,……., 7:45 {"(last one)"}</p>
+                                <p>{"TIMES: 8:45, 9:45,……., 7:45 (last one)"}</p>
                                 <p>
                                     2 hour private ATV tour through our Safari Park where you will get to experience animals like never before.
                                     Come for an evening of animal fun and learn about our animal SAFARI ambassadors!
