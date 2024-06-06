@@ -30,13 +30,13 @@ export function HomeComponent2() {
                                     Your Safari Wagon Tour includes:
                                 </p>
                                 <p>
-                                    A guided Safari Wagon Tour
+                                    - A guided Safari Wagon Tour
                                 </p>
                                 <p>
-                                    Visits to our Kangaroo and Wallaby exhibits
+                                    - Visits to our Kangaroo and Wallaby exhibits
                                 </p>
                                 <p>
-                                    Access to our charming Petting Zoo
+                                    - Access to our charming Petting Zoo
                                 </p>
                                 <p>
                                     General Admission: $15
@@ -68,22 +68,22 @@ export function HomeComponent2() {
                                     Your VIP ATV Tour includes:
                                 </p>
                                 <p>
-                                    A thrilling 2-hour private ATV tour
+                                    - A thrilling 2-hour private ATV tour
                                 </p>
                                 <p>
-                                    A guided Safari Wagon Sunset Tour
+                                    - A guided Safari Wagon Sunset Tour
                                 </p>
                                 <p>
-                                    Visits to our Kangaroo and Wallaby exhibits
+                                    - Visits to our Kangaroo and Wallaby exhibits
                                 </p>
                                 <p>
-                                    Access to our Petting Zoo
+                                    - Access to our Petting Zoo
                                 </p>
                                 <p>
-                                    Rhino Iguana Feeding experience
+                                    - Rhino Iguana Feeding experience
                                 </p>
                                 <p>
-                                    Complimentary animal food for the feeding
+                                    - Complimentary animal food for the feeding
                                 </p>
                                 <p>
                                     Private Tour: $200 (for up to 3 guests)
