@@ -37,7 +37,7 @@ img.logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 1em;
+    gap: .5em;
 }
 
 .dropdown-menu-body {
@@ -48,7 +48,7 @@ img.logo {
     top: 59%;
     background: white;
     flex-direction: column;
-    gap: .5em;
+    gap: 1em;
 }
 
 .dropdown-menu-header:hover + .dropdown-menu-body {
