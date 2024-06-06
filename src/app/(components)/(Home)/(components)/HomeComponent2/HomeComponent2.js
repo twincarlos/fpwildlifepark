@@ -11,7 +11,7 @@ export function HomeComponent2() {
                     <h2>Discover Wildlife Wonders on Every Tour!</h2>
                 </div>
                 <div className="component-description">
-                    <p>{"Embark on an unforgettable adventure and witness the magic of the animal kingdom with our exclusive tours. Whether you're looking for a fun-filled family outing or an intimate experience with nature, we have the perfect tour for you. Book now and dive into the wild wonders of our animal park!"}</p>
+                    <p>{"Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP ATV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!"}</p>
                 </div>
                 <div className="tours-list">
                     <div className="tour-container">
@@ -23,16 +23,27 @@ export function HomeComponent2() {
                                 <p>Safari Wagon Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>General admission: $15</p>
-                                <p>Time: 8:00 am - 8:00 pm</p>
                                 <p>
-                                    Join us for a wild ride in our Safari Wagon Tour. Experience animals like never before
-                                    and learn about our animal SAFARI ambassadors.
+                                    Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through their habitats. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals.
                                 </p>
-                                <p>This includes admission to the:</p>
-                                <p>- Safari Wagon Tour</p>
-                                <p>- Kangaroo / Wallaby</p>
-                                <p>- Petting Zoo</p>
+                                <p>
+                                    Your Safari Wagon Tour includes:
+                                </p>
+                                <p>
+                                    A guided Safari Wagon Tour
+                                </p>
+                                <p>
+                                    Visits to our Kangaroo and Wallaby exhibits
+                                </p>
+                                <p>
+                                    Access to our charming Petting Zoo
+                                </p>
+                                <p>
+                                    General Admission: $15
+                                </p>
+                                <p>
+                                    Experience the thrill of the wild and create lasting memories with your loved ones. Book your Safari Wagon Tour today and let the adventure begin!
+                                </p>
                             </div>
                         </div>
                         <div className="tour-button">
@@ -50,19 +61,36 @@ export function HomeComponent2() {
                                 <p>VIP ATV Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>{"TIMES: 8:45, 9:45,……., 7:45 (last one)"}</p>
                                 <p>
-                                    2 hour private ATV tour through our Safari Park where you will get to experience animals like never before.
-                                    Come for an evening of animal fun and learn about our animal SAFARI ambassadors!
+                                    For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close and enjoy special activities that are not available to the general public.
                                 </p>
-                                <p>Our private ATV Tour is $200 and is good for up to 3 guests.  This private tour includes free animal food for the animals.</p>
-                                <p>This includes admission to the:</p>
-                                <p>- Safari Wagon Sunset Tour</p>
-                                <p>- Kangaroo / Wallaby</p>
-                                <p>- Petting Zoo</p>
-                                <p>- Rhino Iguana Feeding</p>
-                                <p>2 hours</p>
-                                <p>*Your booked time starts right on time. Please be early to take advantage of your 2 hr tour.</p>
+                                <p>
+                                    Your VIP ATV Tour includes:
+                                </p>
+                                <p>
+                                    A thrilling 2-hour private ATV tour
+                                </p>
+                                <p>
+                                    A guided Safari Wagon Sunset Tour
+                                </p>
+                                <p>
+                                    Visits to our Kangaroo and Wallaby exhibits
+                                </p>
+                                <p>
+                                    Access to our Petting Zoo
+                                </p>
+                                <p>
+                                    Rhino Iguana Feeding experience
+                                </p>
+                                <p>
+                                    Complimentary animal food for the feeding
+                                </p>
+                                <p>
+                                    Private Tour: $200 (for up to 3 guests)
+                                </p>
+                                <p>
+                                    This tour is designed for small groups of up to three guests, ensuring a personal and unforgettable experience.
+                                </p>
                             </div>
                         </div>
                         <div className="tour-button">
