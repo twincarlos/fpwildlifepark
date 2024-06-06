@@ -17,13 +17,8 @@ export function HomeComponent3() {
                         </div>
                     </div>
                     <div className="container-cell">
-                        <div className="cell-details">
-                            <div className="cell-title">
-                                <p>Animals & Plants</p>
-                            </div>
-                            <div className="cell-description">
-                                <p>Explore detailed profiles and fascinating facts about the diverse species of animals and plants at our park. Learn about their habitats, behaviors, and the conservation efforts dedicated to their protection.</p>
-                            </div>
+                        <div className="cell-description">
+                            <p>Animals & Plants</p>
                         </div>
                         <div className="cell-image">
                             <Image alt="cell-detail" src={cell2Image} />
@@ -32,26 +27,16 @@ export function HomeComponent3() {
                 </div>
                 <div className="container-row">
                     <div className="container-cell">
-                        <div className="cell-details">
-                            <div className="cell-title">
-                                <p>Education</p>
-                            </div>
-                            <div className="cell-description">
-                                <p>Access a wealth of educational materials designed for all ages. From interactive lessons and activities to in-depth articles and videos, our resources aim to inspire and educate the next generation of wildlife advocates.</p>
-                            </div>
+                        <div className="cell-description">
+                            <p>Education</p>
                         </div>
                         <div className="cell-image">
                             <Image alt="cell-detail" src={cell3Image} />
                         </div>
                     </div>
                     <div className="container-cell">
-                        <div className="cell-details">
-                            <div className="cell-title">
-                                <p>News & Events</p>
-                            </div>
-                            <div className="cell-description">
-                                <p>Keep up with the latest news and upcoming events at Fragile Planet Wildlife Park. Discover exciting announcements, special programs, and opportunities to get involved in our conservation initiatives.</p>
-                            </div>
+                        <div className="cell-description">
+                            <p>News & Events</p>
                         </div>
                         <div className="cell-image">
                             <Image alt="cell-detail" src={cell4Image} />
