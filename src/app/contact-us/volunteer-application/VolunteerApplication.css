@@ -1,0 +1,27 @@
+.volunteer-application-header {
+    background: var(--secondary-color);
+    padding: 4em;
+}
+
+section.volunteer-application-header h2 {
+    font-size: 30px;
+}
+
+.volunteer-application-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    width: 900px;
+    height: 400px;
+}
+
+.volunteer-application-description a {
+    background: var(--secondary-color);
+    padding: 1em 2em;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}

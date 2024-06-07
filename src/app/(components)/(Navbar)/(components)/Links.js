@@ -15,7 +15,7 @@ export function Links() {
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
                 dropdownHeaderValue="Contact Us"
-                dropdownOptions={[{ value: "Let's Connect" }, { value: "Volunteer Application" }, { value: "Job Application" }, { value: "Internship Application" }]}
+                dropdownOptions={[{ value: "Let's Connect", path: "/contact-us/lets-connect" }, { value: "Volunteer Application", path: "/contact-us/volunteer-application" }, { value: "Job Application", path: "/contact-us/job-application" }, { value: "Internship Application", path: "/contact-us/internship-application" }]}
             />
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-globe" />}

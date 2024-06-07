@@ -24,7 +24,7 @@ export default function Footer() {
                     <Link href="/">FAQ</Link>
                 </div>
                 <div className="footer-row footer-row-3">
-                <p>© 2021 Fragile Planet Wildlife Park</p>
+                    <p>© 2021 Fragile Planet Wildlife Park</p>
                 </div>
             </div>
         </footer>
