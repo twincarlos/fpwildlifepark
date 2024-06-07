@@ -23,7 +23,7 @@ section.lets-connect-header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 .contact-us-form {
@@ -90,14 +90,14 @@ section.lets-connect-header h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     gap: .5em;
 }
 
 .follow-us-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     gap: .5em;
     margin-top: 0;
@@ -119,10 +119,15 @@ section.lets-connect-header h2 {
     justify-content: center;
     align-items: center;
     gap: 2em;
+    flex-direction: column;
 }
 
 .contact-us-info a {
     color: var(--primary-color);
     font-weight: 500;
     text-decoration: underline;
+}
+
+.follow-us-text h2 {
+    color: var(--secondary-color);
 }
