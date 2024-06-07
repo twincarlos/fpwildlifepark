@@ -1,0 +1,8 @@
+.tickets-header {
+    background: var(--primary-color);
+    padding: 4em;
+}
+
+section.tickets-header h2 {
+    font-size: 30px;
+}

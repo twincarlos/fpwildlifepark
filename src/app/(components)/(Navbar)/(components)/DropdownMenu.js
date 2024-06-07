@@ -1,8 +1,10 @@
+import Link from "next/link";
+
 export function DropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdownOptions }) {
     return (
         <div className="dropdow-menu">
             <div className="dropdown-menu-header">
-                { dropdownHeaderIcon ? dropdownHeaderIcon : null }
+                {dropdownHeaderIcon ? dropdownHeaderIcon : null}
                 <div className="dropdown-header-value">
                     <p>{dropdownHeaderValue}</p>
                 </div>
@@ -14,7 +16,11 @@ export function DropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdown
                 {
                     dropdownOptions.map((dropdownOption, index) => (
                         <div key={index} className="dropdown-option">
-                            <button style={{ width: dropdownOption.value === "Tour Prices" ? "80px" : "100%" }}>{dropdownOption.value}</button>
+                            <Link
+                                style={{ width: dropdownOption.value === "Tour Prices" ? "80px" : "100%" }}
+                                href={dropdownOption.path ? dropdownOption.path : "/"}>
+                                {dropdownOption.value}
+                            </Link>
                         </div>
                     ))
                 }

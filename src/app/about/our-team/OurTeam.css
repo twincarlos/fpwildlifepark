@@ -1,0 +1,8 @@
+.our-team-header {
+    background: var(--fourth-color);
+    padding: 4em;
+}
+
+section.our-team-header h2 {
+    font-size: 30px;
+}

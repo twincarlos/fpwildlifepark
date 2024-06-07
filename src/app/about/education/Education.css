@@ -1,0 +1,8 @@
+.education-header {
+    background: var(--secondary-color);
+    padding: 4em;
+}
+
+section.education-header h2 {
+    font-size: 30px;
+}
