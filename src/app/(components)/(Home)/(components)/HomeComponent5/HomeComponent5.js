@@ -6,7 +6,7 @@ export function HomeComponent5() {
             <div className="container">
                 <div className="email-icon">
                     <i className="fa-regular fa-envelope" />
-                    <p>Subscribe to Our Newsletter</p>
+                    <p>Stay Wild</p>
                 </div>
                 <div className="sign-up-text">
                     <h2>Stay updated on wildlife news, zoo activities, and exclusive offers.</h2>

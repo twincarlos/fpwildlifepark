@@ -321,7 +321,7 @@ h2.getting-there {
     font-weight: 800;
 }
 
-p.get-directions-button {
+.get-directions-button {
     cursor: pointer;
     color: var(--secondary-color);
     font-weight: 500;
