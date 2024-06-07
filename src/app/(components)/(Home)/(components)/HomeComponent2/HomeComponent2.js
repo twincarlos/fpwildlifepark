@@ -4,7 +4,7 @@ import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import Link from "next/link";
 
-export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartureDetails }) {
+export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour3Price, tour3Description, tourDepartureDetails }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -24,9 +24,7 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                 <p>Safari Wagon Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>
-                                    Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through their habitats. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals.
-                                </p>
+                                {tour1Description}
                             </div>
                         </div>
                         <div className="tour-footer">
@@ -36,16 +34,16 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
                                     {
-                                        tourPrice1 ? (
+                                        tour1Price ? (
                                             <div className="book-tour-price">
-                                                <p className="tour-price-text">{tourPrice1}</p>
+                                                <p className="tour-price-text">{tour1Price}</p>
                                             </div>
                                         ) : null
                                     }
                                 </Link>
                             </div>
                             {
-                                tourPrice1 ? (
+                                tour1Price ? (
                                     <div className="tour-price">
                                         <p className="per-person-text">(Per Person)</p>
                                     </div>
@@ -62,9 +60,7 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                 <p>VIP ATV Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>
-                                    {"For an exclusive and personalized experience, our VIP ATV Tour offers the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll see magnificent animals up close, enjoy special activities not available to the public, and receive complimentary animal food for feeding."}
-                                </p>
+                                {tour2Description}
                             </div>
                         </div>
                         <div className="tour-footer">
@@ -74,16 +70,16 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
                                     {
-                                        tourPrice2 ? (
+                                        tour2Price ? (
                                             <div className="book-tour-price">
-                                                <p className="tour-price-text">{tourPrice2}</p>
+                                                <p className="tour-price-text">{tour2Price}</p>
                                             </div>
                                         ) : null
                                     }
                                 </Link>
                             </div>
                             {
-                                tourPrice2 ? (
+                                tour2Price ? (
                                     <div className="tour-price">
                                         <p className="per-person-text">(Private ATV)</p>
                                     </div>
@@ -100,9 +96,7 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                 <p>Safari Wagon Private Tour</p>
                             </div>
                             <div className="tour-description">
-                                <p>
-                                    Experience the wild in an exclusive setting with our Private Safari Wagon Tour for groups of 40 to 50 people! Explore the habitats of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique and unforgettable connection with nature.
-                                </p>
+                                {tour3Description}
                             </div>
                         </div>
                         <div className="tour-footer">
@@ -112,16 +106,16 @@ export function HomeComponent2({ tourPrice1, tourPrice2, tourPrice3, tourDepartu
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
                                     {
-                                        tourPrice3 ? (
+                                        tour3Price ? (
                                             <div className="book-tour-price">
-                                                <p className="tour-price-text">{tourPrice3}</p>
+                                                <p className="tour-price-text">{tour3Price}</p>
                                             </div>
                                         ) : null
                                     }
                                 </Link>
                             </div>
                             {
-                                tourPrice3 ? (
+                                tour3Price ? (
                                     <div className="tour-price">
                                         <p className="per-person-text">(Full Wagon)</p>
                                     </div>
