@@ -12,7 +12,7 @@ export default function LetsConnect() {
             <section className="lets-connect-description">
                 <div>
                     <p>
-                        Get in touch with us! Whether you're curious about our wildlife, conservation efforts, or planning your visit, we're here to assist you. Reach out to our team via phone, email, or visit us in person. We look forward to hearing from you and sharing our commitment to wildlife preservation!
+                        {"Get in touch with us! Whether you're curious about our wildlife, conservation efforts, or planning your visit, we're here to assist you. Reach out to our team via phone, email, or visit us in person. We look forward to hearing from you and sharing our commitment to wildlife preservation!"}
                     </p>
                 </div>
             </section>
