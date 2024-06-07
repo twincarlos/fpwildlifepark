@@ -1,0 +1,121 @@
+.lets-connect-header {
+    background: var(--primary-color);
+    padding: 4em;
+}
+
+section.lets-connect-header h2 {
+    font-size: 30px;
+}
+
+.lets-connect-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    width: 900px;
+    padding-bottom: 0;
+}
+
+.lets-connect-body {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.contact-us-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    background: var(--primary-color);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.contact-us-form-row {
+    gap: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-us-form-row-1 label, .contact-us-form-row-2 label {
+    width: 50%;
+}
+
+.contact-us-form-row-3 label {
+    width: 100%;
+}
+
+.contact-us-form-row-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.contact-us-form-row-4 button {
+    text-transform: uppercase;
+    border: none;
+    padding: 1em 2em;
+    background: white;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.contact-us-form-row label {
+    display: inline-grid;
+    color: white;
+}
+
+.contact-us-form-row input {
+    height: 50px;
+    border-width: 0 0 1px 0;
+    background: transparent;
+    border-color: white;
+    color: white;
+    padding: 1em;
+}
+
+.contact-us-form-row.contact-us-form-row-3 input {
+    height: 100px;
+}
+
+.contact-us-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: .5em;
+}
+
+.follow-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .5em;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.social-media-links a {
+    font-size: 2em;
+}
+
+.lets-connect-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
