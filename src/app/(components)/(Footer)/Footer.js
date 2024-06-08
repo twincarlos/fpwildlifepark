@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../(assets)/logo.png";
 
-export default function Footer() {
+export function Footer() {
     return (
         <footer>
             <div className="footer-logo">
