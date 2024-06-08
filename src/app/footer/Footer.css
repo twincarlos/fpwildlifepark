@@ -1,0 +1,41 @@
+.page-header {
+    padding: 4em;
+}
+
+section.page-header h2 {
+    font-size: 30px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+    gap: 1em;
+}
+
+p.indent {
+    padding-left: 2em;
+}
+
+.accessibility-statement-header {
+    background: var(--primary-color);
+}
+
+.privacy-policy-header {
+    background: var(--secondary-color);
+}
+
+.terms-of-use-header {
+    background: var(--fourth-color);
+}
+
+.tickets-terms-and-conditions-header {
+    background: var(--fifth-color);
+    color: white;
+}
+
+.code-of-conduct-header {
+    background: var(--primary-color);
+}

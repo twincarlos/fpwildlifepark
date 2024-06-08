@@ -22,7 +22,6 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             />
-            <Link href="/"><i className="fa-solid fa-cart-shopping" />Cart</Link>
         </div>
     );
 };

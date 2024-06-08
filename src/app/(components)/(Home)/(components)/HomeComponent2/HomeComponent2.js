@@ -4,7 +4,7 @@ import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import Link from "next/link";
 
-export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour3Price, tour3Description, tourDepartureDetails }) {
+export function HomeComponent2({ tour1Price, tour1Description, tour1Link, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tourDepartureDetails }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -29,7 +29,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href="/">
+                                <Link href={tour1Link ? tour1Link : "/"}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
@@ -65,7 +65,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href="/">
+                                <Link href={tour2Link ? tour2Link : "/"}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
@@ -101,7 +101,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href="/">
+                                <Link href={tour3Link ? tour3Link : "/"}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
