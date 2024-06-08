@@ -37,6 +37,13 @@ export default function Tours() {
                 tour3Description={
                     <>
                         <p className="text-align-justify">{"Experience the wild in an exclusive setting with our Private Safari Wagon Tour for groups of 40 to 50 people! Explore the habitats of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique and unforgettable connection with nature."}</p>
+                        <p>Your SAFARI WAGON PRIVATE TOUR includes:</p>
+                        <p>- A guided Safari Wagon Sunset Tour</p>
+                        <p>- Visits to our Kangaroo and Wallaby exhibits</p>
+                        <p>- Access to our Petting Zoo</p>
+                        <p>- Rhino Iguana Feeding experience</p>
+                        <p>Private Tour: $500 (for up to 50 guests)</p>
+                        <p>Experience the thrill of the wild and create lasting memories with your loved ones. Book your Safari Wagon Private Tour today and let the adventure begin!</p>
                     </>
                 }
                 tourDepartureDetails={true}
