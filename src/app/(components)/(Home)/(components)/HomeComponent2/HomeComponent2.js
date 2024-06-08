@@ -1,10 +1,11 @@
+"use client";
 import Image from "next/image";
 import tour1Image from "../../../../(assets)/tour-1.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import Link from "next/link";
 
-export function HomeComponent2({ tour1Price, tour1Description, tour1Link, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tourDepartureDetails }) {
+export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tourDepartureDetails }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -29,7 +30,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour1Link, tour2P
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href={tour1Link ? tour1Link : "/"}>
+                                <button onClick={() => alert("Currently, online booking for this tour is unavailable. We apologize for any inconvenience and appreciate your understanding. Please contact us for more information.")}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-cart-shopping" />Book tour
                                     </div>
@@ -40,7 +41,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour1Link, tour2P
                                             </div>
                                         ) : null
                                     }
-                                </Link>
+                                </button>
                             </div>
                             {
                                 tour1Price ? (

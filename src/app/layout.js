@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Footer />
+        <Script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></Script>
       </body>
     </html>
   );

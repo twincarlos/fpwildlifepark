@@ -32,6 +32,7 @@ export default function Tours() {
                         <p>{"This tour is designed for small groups of up to three guests, ensuring a personal and unforgettable experience."}</p>
                     </>
                 }
+                tour2Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555461/?full-items=yes&flow=no"
                 tour3Price="$500"
                 tour3Description={
                     <>
@@ -39,6 +40,7 @@ export default function Tours() {
                     </>
                 }
                 tourDepartureDetails={true}
+                tour3Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555462/?full-items=yes&flow=no"
             />
         </main>
     );
