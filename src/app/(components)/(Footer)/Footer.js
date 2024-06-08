@@ -7,7 +7,7 @@ export function Footer() {
     return (
         <footer>
             <div className="footer-logo">
-                <Image alt="footer-logo" src={logo} />
+                <Link href="/"><Image alt="footer-logo" src={logo} /></Link>
                 <div className="contact-us-info">
                     <p>34748 FM 2480</p>
                     <p>Los Frenos, TX 78566</p>
