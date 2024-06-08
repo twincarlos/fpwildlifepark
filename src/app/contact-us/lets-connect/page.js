@@ -50,8 +50,8 @@ export default function LetsConnect() {
                 </div>
                 <div className="lets-connect-footer">
                     <div className="contact-us-info">
-                        <p>34748 FM 2480</p>
-                        <p>Los Frenos, TX 78566</p>
+                        <Link href="https://maps.app.goo.gl/9vGc7XmMQP2GZHPG7">34748 FM 2480</Link>
+                        <Link href="https://maps.app.goo.gl/9vGc7XmMQP2GZHPG7">Los Frenos, TX 78566</Link>
                         <Link href="tel:+9567102025">(956) 710 - 2025</Link>
                         <Link href="mailto:info@fpwildlifepark.com">info@fpwildlifepark.com</Link>
                     </div>

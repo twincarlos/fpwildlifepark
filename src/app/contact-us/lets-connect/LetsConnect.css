@@ -131,3 +131,7 @@ section.lets-connect-header h2 {
 .follow-us-text h2 {
     color: var(--secondary-color);
 }
+
+.footer-logo .contact-us-info a {
+    color: white;
+}
