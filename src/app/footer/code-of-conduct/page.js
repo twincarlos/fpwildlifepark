@@ -22,7 +22,7 @@ export default function CodeOfConduct() {
                         - We encourage guests to dress appropriately for the outdoors.
                     </p>
                     <p>
-                        - Closed-toed shoes with good tread are required for everyone's safety on uneven
+                        {"- Closed-toed shoes with good tread are required for everyone's safety on uneven"}
                         terrain.
                     </p>
                 </div>

@@ -95,7 +95,7 @@ export default function TicketsTermsAndConditions() {
                 </p>
                 <p>
                     We recommend reviewing these terms and conditions thoroughly before purchasing your
-                    tickets. If you have any questions, please don't hesitate to contact us!
+                    {"tickets. If you have any questions, please don't hesitate to contact us!"}
                 </p>
             </section>
         </main>

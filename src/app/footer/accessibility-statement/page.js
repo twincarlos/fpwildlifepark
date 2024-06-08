@@ -53,7 +53,7 @@ export default function AccessibilityStatement() {
                 </strong>
                 <p>
                     We are continually evaluating and improving the accessibility of our facilities and programs. If
-                    you have any suggestions on how we can better serve you, please don't hesitate to let us know
+                    {"you have any suggestions on how we can better serve you, please don't hesitate to let us know"}
                     by contacting us at (956) 710-2025 or emailing us at info@fpwildlifepark.com.
                 </p>
             </section>
