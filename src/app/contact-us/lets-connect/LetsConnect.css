@@ -107,7 +107,7 @@ section.lets-connect-header h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 3em;
 }
 
 .social-media-links a {
