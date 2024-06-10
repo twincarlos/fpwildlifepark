@@ -1,8 +1,10 @@
-import OurTeamHeader from "./(components)/OurTeamHeader";
+import "../About.css";
 export default function OurTeam() {
     return (
         <main>
-            <OurTeamHeader />
+            <section className="about-header our-team-header">
+                <h2>Meet our team</h2>
+            </section>
         </main>
     );
 };
