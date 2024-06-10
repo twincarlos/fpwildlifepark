@@ -10,7 +10,7 @@ export function Links() {
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 dropdownHeaderValue="About"
-                dropdownOptions={[{ value: "Our Story", path: "/about/our-story" }, { value: "Our Team", path: "/about/our-team" }, { value: "Education", path: "/about/education" }]}
+                dropdownOptions={[{ value: "Our Story", path: "/about/our-story" }, { value: "Our Team", path: "/about/our-team" }, { value: "Education", path: "/about/education" }, { value: "Animals & Plants", path: "/about/animals-and-plants" }]}
             />
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-campground" />}

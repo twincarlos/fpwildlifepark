@@ -17,7 +17,6 @@ export function DropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdown
                     dropdownOptions.map((dropdownOption, index) => (
                         <div key={index} className="dropdown-option">
                             <Link
-                                style={{ width: dropdownOption.value === "Tour Prices" ? "80px" : "100%" }}
                                 href={dropdownOption.path ? dropdownOption.path : "/"}>
                                 {dropdownOption.value}
                             </Link>

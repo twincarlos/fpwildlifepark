@@ -18,6 +18,11 @@ section.about h2 {
     background-color: var(--fourth-color);
 }
 
+.animals-and-plants-header {
+    background-color: var(--fifth-color);
+    color: white;
+}
+
 .about-body {
     width: 1000px;
 }

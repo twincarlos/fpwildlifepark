@@ -8,7 +8,7 @@ export function HomeComponent1() {
                     <p>Explore the wonders of nature in our sanctuary of conservation.</p>
                 </div>
                 <div className="button-box">
-                    <PrimaryButton text="Learn more" path="/"/>
+                    <PrimaryButton text="Learn more" path="/about/our-story"/>
                 </div>
             </div>
         </section>

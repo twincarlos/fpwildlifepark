@@ -53,6 +53,7 @@ img.logo {
     background: white;
     flex-direction: column;
     gap: .5em;
+    align-items: flex-start;
 }
 
 .dropdown-menu-header:hover + .dropdown-menu-body {
