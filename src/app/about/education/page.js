@@ -26,7 +26,7 @@ export default function Education() {
                         <strong>Benefits of Studying with Fragile Planet:</strong>
                     </p>
                     <p className="indent">
-                        <strong>Teacher's Corner</strong>: A password-protected area featuring games, activity sheets, promotions, and discounted study abroad programs.
+                        <strong>{"Teacher's Corner"}</strong>: A password-protected area featuring games, activity sheets, promotions, and discounted study abroad programs.
                     </p>
                     <p className="indent">
                         <strong>Fundraising Opportunities</strong>Programs that help schools earn money.

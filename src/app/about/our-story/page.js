@@ -21,7 +21,7 @@ export default function OurStory() {
                         <strong>Growth and Expansion</strong>
                     </p>
                     <p>
-                        Over the years, the park has expanded its animal collection and developed new exhibits to enhance the visitor experience. This growth includes the addition of several key species such as the Purple Harlequin Toad, Spotted Turtle, Fly River Turtle, and Ocelot, among others. The park's commitment to education is reflected in its wide range of programs designed for visitors of all ages, from school field trips to specialized workshops.
+                        {"Over the years, the park has expanded its animal collection and developed new exhibits to enhance the visitor experience. This growth includes the addition of several key species such as the Purple Harlequin Toad, Spotted Turtle, Fly River Turtle, and Ocelot, among others. The park's commitment to education is reflected in its wide range of programs designed for visitors of all ages, from school field trips to specialized workshops."}
                     </p>
                     <p>
                         <strong>Conservation and Community Engagement</strong>
