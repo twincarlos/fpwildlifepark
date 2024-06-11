@@ -149,3 +149,31 @@ section.lets-connect-header h2 {
     border-radius: 5px;
     padding: .5em 1em;
 }
+
+@media screen and (max-width: 1200px) {
+    .lets-connect-description {
+        width: 400px;
+    }
+
+    .lets-connect-body {
+        width: 400px;
+    }
+
+    .contact-us-form {
+        width: 100%;
+    }
+
+    .contact-us-form-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .contact-us-form-row label {
+        width: 100%;
+    }
+
+    .contact-us-form-row.contact-us-form-row-4 {
+        align-items: center;
+    }
+}

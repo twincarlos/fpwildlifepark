@@ -37,3 +37,13 @@ section.about h2 {
 p.indent {
     padding-left: 2em;
 }
+
+@media screen and (max-width: 1200px) {
+    .about-body {
+        width: 400px;
+    }
+
+    p.indent {
+        padding-left: 0;
+    }
+}

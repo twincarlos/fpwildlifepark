@@ -452,3 +452,72 @@ h2.getting-there {
     padding: .5em 1em;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+    .home-component .container {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .component-header {
+        text-align: center;
+    }
+
+    .component-description p {
+        text-align: justify;
+    }
+
+    .tours-list {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .tour-container {
+        width: 100%;
+    }
+
+    .container-row {
+        flex-direction: column;
+    }
+    
+    .home-component-3 .container .container-row .container-cell {
+        width: 100%;
+    }
+
+    .main-cell .component-header h2 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .home-component-3 .component-description p {
+        text-align: center;
+    }
+
+    .park-location {
+        display: none;
+    }
+
+    .how-to-get-there {
+        position: unset;
+        height: fit-content;
+    }
+
+    .home-component-5 {
+        height: fit-content;
+    }
+
+    .sign-up-form {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .sign-up-form input {
+        width: 100%;
+        height: 50px;
+    }
+
+    .sign-up-form button {
+        width: 100%;
+        height: 40px;
+    }
+}

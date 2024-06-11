@@ -52,3 +52,21 @@ footer {
     display: flex;
     gap: 5em;
 }
+
+@media screen and (max-width: 1200px) {
+    .footer-logo {
+        gap: 1em;
+    }
+    .footer-logo img {
+        width: 170px;
+        height: 70px;
+    }
+
+    .footer-row {
+        gap: 2em;
+    }
+
+    .footer-row a {
+        min-width: 60px;
+    }
+}

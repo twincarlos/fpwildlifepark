@@ -26,3 +26,10 @@ section.internship-application-header h2 {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1200px) {
+    .internship-application-description {
+        width: 400px;
+        height: fit-content;
+    }
+}
