@@ -438,3 +438,17 @@ h2.getting-there {
 .social-media-links a {
     font-size: 30px;
 }
+
+.thanks-for-subscribing {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+.email-error {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: .5em 1em;
+    border-radius: 5px;
+}

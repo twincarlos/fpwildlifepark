@@ -135,3 +135,17 @@ section.lets-connect-header h2 {
 .footer-logo .contact-us-info a {
     color: white;
 }
+
+.thanks-for-contacting {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+.errors {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    padding: .5em 1em;
+}
