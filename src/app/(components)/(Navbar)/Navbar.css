@@ -74,3 +74,71 @@ img.logo {
     width: 100%;
     text-align: left;
 }
+
+.menu-icon {
+    font-size: 2em;
+}
+
+.hamburger-menu-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 5000px;
+    background-color: rgba(0, 0, 0, 0.447);
+}
+
+.hamburger-menu-body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-radius: 0 0 0 30px;
+}
+
+.hamburger-menu-item-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .8em 1em;
+}
+
+.hamburger-menu-item-container:nth-child(odd) {
+    background-color: white;
+}
+
+.hamburger-menu-item-container:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.112);
+}
+
+.hamburger-menu-item-container:last-child {
+    border-radius: 0 0 0 30px;
+}
+
+.title-only {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.hamburger-menu-item {
+    font-size: 2em;
+}
+
+@media screen and (min-width: 1201px) {
+    .Small {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Large {
+        display: none !important;
+    }
+}

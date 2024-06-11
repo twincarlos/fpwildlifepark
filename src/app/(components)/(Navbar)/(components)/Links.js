@@ -1,12 +1,17 @@
+"use client";
 import Link from "next/link";
 import { DropdownMenu } from "./DropdownMenu";
+import { useState } from "react";
+import { HamburgerMenu } from "./HamburgerMenu";
 
 export function Links() {
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
         <div className="links">
-            <Link href="/tickets"><i className="fa-solid fa-ticket" />Tickets</Link>
-            <Link href="/tours"><i className="fa-solid fa-tractor" />Tours</Link>
-            <Link href="/events"><i className="fa-solid fa-calendar-days" />Events</Link>
+            <Link className="Large" href="/tickets"><i className="fa-solid fa-ticket" />Tickets</Link>
+            <Link className="Large" href="/tours"><i className="fa-solid fa-tractor" />Tours</Link>
+            <Link className="Large" href="/events"><i className="fa-solid fa-calendar-days" />Events</Link>
             <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 dropdownHeaderValue="About"
@@ -22,6 +27,10 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             />
+            <i onClick={() => setOpenMenu(true)} className="menu-icon Small fa-solid fa-bars" />
+            {
+                openMenu ? <HamburgerMenu setOpenMenu={setOpenMenu} /> : null
+            }
         </div>
     );
 };

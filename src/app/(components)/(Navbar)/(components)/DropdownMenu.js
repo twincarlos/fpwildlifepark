@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function DropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdownOptions }) {
     return (
-        <div className="dropdow-menu">
+        <div className="Large dropdow-menu">
             <div className="dropdown-menu-header">
                 {dropdownHeaderIcon ? dropdownHeaderIcon : null}
                 <div className="dropdown-header-value">

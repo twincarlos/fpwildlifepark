@@ -1,8 +1,7 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
+import { Inter } from "next/font/google";
 import { Navbar } from "./(components)/(Navbar)/Navbar";
 import { Footer } from "./(components)/(Footer)/Footer";
-import { NotOnMobile } from "./(components)/(NotOnMobile)/NotOnMobile";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,7 +16,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Script src="https://kit.fontawesome.com/09c2dac4bc.js" crossOrigin="anonymous" />
       <body className={inter.className}>
-        <NotOnMobile />
         <Navbar />
         {children}
         <Footer />
