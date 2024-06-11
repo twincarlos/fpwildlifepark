@@ -41,7 +41,7 @@ export function HomeComponent5() {
                 {
                     subscribed ? (
                         <div className="thanks-for-subscribing">
-                            <p>You're now subscribed {email} <i className="fa-solid fa-check" /></p>
+                            <p>{"You're now subscribed"} {email} <i className="fa-solid fa-check" /></p>
                         </div>
                     ) : null
                 }
