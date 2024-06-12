@@ -10,7 +10,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
         <section className="home-component home-component-2">
             <div className="container">
                 <div className="component-header">
-                    <h2>Discover Wildlife Wonders on Every Tour!</h2>
+                    <h2>Discover Wildlife Wonders on Every Visit!</h2>
                 </div>
                 <div className="component-description">
                     <p>{"Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP ATV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!"}</p>
