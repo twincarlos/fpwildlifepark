@@ -5,7 +5,7 @@ import { useState } from "react";
 import { HamburgerMenu } from "./HamburgerMenu";
 
 export function Links() {
-    const [openMenu, setOpenMenu] = useState(true);
+    const [openMenu, setOpenMenu] = useState(false);
 
     return (
         <div className="links">
