@@ -30,7 +30,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <button onClick={() => alert("Currently, online booking for this tour is unavailable. We apologize for any inconvenience and appreciate your understanding. Please contact us for more information.")}>
+                                <button onClick={() => alert("This tour can only be booked at the park. Currently, online booking for this tour is unavailable. We apologize for any inconvenience and appreciate your understanding. Please contact us if you need more information.")}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket"/> Book at Park
                                     </div>
@@ -68,7 +68,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <Link href={tour2Link ? tour2Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                    <i className="fa-solid fa-ticket"/> Book tour
                                     </div>
                                     {
                                         tour2Price ? (
@@ -104,7 +104,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <Link href={tour3Link ? tour3Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                    <i className="fa-solid fa-ticket"/> Book tour
                                     </div>
                                     {
                                         tour3Price ? (
