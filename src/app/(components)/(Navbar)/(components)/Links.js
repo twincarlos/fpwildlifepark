@@ -5,7 +5,7 @@ import { useState } from "react";
 import { HamburgerMenu } from "./HamburgerMenu";
 
 export function Links() {
-    const [openMenu, setOpenMenu] = useState(false);
+    const [openMenu, setOpenMenu] = useState(true);
 
     return (
         <div className="links">
@@ -27,7 +27,7 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             />
-            <i onClick={() => setOpenMenu(true)} className="menu-icon Small fa-solid fa-bars" />
+            <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {
                 openMenu ? <HamburgerMenu setOpenMenu={setOpenMenu} /> : null
             }

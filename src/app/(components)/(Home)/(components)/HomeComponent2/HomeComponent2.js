@@ -30,7 +30,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <button onClick={() => alert("This tour can only be booked at the park. Currently, online booking for this tour is unavailable. We apologize for any inconvenience and appreciate your understanding. Please contact us if you need more information.")}>
+                                <button onClick={() => alert("All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations.")}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket"/> Book at Park
                                     </div>
