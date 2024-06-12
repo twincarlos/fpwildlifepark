@@ -7,17 +7,17 @@ export function HamburgerMenu({ setOpenMenu }) {
         <div className="hamburger-menu-body">
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/tickets">{/*<i className="fa-solid fa-ticket" />*/}Tickets</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/tickets">Tickets</Link>
                 </div>
             </div>
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/tours">{/*<i className="fa-solid fa-tractor" />*/}Tours</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/tours">Tours</Link>
                 </div>
             </div>
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/events">{/*<i className="fa-solid fa-calendar-days" />*/}Events</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/events">Events</Link>
                 </div>
             </div>
             <HamburgerDropdownMenu
@@ -61,20 +61,6 @@ export function HamburgerMenu({ setOpenMenu }) {
                     {
                         name: "Internship Application",
                         path: "/contact-us/internship-application"
-                    }
-                ]}
-            />
-            <HamburgerDropdownMenu
-                setOpenMenu={setOpenMenu}
-                hamburgerDropdownTitle="Language"
-                hamburgerDropdownOptions={[
-                    {
-                        name: "English",
-                        path: "/"
-                    },
-                    {
-                        name: "Spanish",
-                        path: "/"
                     }
                 ]}
             />

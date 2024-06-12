@@ -454,8 +454,13 @@ h2.getting-there {
 }
 
 @media screen and (max-width: 1200px) {
+    .home-component-1 {
+        height: 400px;
+        padding: 2em;
+    }
+
     .home-component .container {
-        width: 300px;
+        width: 400px;
         margin: 0 auto;
     }
 
