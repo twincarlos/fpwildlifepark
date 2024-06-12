@@ -453,6 +453,12 @@ h2.getting-there {
     border-radius: 5px;
 }
 
+@media screen and (min-width: 1201px) {
+    .home-component-1 .container {
+        width: 440px;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .home-component-1 {
         height: 400px;
@@ -460,8 +466,12 @@ h2.getting-there {
     }
 
     .home-component .container {
-        width: 400px;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .home-component-4 .container {
+        padding: 2em;
     }
 
     .component-header {
