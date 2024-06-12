@@ -32,7 +32,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <button onClick={() => alert("Currently, online booking for this tour is unavailable. We apologize for any inconvenience and appreciate your understanding. Please contact us for more information.")}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-cart-shopping" />Book tour
+                                        <i className="fa-solid fa-cart-shopping" />Book at Park
                                     </div>
                                     {
                                         tour1Price ? (
