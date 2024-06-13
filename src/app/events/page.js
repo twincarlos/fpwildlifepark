@@ -68,7 +68,7 @@ export default function Events() {
                             <div>
                                 <h1 className="event-name">
                                     <strong>
-                                        GRANDPARENT'S DAY
+                                        {"GRANDPARENT'S DAY"}
                                     </strong>
                                 </h1>
                                 <p>
