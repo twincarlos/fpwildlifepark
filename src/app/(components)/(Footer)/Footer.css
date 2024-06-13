@@ -4,7 +4,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 3em;
     flex-direction: column;
 }
 
@@ -51,6 +51,15 @@ footer {
 .footer-logo {
     display: flex;
     gap: 5em;
+    align-items: center;
+}
+
+.footer-row-2 {
+    padding: 0 4em;
+}
+
+.footer-row-3 {
+    margin-top: 1.5em;
 }
 
 @media screen and (max-width: 1200px) {

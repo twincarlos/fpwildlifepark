@@ -7,7 +7,8 @@ export function HomeComponent4() {
         <section className="home-component home-component-4">
             <div className="container">
                 <div className="park-location">
-                    <Image alt="park-location" src={parkLocation} />
+                    <div className="park-location-img" />
+                    {/* <Image alt="park-location" src={parkLocation} /> */}
                 </div>
                 <div className="how-to-get-there">
                     <i className="how-to-get-there-icon fa-solid fa-location-dot" />

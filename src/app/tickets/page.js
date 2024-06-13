@@ -22,8 +22,8 @@ export default function Tours() {
                 tour2Price="$200"
                 tour2Description={
                     <>
-                        <p className="text-align-justify">{"For those seeking an exclusive and personalized experience, our VIP ATV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close, enjoy special activities that are not available to the general public, and receive complimentary animal food for the feeding."}</p>
-                        <p>{"Your VIP ATV Tour includes:"}</p>
+                        <p className="text-align-justify">{"For those seeking an exclusive and personalized experience, our VIP RTV Tour is the ultimate adventure. Spend two hours exploring our Safari Park on a private ATV ride, guided by our expert staff. You'll get to see our magnificent animals up close, enjoy special activities that are not available to the general public, and receive complimentary animal food for the feeding."}</p>
+                        <p>{"Your VIP RTV Tour includes:"}</p>
                         <p>{"- A guided Safari Wagon Sunset Tour"}</p>
                         <p>{"- Visits to our Kangaroo and Wallaby exhibits"}</p>
                         <p>{"- Access to our Petting Zoo"}</p>

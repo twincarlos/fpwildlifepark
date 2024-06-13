@@ -1,6 +1,7 @@
 .job-application-header {
     background: var(--fourth-color);
     padding: 4em;
+    width: 130%;
 }
 
 section.job-application-header h2 {
@@ -28,5 +29,9 @@ section.job-application-header h2 {
 @media screen and (max-width: 1200px) {
     .job-application-description {
         width: 400px;
+    }
+
+    section.job-application-header h2 {
+        text-align: center;
     }
 }

@@ -1,6 +1,7 @@
 .volunteer-application-header {
     background: var(--secondary-color);
     padding: 4em;
+    width: 130%;
 }
 
 section.volunteer-application-header h2 {

@@ -300,15 +300,19 @@
     display: flex;
     align-items: center;
     height: 600px;
+    width: 100%;
 }
 
 .park-location {
-    height: 100%;
+    width: 100%;
 }
 
-.park-location img {
+.park-location .park-location-img {
+    background-image: url("../../\(assets\)/park-location.png");
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .how-to-get-there {
@@ -378,7 +382,7 @@ h2.getting-there {
 }
 
 .email-icon i {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .sign-up-text h2 {
@@ -412,6 +416,7 @@ h2.getting-there {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    border-radius: 5px;
 }
 
 .follow-us-container {
@@ -457,11 +462,23 @@ h2.getting-there {
     .home-component-1 .container {
         width: 440px;
     }
+
+    .park-location {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
+    .component-description.tour-departures h2 {
+        font-size: 20px;
+    }
+    
+    .component-header h2 {
+        font-size: 22px;
+    }
+
     .home-component-1 {
-        height: 400px;
+        height: 300px;
         padding: 2em;
     }
 
@@ -471,7 +488,10 @@ h2.getting-there {
     }
 
     .home-component-4 .container {
-        padding: 2em;
+        flex-direction: column-reverse;
+        height: fit-content;
+        gap: 2em;
+        padding: 0;
     }
 
     .component-header {
@@ -483,7 +503,7 @@ h2.getting-there {
     }
 
     .tours-list {
-        width: 100%;
+        width: 115%;
         flex-direction: column;
     }
 
@@ -494,7 +514,7 @@ h2.getting-there {
     .container-row {
         flex-direction: column;
     }
-    
+
     .home-component-3 .container .container-row .container-cell {
         width: 100%;
     }
@@ -506,15 +526,36 @@ h2.getting-there {
 
     .home-component-3 .component-description p {
         text-align: center;
+        line-height: 1.5em;
     }
 
-    .park-location {
-        display: none;
+    section.home-component.home-component-3 {
+        width: 110%;
+        padding-bottom: 5em;
+    }
+
+    h2.getting-there {
+        font-size: 26px;
+    }
+
+    p.park-address {
+        font-size: 16px;
+    }
+
+    p.location-description {
+        font-size: 16px;
     }
 
     .how-to-get-there {
         position: unset;
         height: fit-content;
+        width: 90%;
+        margin-top: 2em;
+    }
+
+    .park-location {
+        display: flex;
+        height: 300px;
     }
 
     .home-component-5 {
@@ -534,5 +575,9 @@ h2.getting-there {
     .sign-up-form button {
         width: 100%;
         height: 40px;
+    }
+
+    .sign-up-text h2 {
+        font-size: 27px;
     }
 }

@@ -1,6 +1,7 @@
 .tickets-header {
     background: var(--primary-color);
     padding: 4em;
+    width: 130%;
 }
 
 section.tickets-header h2 {

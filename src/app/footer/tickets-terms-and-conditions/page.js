@@ -39,11 +39,11 @@ export default function TicketsTermsAndConditions() {
                     </p>
                 </div>
                 <strong>
-                    VIP ATV Tour:
+                    VIP RTV Tour:
                 </strong>
                 <div>
                     <p>
-                        Your VIP ATV Tour ticket includes:
+                        Your VIP RTV Tour ticket includes:
                     </p>
                     <p className="indent">
                         - Admission to the Kangaroo Walkabout and Petting Zoo.
@@ -59,7 +59,7 @@ export default function TicketsTermsAndConditions() {
                         - A rhinoceros iguana feeding encounter.
                     </p>
                     <p>
-                        - Each VIP ATV Tour ticket grants three (3) guests participation in the tour.
+                        - Each VIP RTV Tour ticket grants three (3) guests participation in the tour.
                     </p>
                 </div>
                 <strong>

@@ -1,6 +1,7 @@
 .tours-header {
     background: var(--fourth-color);
     padding: 4em;
+    width: 130%;
 }
 
 section.tours-header h2 {

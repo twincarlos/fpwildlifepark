@@ -1,6 +1,7 @@
 .lets-connect-header {
     background: var(--primary-color);
     padding: 4em;
+    width: 130%;
 }
 
 section.lets-connect-header h2 {
@@ -66,6 +67,7 @@ section.lets-connect-header h2 {
     background: white;
     font-weight: 700;
     font-family: 'Montserrat';
+    border-radius: 5px;
 }
 
 .contact-us-form-row label {
@@ -175,5 +177,9 @@ section.lets-connect-header h2 {
 
     .contact-us-form-row.contact-us-form-row-4 {
         align-items: center;
+    }
+
+    section.lets-connect-header h2 {
+        text-align: center;
     }
 }

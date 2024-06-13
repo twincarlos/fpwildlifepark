@@ -130,7 +130,7 @@ img.logo {
     border-top: 1px solid #0000004a;
 }
 
-.hamburger-dropdown-title {
+.hamburger-menu-item.hamburger-dropdown-title {
     width: 100%;
     padding: 1em;
     font-weight: 200;
@@ -141,6 +141,13 @@ img.logo {
 
 .hamburger-menu-item.hamburger-dropdown-title > * {
     font-size: 1em;
+}
+
+.hamburger-menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 @media screen and (min-width: 1201px) {
@@ -156,5 +163,7 @@ img.logo {
 
     .links a {
         font-size: 1em;
+        width: 100%;
+        justify-content: flex-start;
     }
 }

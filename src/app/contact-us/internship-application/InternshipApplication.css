@@ -2,6 +2,7 @@
     background: var(--fifth-color);
     padding: 4em;
     color: white;
+    width: 130%;
 }
 
 section.internship-application-header h2 {

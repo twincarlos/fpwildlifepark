@@ -13,7 +13,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                     <h2>Discover Wildlife Wonders on Every Visit!</h2>
                 </div>
                 <div className="component-description">
-                    <p>{"Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP ATV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!"}</p>
+                    <p>{"Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP RTV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!"}</p>
                 </div>
                 <div className="tours-list">
                     <div className="tour-container">
@@ -58,7 +58,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                                 <Image alt="tour-2" src={tour2Image} />
                             </div>
                             <div className="tour-name">
-                                <p>VIP ATV Tour</p>
+                                <p>VIP RTV Tour</p>
                             </div>
                             <div className="tour-description">
                                 {tour2Description}
@@ -128,7 +128,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                 {
                     tourDepartureDetails ? (
                         <div className="component-description tour-departures">
-                            <h2>Tour Departures: 9 AM to 7 PM</h2>
+                            <h2>Tour Departures: 10 AM to 7 PM</h2>
                             <p>{"At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife and conservation efforts. Our tours depart regularly from 9 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule."}</p>
                         </div>
                     ) : null
