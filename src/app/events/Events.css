@@ -18,7 +18,7 @@ section.events-header h2 {
 }
 
 .events-details {
-    padding: 3em;
+    padding: 0 0 3em 3em;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -41,6 +41,36 @@ h1.event-name {
     justify-content: center;
     align-items: center;
     gap: 2em;
+}
+
+.event-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 300px;
+}
+
+img.event-logo {
+    height: 150%;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+}
+
+.event-name-or-logo {
+    height: 70%;
+    width: 100%;
+}
+
+.event-header-details {
+    height: 30%;
+    width: 100%;
+}
+
+.margin-bottom-neg-50 {
+    margin-bottom: -50px;
 }
 
 @media screen and (max-width: 1200px) {

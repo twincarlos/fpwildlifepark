@@ -5,10 +5,10 @@ export function HomeComponent1() {
         <section className="home-component home-component-1">
             <div className="container">
                 <div className="text-box">
-                    <p>Explore the wonders of nature in our sanctuary of conservation.</p>
+                    <p>Explore animals like never before!</p>
                 </div>
                 <div className="button-box">
-                    <PrimaryButton text="Learn more" path="/about/our-story"/>
+                    <PrimaryButton text="Book your Tour" path="/tours"/>
                 </div>
             </div>
         </section>

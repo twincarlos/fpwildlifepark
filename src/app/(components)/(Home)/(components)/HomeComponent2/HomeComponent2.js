@@ -118,7 +118,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             {
                                 tour3Price ? (
                                     <div className="tour-price">
-                                        <p className="per-person-text">(Full Wagon)</p>
+                                        <p className="per-person-text">(Entire Wagon)</p>
                                     </div>
                                 ) : null
                             }
@@ -129,7 +129,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                     tourDepartureDetails ? (
                         <div className="component-description tour-departures">
                             <h2>Tour Departures: 10 AM to 7 PM</h2>
-                            <p>{"At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife and conservation efforts. Our tours depart regularly from 9 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule."}</p>
+                            <p>{"At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife. Our tours depart regularly from 10 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule."}</p>
                         </div>
                     ) : null
                 }
