@@ -16,18 +16,18 @@ export default function Events() {
                         <Image src={momsGoneWild} />
                     </div>
                     <div className="events-details">
-                        <div className="margin-bottom-neg-50 event-header">
-                            <div className="event-name-or-logo">
-                                <Image className="event-logo" src={momsGoneWildLogo} />
-                            </div>
-                            <div className="event-header-details">
-                                <p>
-                                    EVERY THRUSDAY
-                                </p>
-                                <p>
-                                    10 AM, 11AM, 12PM TOUR
-                                </p>
-                            </div>
+                        <div>
+                            <h1 className="event-name">
+                                <strong>
+                                    MOMS GONE WILD
+                                </strong>
+                            </h1>
+                            <p>
+                                EVERY THURSDAY
+                            </p>
+                            <p>
+                                10 AM, 11 AM, 12 PM TOUR
+                            </p>
                         </div>
                         <div>
                             <p>

@@ -18,7 +18,7 @@ section.events-header h2 {
 }
 
 .events-details {
-    padding: 0 0 3em 3em;
+    padding: 2em 3em;
     width: 50%;
     display: flex;
     flex-direction: column;
