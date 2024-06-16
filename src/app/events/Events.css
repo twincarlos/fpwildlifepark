@@ -73,6 +73,18 @@ img.event-logo {
     margin-bottom: -50px;
 }
 
+.book-event {
+    padding: 1em 0;
+}
+
+.book-event a {
+    background: var(--secondary-color);
+    color: white;
+    font-weight: 600;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+
 @media screen and (max-width: 1200px) {
     .event {
         flex-direction: column;

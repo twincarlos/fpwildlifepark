@@ -1,10 +1,9 @@
 import EventsHeader from "./(components)/EventsHeader";
 import Image from "next/image";
 import momsGoneWild from "../(assets)/moms-gone-wild.png";
-import momsGoneWildLogo from "../(assets)/moms-gone-wild-logo.png";
 import grandparentsDay from "../(assets)/grandparents-day.png";
 import fathersDay from "../(assets)/fathers-day.png";
-
+import Link from "next/link";
 
 export default function Events() {
     return (
@@ -61,6 +60,9 @@ export default function Events() {
                             <p>
                                 **General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*
                             </p>
+                        </div>
+                        <div className="book-event">
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555949/?full-items=yes&flow=no">Book Event</Link>
                         </div>
                     </div>
                 </div>
