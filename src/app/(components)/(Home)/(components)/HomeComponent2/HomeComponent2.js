@@ -143,12 +143,19 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket" /> Book tour
                                     </div>
+                                    {
+                                        tour4Price ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tour4Price}</p>
+                                            </div>
+                                        ) : null
+                                    }
                                 </Link>
                             </div>
                             {
                                 tour4Price ? (
-                                    <div style={{ visibility: "hidden" }} className="tour-price">
-                                        <p className="per-person-text">{tour4Price}</p>
+                                    <div className="tour-price">
+                                        <p className="per-person-text">(Per Person)</p>
                                     </div>
                                 ) : null
                             }

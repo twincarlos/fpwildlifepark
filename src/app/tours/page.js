@@ -35,6 +35,7 @@ export default function Tours() {
                     </>
                 }
                 tour4Link="/tickets"
+                tour4Price="$35"
             />
         </main>
     );
