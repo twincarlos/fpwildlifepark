@@ -28,6 +28,12 @@ export function Home() {
                     </>
                 }
                 tour3Link="/tickets"
+                tour4Description={
+                    <>
+                        <p className="text-align-justify">{"Visit us this Friday night from 7-9 for Tipsy Safari Night. Join us for a night of fun, wine tasting, animal encounters, amphibian lab tours, and adults only safari wagon rides. Perfect for couples, friend groups, dates, or ladies nights. Ticket includes FREE wine tastings and food samples from The Fat Pelican- Louisiana Food Truck. Book at the park or call ahead to reserve your tickets."}</p>
+                    </>
+                }
+                tour4Link="/tickets"
             />
             <HomeComponent3 />
             <HomeComponent4 />

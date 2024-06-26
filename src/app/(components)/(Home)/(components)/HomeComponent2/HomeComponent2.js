@@ -3,9 +3,10 @@ import Image from "next/image";
 import tour1Image from "../../../../(assets)/tour-1.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
+import tour4Image from "../../../../(assets)/tipsy-safari.png";
 import Link from "next/link";
 
-export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tourDepartureDetails }) {
+export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -32,7 +33,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <button onClick={() => alert("All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations.")}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket"/> Book at Park
+                                        <i className="fa-solid fa-ticket" /> Book at Park
                                     </div>
                                     {
                                         tour1Price ? (
@@ -68,7 +69,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <Link href={tour2Link ? tour2Link : "/"}>
                                     <div className="book-tour-text">
-                                    <i className="fa-solid fa-ticket"/> Book tour
+                                        <i className="fa-solid fa-ticket" /> Book tour
                                     </div>
                                     {
                                         tour2Price ? (
@@ -104,7 +105,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                             <div className="tour-button">
                                 <Link href={tour3Link ? tour3Link : "/"}>
                                     <div className="book-tour-text">
-                                    <i className="fa-solid fa-ticket"/> Book tour
+                                        <i className="fa-solid fa-ticket" /> Book tour
                                     </div>
                                     {
                                         tour3Price ? (
@@ -122,6 +123,35 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                                     </div>
                                 ) : null
                             }
+                        </div>
+                    </div>
+                    <div className="tour-container">
+                        <div className="tour-body">
+                            <div className="tour-image">
+                                <Image style={{ objectFit: "contain" }} alt="tour-4" src={tour4Image} />
+                            </div>
+                            <div className="tour-name">
+                                <p>Tipsy Safari Night - Adults Only!</p>
+                            </div>
+                            <div className="tour-description">
+                                {tour4Description}
+                            </div>
+                        </div>
+                        <div className="tour-footer">
+                            <div className="tour-button">
+                                <Link href={tour4Link ? tour4Link : "/"}>
+                                    <div className="book-tour-text">
+                                        <i className="fa-solid fa-ticket" /> Book tour
+                                    </div>
+                                    {
+                                        tour4Price ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tour4Price}</p>
+                                            </div>
+                                        ) : null
+                                    }
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
