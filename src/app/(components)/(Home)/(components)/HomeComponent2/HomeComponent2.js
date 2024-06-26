@@ -3,7 +3,7 @@ import Image from "next/image";
 import tour1Image from "../../../../(assets)/tour-1.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
-import tour4Image from "../../../../(assets)/tipsy-safari.png";
+import tour4Image from "../../../../(assets)/tour-4.png";
 import Link from "next/link";
 
 export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
@@ -128,7 +128,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                     <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">
-                                <Image style={{ objectFit: "contain" }} alt="tour-4" src={tour4Image} />
+                                <Image alt="tour-4" src={tour4Image} />
                             </div>
                             <div className="tour-name">
                                 <p>Tipsy Safari Night - Adults Only!</p>
@@ -143,15 +143,15 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket" /> Book tour
                                     </div>
-                                    {
-                                        tour4Price ? (
-                                            <div className="book-tour-price">
-                                                <p className="tour-price-text">{tour4Price}</p>
-                                            </div>
-                                        ) : null
-                                    }
                                 </Link>
                             </div>
+                            {
+                                tour4Price ? (
+                                    <div style={{ visibility: "hidden" }} className="tour-price">
+                                        <p className="per-person-text">{tour4Price}</p>
+                                    </div>
+                                ) : null
+                            }
                         </div>
                     </div>
                 </div>
