@@ -131,7 +131,7 @@ export function HomeComponent2({ tour1Price, tour1Description, tour2Price, tour2
                                 <Image alt="tour-4" src={tour4Image} />
                             </div>
                             <div className="tour-name">
-                                <p>Tipsy Safari Night - Adults Only!</p>
+                                <p>Tipsy Safari Night</p>
                             </div>
                             <div className="tour-description">
                                 {tour4Description}
