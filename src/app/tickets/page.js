@@ -37,7 +37,7 @@ export default function Tours() {
                 tour3Description={
                     <>
                         <p className="text-align-justify">{"Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 40 people. Explore the Safari Park with of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique, private, and unforgettable connection with nature."}</p>
-                        <p>Your SAFARI WAGON PRIVATE TOUR includes:</p>
+                        <p>Your Safari Wagon Private Tour includes:</p>
                         <p>- A guided Safari Wagon Tour</p>
                         <p>- Visits to our Kangaroo and Wallaby Walkabout</p>
                         <p>- Access to our Petting Zoo</p>
@@ -50,13 +50,15 @@ export default function Tours() {
                 tour4Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no"
                 tour4Description={
                     <>
-                        <p className="text-align-justify">{"Visit us this Friday night from 7-9 for Tipsy Safari Night. Join us for a night of fun, wine tasting, animal encounters, amphibian lab tours, and adults only safari wagon rides. Perfect for couples, friend groups, dates, or ladies nights. Ticket includes FREE wine tastings and food samples from The Fat Pelican- Louisiana Food Truck. Book at the park or call ahead to reserve your tickets."}</p>
-                        <p>This includes admission to the:</p>
+                        <p className="text-align-justify">{"Experience the excitement of Tipsy Safari Night, an exclusive adults-only adventure! Enjoy wine tastings, intimate animal encounters, and an educational amphibian lab tour. This special evening features adults-only safari wagon rides, perfect for couples, groups of friends, dates, or ladies' nights out."}</p>
+                        <p>Your Tipsy Safari Night tour includes:</p>
                         <p>- Safari Wagon Sunset Tour</p>
                         <p>- Kangaroo / Wallaby</p>
                         <p>- Petting Zoo</p>
                         <p>- Free 4 Station Wine Tasters</p>
                         <p>- Louisiana Food Truck Samples</p>
+                        <p>General Admission: $35</p>
+                        <p>Immerse yourself in a night of fun, learning, and indulgence. Book your Tipsy Safari Night tickets and make memories that will last a lifetime!</p>
                     </>
                 }
                 tour4Price="$35"
