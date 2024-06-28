@@ -22,11 +22,11 @@ export function Links() {
                 dropdownHeaderValue="Contact Us"
                 dropdownOptions={[{ value: "Let's Connect", path: "/contact-us/lets-connect" }, { value: "Volunteer Application", path: "/contact-us/volunteer-application" }, { value: "Job Application", path: "/contact-us/job-application" }, { value: "Internship Application", path: "/contact-us/internship-application" }]}
             />
-            <DropdownMenu
+            {/* <DropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-globe" />}
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
-            />
+            /> */}
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {
                 openMenu ? <HamburgerMenu setOpenMenu={setOpenMenu} /> : null
