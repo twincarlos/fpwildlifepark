@@ -50,3 +50,11 @@ section {
 button {
   cursor: pointer;
 }
+
+div#google_translate_element div.skiptranslate.goog-te-gadget div.goog-te-gadget-simple img.goog-te-gadget-icon:nth-child(1) {
+  display: none;
+}
+
+div#google_translate_element div.skiptranslate.goog-te-gadget div.goog-te-gadget-simple span:nth-child(2) {
+  display: none;
+}
