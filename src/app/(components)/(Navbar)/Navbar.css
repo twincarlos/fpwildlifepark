@@ -27,6 +27,14 @@ img.logo {
     gap: .5em;
 }
 
+.nav-link {
+    transition: .5s;
+}
+
+.nav-link:hover {
+    font-size: 23px;
+}
+
 .links .dropdow-menu {
     font-weight: 200;
     font-size: 18px;
@@ -35,6 +43,12 @@ img.logo {
 .dropdow-menu {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.dropdow-menu:hover {
+    font-size: 23px;
 }
 
 .dropdown-menu-header {
