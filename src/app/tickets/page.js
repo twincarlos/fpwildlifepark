@@ -51,12 +51,14 @@ export default function Tours() {
                 tour4Description={
                     <>
                         <p className="text-align-justify">{"Experience the excitement of Tipsy Safari Night, an exclusive adults-only adventure! Enjoy wine tastings, intimate animal encounters, and an educational amphibian lab tour. This special evening features adults-only safari wagon rides, perfect for couples, groups of friends, dates, or ladies' nights out."}</p>
-                        <p>This includes admission to the:</p>
+                        <p>Your Tipsy Safari Night tour includes:</p>
                         <p>- Safari Wagon Sunset Tour</p>
                         <p>- Kangaroo / Wallaby</p>
                         <p>- Petting Zoo</p>
                         <p>- Free 4 Station Wine Tasters</p>
                         <p>- Louisiana Food Truck Samples</p>
+                        <p>General Admission: $35</p>
+                        <p>Immerse yourself in a night of fun, learning, and indulgence. Book your Tipsy Safari Night tickets and make memories that will last a lifetime!</p>
                     </>
                 }
                 tour4Price="$35"
