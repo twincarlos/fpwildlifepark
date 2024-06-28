@@ -37,7 +37,7 @@ export default function Tours() {
                 tour3Description={
                     <>
                         <p className="text-align-justify">{"Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 40 people. Explore the Safari Park with of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique, private, and unforgettable connection with nature."}</p>
-                        <p>Your SAFARI WAGON PRIVATE TOUR includes:</p>
+                        <p>Your Safari Wagon Private Tour includes:</p>
                         <p>- A guided Safari Wagon Tour</p>
                         <p>- Visits to our Kangaroo and Wallaby Walkabout</p>
                         <p>- Access to our Petting Zoo</p>
