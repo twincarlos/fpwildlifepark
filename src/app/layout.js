@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <Script src="https://kit.fontawesome.com/09c2dac4bc.js" crossOrigin="anonymous" />
       <body className={inter.className}>
         <Navbar />
-    // <GoogleTranslate />
+    {/* <GoogleTranslate /> */}
         {children}
         <Footer />
         <Script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></Script>
