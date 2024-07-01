@@ -69,6 +69,7 @@
     padding: 15px;
     height: 100%;
     gap: 1em;
+    border-radius: 10px;
 }
 
 .tour-body {
@@ -106,11 +107,14 @@
 
 .tour-button {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tour-button a {
     width: 100%;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +125,12 @@
     gap: .5em;
     background: var(--fourth-color);
     flex-direction: column;
+    border-radius: 10px;
 }
 
 .tour-button button {
     width: 100%;
-    height: 100px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +144,7 @@
     border: none;
     font-family: 'Montserrat', sans-serif;
     transition: .5s;
+    border-radius: 10px;
 }
 
 .tour-button button:hover {
@@ -503,12 +509,14 @@ h2.getting-there {
     }
 
     .tours-list {
-        width: 115%;
-        flex-direction: column;
+        width: 100%;
+        /* flex-direction: column; */
+        overflow-x: scroll;
+        justify-content: flex-start;
     }
 
     .tour-container {
-        width: 100%;
+        min-width: 100%;
     }
 
     .container-row {
