@@ -121,8 +121,6 @@
     color: black;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 20px;
-    gap: .5em;
     background: var(--fourth-color);
     flex-direction: column;
     border-radius: 10px;
@@ -138,7 +136,6 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
-    gap: .5em;
     background: var(--fourth-color);
     flex-direction: column;
     border: none;
@@ -165,6 +162,7 @@
     justify-content: center;
     align-items: center;
     gap: .5em;
+    font-size: 16px;
 }
 
 .tour-price-text {
