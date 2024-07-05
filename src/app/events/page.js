@@ -119,42 +119,6 @@ export default function Events() {
                         </div>
                     </div>
                 </div>
-                <div className="event">
-                    <div className="events-img">
-                        <Image src={fathersDay} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {"Father’s Day"}
-                                </strong>
-                            </h1>
-                            <p>
-                                General admission: $15 / Dads FREE
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {"Free Admission for Dads on Father's Day! Join us for a wild ride in our Safari Wagon Tour, experience our Kangaroo & Wallaby Walkabout, and our Petting Zoo! Experience animals like never before and learn about our animal SAFARI ambassadors."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                This includes admission to the:
-                            </p>
-                            <p>
-                                - Safari Wagon Tour
-                            </p>
-                            <p>
-                                - Kangaroo / Wallaby
-                            </p>
-                            <p>
-                                - Petting Zoo
-                            </p>
-                        </div>
-                    </div>
-                </div>
             </section>
         </main>
     );
