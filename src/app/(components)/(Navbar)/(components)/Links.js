@@ -3,6 +3,7 @@ import Link from "next/link";
 import { DropdownMenu } from "./DropdownMenu";
 import { useState } from "react";
 import { HamburgerMenu } from "./HamburgerMenu";
+import { GoogleTranslate } from "@/app/google-translate";
 
 export function Links() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -27,6 +28,7 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             /> */}
+            <GoogleTranslate />
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {
                 openMenu ? <HamburgerMenu setOpenMenu={setOpenMenu} /> : null

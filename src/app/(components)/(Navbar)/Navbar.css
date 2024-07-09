@@ -45,6 +45,7 @@ img.logo {
     flex-direction: column;
     cursor: pointer;
     transition: .5s;
+    justify-content: center;
 }
 
 .dropdow-menu:hover {
@@ -180,4 +181,42 @@ img.logo {
         width: 100%;
         justify-content: flex-start;
     }
+}
+
+#google-translate img {
+    display: none;
+}
+
+#google-translate .goog-te-gadget-simple {
+    border: none;
+}
+
+.skiptranslate.goog-te-gadget {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+
+.goog-te-gadget-simple span:nth-child(2) {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-child(3) {
+    display: none;
+}
+
+.VIpgJd-ZVi9od-xl07Ob-lTBxed span:last-child {
+    display: none;
+}
+
+#google-translate span {
+    font-size: 18px;
+    transition: .5s;
+}
+
+#google-translate span:hover {
+    font-size: 23px;
+}
+
+a.VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd {
+    display: none;
 }

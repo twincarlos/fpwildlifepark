@@ -30,11 +30,11 @@ export function GoogleTranslate() {
 
         new window.google.translate.TranslateElement({
             pageLanguage: 'auto',
-            // autoDisplay: true,
-            // includedLanguages: "en, esp", // If you remove it, by default all google supported language will be included
+            autoDisplay: true,
+            includedLanguages: "en,es", // If you remove it, by default all google supported language will be included
             layout: google.translate.TranslateElement.InlineLayout.SIMPLE
         },
-            'google_translate_element');
+            'google-translate');
     }
 
     const langChange = (e, m, evt) => {
@@ -50,21 +50,5 @@ export function GoogleTranslate() {
         window.location.reload()
     }
 
-    return (
-        <>
-            <div id="google_translate_element" style={{ width: '0px', height: '0px', position: 'absolute', top:0 }}></div>
-            {/* <SelectPicker
-                data={languages}
-                style={{ width: 100 }}
-                placement="bottomEnd"
-                cleanable={false}
-                value={selected}
-                searchable={false}
-                className={'notranslate'}
-                menuClassName={'notranslate'}
-                onSelect={(e, m, evt) => langChange(e, m, evt)}
-                placeholder="Lang" /> */}
-        </>
-
-    )
+    return <div id="google-translate"/>;
 };
