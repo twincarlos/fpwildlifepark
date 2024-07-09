@@ -28,7 +28,7 @@ export function Links() {
                 dropdownHeaderValue="English"
                 dropdownOptions={[{ value: "Español" }, { value: "English" }]}
             /> */}
-            <GoogleTranslate />
+            {/* <GoogleTranslate /> */}
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {
                 openMenu ? <HamburgerMenu setOpenMenu={setOpenMenu} /> : null
