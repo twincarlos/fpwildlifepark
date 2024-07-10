@@ -11,6 +11,8 @@ img.logo {
     width: auto;
     max-width: 100%;
     max-height: 90px;
+    z-index: 1;
+    position: relative;
 }
 
 .links {
@@ -183,40 +185,106 @@ img.logo {
     }
 }
 
-#google-translate img {
+.big-dropdown-menu-body {
     display: none;
+    position: absolute;
+    background: white;
+    left: 0;
+    top: 75px;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: default;
 }
 
-#google-translate .goog-te-gadget-simple {
-    border: none;
+.big-dropdown-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 320px;
 }
 
-.skiptranslate.goog-te-gadget {
-    font-family: "Montserrat", sans-serif;
-    color: black;
+.big-dropdown-option i {
+    font-size: 25px;
 }
 
-.goog-te-gadget-simple span:nth-child(2) {
-    display: none;
+.big-option-1 i {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
 }
 
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span:nth-child(3) {
-    display: none;
+.big-option-2 i {
+    background: var(--secondary-color);
+    color: white;
+    padding: 10px;
 }
 
-.VIpgJd-ZVi9od-xl07Ob-lTBxed span:last-child {
-    display: none;
+.big-option-3 i {
+    background: var(--fourth-color);
+    color: white;
+    padding: 10px;
 }
 
-#google-translate span {
+.big-option-4 i {
+    background: var(--fifth-color);
+    color: white;
+    padding: 10px;
+}
+
+.links .big-dropdow-menu {
+    font-weight: 200;
     font-size: 18px;
-    transition: .5s;
 }
 
-#google-translate span:hover {
+.big-dropdow-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: .5s;
+    justify-content: center;
+}
+
+.big-dropdow-menu:hover {
     font-size: 23px;
 }
 
-a.VIpgJd-ZVi9od-vH1Gmf-ibnC6b-gk6SMd {
-    display: none;
+.big-dropdown-menu-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5em;
+}
+
+.big-dropdown-menu-header:hover + .big-dropdown-menu-body {
+    display: flex;
+}
+
+.big-dropdown-menu-body:hover {
+    display: flex;
+}
+
+.big-dropdown-option a {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    font-family: "Montserrat", sanse;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.big-dropdown-option-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.big-dropdown-option-description {
+    font-size: 13px;
+    font-weight: 400;
 }
