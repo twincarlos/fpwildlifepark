@@ -29,9 +29,9 @@ a {
   transition: 0.5s;
 }
 
-a:hover {
+/* a:hover {
   filter: brightness(0.7);
-}
+} */
 
 main {
   width: 100%;

@@ -13,7 +13,7 @@ export function BigDropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropd
                     <i className="fa-solid fa-chevron-down" />
                 </div>
             </div>
-            <div className={`big-dropdown-menu-body ${dropdownHeaderValue}`}>
+            <div className={`big-dropdown-menu-body`}>
                 {
                     dropdownOptions.map((dropdownOption, index) => (
                         <div key={index} className={`big-dropdown-option big-option-${index + 1}`}>
