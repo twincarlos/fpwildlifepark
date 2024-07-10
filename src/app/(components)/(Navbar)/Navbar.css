@@ -317,3 +317,28 @@ img.logo {
     font-size: 13px;
     font-weight: 400;
 }
+
+.mobile-big-dropdown-menu {
+    width: 100%;
+    padding: .8em 1em;
+    border-bottom: 1px solid #0000004a;
+}
+
+.mobile-hamburger-menu-item-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 200;
+    gap: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .mobile-big-dropdown-menu-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.mobile-big-dropdown-menu-body {
+    padding-top: 10px;
+}

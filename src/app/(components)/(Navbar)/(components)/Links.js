@@ -1,10 +1,8 @@
 "use client";
 import Link from "next/link";
-import { DropdownMenu } from "./DropdownMenu";
 import { useState } from "react";
 import { HamburgerMenu } from "./HamburgerMenu";
 import { BigDropdownMenu } from "./BigDropdownMenu";
-// import { GoogleTranslate } from "@/app/google-translate";
 
 export function Links() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -14,22 +12,6 @@ export function Links() {
             <Link className="Large nav-link" href="/tickets"><i className="fa-solid fa-ticket" />Tickets</Link>
             <Link className="Large nav-link" href="/tours"><i className="fa-solid fa-tractor" />Tours</Link>
             <Link className="Large nav-link" href="/events"><i className="fa-solid fa-calendar-days" />Events</Link>
-            {/* <DropdownMenu
-                dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
-                dropdownHeaderValue="About"
-                dropdownOptions={[{ value: "Our Story", path: "/about/our-story" }, { value: "Our Team", path: "/about/our-team" }, { value: "Education", path: "/about/education" }, { value: "Animals & Plants", path: "/about/animals-and-plants" }]}
-            /> */}
-            {/* <DropdownMenu
-                dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
-                dropdownHeaderValue="Contact Us"
-                dropdownOptions={[{ value: "Let's Connect", path: "/contact-us/lets-connect" }, { value: "Volunteer Application", path: "/contact-us/volunteer-application" }, { value: "Job Application", path: "/contact-us/job-application" }, { value: "Internship Application", path: "/contact-us/internship-application" }]}
-            /> */}
-            {/* <DropdownMenu
-                dropdownHeaderIcon={<i className="fa-solid fa-globe" />}
-                dropdownHeaderValue="English"
-                dropdownOptions={[{ value: "Español" }, { value: "English" }]}
-            /> */}
-            {/* <GoogleTranslate /> */}
             <BigDropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 dropdownHeaderValue="About"
@@ -56,7 +38,7 @@ export function Links() {
                         value: "Let's Connect", path: "/contact-us/lets-connect", icon: <i className="fa-regular fa-comments" />, description: "Stay connected with us through social media, newsletters, and events. Join our community and support our cause."
                     },
                     {
-                        value: "Volunteer Application", path: "/contact-us/volunteer-application", icon: <i class="fa-brands fa-wpforms" />, description: "Become a part of our mission by volunteering with us. Fill out an application to join our team."
+                        value: "Volunteer Application", path: "/contact-us/volunteer-application", icon: <i className="fa-brands fa-wpforms" />, description: "Become a part of our mission by volunteering with us. Fill out an application to join our team."
                     },
                     {
                         value: "Job Application", path: "/contact-us/job-application", icon: <i className="fa-brands fa-wpforms" />, description: "Looking for a career in wildlife conservation? Check out our job openings and apply to work with us."
