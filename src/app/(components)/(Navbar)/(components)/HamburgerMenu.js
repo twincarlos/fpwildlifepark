@@ -35,7 +35,7 @@ export function HamburgerMenu({ setOpenMenu }) {
                         value: "Education", path: "/about/education", icon: <i className="fa-solid fa-book-open-reader" />, description: "Explore our educational programs designed to inspire and inform all ages about wildlife conservation and environmental stewardship."
                     },
                     {
-                        value: "Animals & Plants", path: "/about/animals-and-plants", icon: <i className="fa-solid fa-cow" />, description: "Get to know the diverse species of animals and plants that call our park home."
+                        value: "Our Animals", path: "/about/our-animals", icon: <i className="fa-solid fa-cow" />, description: "Get to know the diverse species of animals and plants that call our park home."
                     }
                 ]}
             />
@@ -74,8 +74,8 @@ export function HamburgerMenu({ setOpenMenu }) {
                         path: "/about/education"
                     },
                     {
-                        name: "Animals & Plants",
-                        path: "/about/animals-and-plants"
+                        name: "Our Animals",
+                        path: "/about/our-animals"
                     }
                 ]}
             /> */}

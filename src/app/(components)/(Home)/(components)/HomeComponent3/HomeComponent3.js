@@ -15,9 +15,9 @@ export function HomeComponent3() {
                     </div>
                     <div className="container-cell cell-2">
                         <div className="cell-description">
-                            <p>Animals & Plants</p>
+                            <p>Our Animals</p>
                         </div>
-                        <Link href="/about/animals-and-plants" className="cell-image">
+                        <Link href="/about/our-animals" className="cell-image">
                             <p>
                                 Explore detailed profiles and fascinating facts about the diverse species of animals and plants at our park. Learn about their habitats, behaviors, and the conservation efforts dedicated to their protection.
                             </p>
