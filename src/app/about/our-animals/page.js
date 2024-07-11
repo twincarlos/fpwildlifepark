@@ -42,13 +42,6 @@ export default function AnimalsAndPlants() {
                         </div>
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={animal4} />
-                        <div className="animal-info">
-                            <p className="animal-name">Animal Name</p>
-                            <p className="animal-type">Animal Type</p>
-                        </div>
-                    </div>
-                    <div className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal5} />
                         <div className="animal-info">
                             <p className="animal-name">Animal Name</p>
@@ -56,28 +49,7 @@ export default function AnimalsAndPlants() {
                         </div>
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={animal6} />
-                        <div className="animal-info">
-                            <p className="animal-name">Animal Name</p>
-                            <p className="animal-type">Animal Type</p>
-                        </div>
-                    </div>
-                    <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={animal7} />
-                        <div className="animal-info">
-                            <p className="animal-name">Animal Name</p>
-                            <p className="animal-type">Animal Type</p>
-                        </div>
-                    </div>
-                    <div className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal8} />
-                        <div className="animal-info">
-                            <p className="animal-name">Animal Name</p>
-                            <p className="animal-type">Animal Type</p>
-                        </div>
-                    </div>
-                    <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={animal9} />
                         <div className="animal-info">
                             <p className="animal-name">Animal Name</p>
                             <p className="animal-type">Animal Type</p>

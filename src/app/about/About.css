@@ -71,6 +71,7 @@ p.animal-name {
     height: 200px;
     filter: brightness(0.9);
     transition: .5s;
+    border-radius: 15px;
 }
 
 .animal-img:hover {
