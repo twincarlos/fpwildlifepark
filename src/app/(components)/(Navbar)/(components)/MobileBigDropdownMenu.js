@@ -21,7 +21,7 @@ export function MobileBigDropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue,
                     <div className={`mobile-big-dropdown-menu-body`}>
                         {
                             dropdownOptions.map((dropdownOption, index) => (
-                                <div key={index} className={`big-dropdown-option big-option-${index + 1}`}>
+                                <div key={index} onClick={() => setShowBigOptions(false)} className={`big-dropdown-option big-option-${index + 1}`}>
                                     <Link
                                         href={dropdownOption.path ? dropdownOption.path : "/"}>
                                         {dropdownOption.icon}
