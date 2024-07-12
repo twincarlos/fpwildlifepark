@@ -7,9 +7,9 @@ export const LanguageProvider = ({ children }) => {
     const [language, setLanguage] = useState("English");
 
   return (
-    <ModalContext.Provider value={{ language, setLanguage }}>
+    <LanguageContext.Provider value={{ language, setLanguage }}>
       {children}
-    </ModalContext.Provider>
+    </LanguageContext.Provider>
   );
 };
 
