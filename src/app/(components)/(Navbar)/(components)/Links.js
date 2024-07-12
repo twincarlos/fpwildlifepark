@@ -3,9 +3,12 @@ import Link from "next/link";
 import { useState } from "react";
 import { HamburgerMenu } from "./HamburgerMenu";
 import { BigDropdownMenu } from "./BigDropdownMenu";
+import { DropdownMenu } from "./DropdownMenu";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 export function Links() {
     const [openMenu, setOpenMenu] = useState(false);
+    const { setLanguage } = useLanguage();
 
     return (
         <div className="links">
@@ -47,6 +50,16 @@ export function Links() {
                         value: "Internship Application", path: "/contact-us/internship-application", icon: <i className="fa-brands fa-wpforms" />, description: "Gain hands-on experience and learn from the experts by applying for an internship with us."
                     }
                 ]}
+            />
+            <DropdownMenu
+                dropdownHeaderValue="Language"
+                dropdownOptions={[{
+                    value: "English",
+                    onClick: () => setLanguage("English")
+                },{
+                    value: "Spanish",
+                    onClick: () => setLanguage("Spanish")
+                }]}
             />
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {

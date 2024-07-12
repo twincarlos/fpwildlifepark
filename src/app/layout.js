@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Navbar } from "./(components)/(Navbar)/Navbar";
 import { Footer } from "./(components)/(Footer)/Footer";
+import { LanguageProvider } from "./context/LanguageContext";
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -17,9 +18,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Script src="https://kit.fontawesome.com/09c2dac4bc.js" crossOrigin="anonymous" />
       <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+        <LanguageProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </LanguageProvider>
         <Script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></Script>
       </body>
     </html>
