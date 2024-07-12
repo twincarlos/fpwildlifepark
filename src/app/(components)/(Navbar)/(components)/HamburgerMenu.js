@@ -23,6 +23,7 @@ export function HamburgerMenu({ setOpenMenu }) {
             </div>
             <MobileBigDropdownMenu
                 // dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
+                setOpenMenu={setOpenMenu}
                 dropdownHeaderValue="About"
                 dropdownOptions={[
                     {
@@ -41,6 +42,7 @@ export function HamburgerMenu({ setOpenMenu }) {
             />
             <MobileBigDropdownMenu
                 // dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
+                setOpenMenu={setOpenMenu}
                 dropdownHeaderValue="Contact Us"
                 dropdownOptions={[
                     {

@@ -108,6 +108,7 @@ img.logo {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
+    z-index: 1;
 }
 
 .hamburger-menu-item-container {

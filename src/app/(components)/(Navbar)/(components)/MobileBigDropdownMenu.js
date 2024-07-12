@@ -3,7 +3,7 @@ import "../Navbar.css";
 import Link from "next/link";
 import { useState } from "react";
 
-export function MobileBigDropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdownOptions }) {
+export function MobileBigDropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue, dropdownOptions, setOpenMenu }) {
     const [showBigOptions, setShowBigOptions] = useState(false);
     return (
         <div className="mobile-big-dropdown-menu">
@@ -21,7 +21,10 @@ export function MobileBigDropdownMenu({ dropdownHeaderIcon, dropdownHeaderValue,
                     <div className={`mobile-big-dropdown-menu-body`}>
                         {
                             dropdownOptions.map((dropdownOption, index) => (
-                                <div key={index} onClick={() => setShowBigOptions(false)} className={`big-dropdown-option big-option-${index + 1}`}>
+                                <div key={index} onClick={() => {
+                                    setShowBigOptions(false);
+                                    setOpenMenu(false);
+                                }} className={`big-dropdown-option big-option-${index + 1}`}>
                                     <Link
                                         href={dropdownOption.path ? dropdownOption.path : "/"}>
                                         {dropdownOption.icon}
