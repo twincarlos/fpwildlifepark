@@ -1,6 +1,7 @@
 import "../About.css";
 import Image from "next/image";
 import employee1 from "../../(assets)/EMPLOYEES-1.png";
+import employee2 from "../../(assets)/EMPLOYEES-2.png";
 import employee3 from "../../(assets)/EMPLOYEES-3.png";
 import employee4 from "../../(assets)/EMPLOYEES-4.png";
 import employee5 from "../../(assets)/EMPLOYEES-5.png";
@@ -20,7 +21,7 @@ export default function OurTeam() {
                         <p className="employee-title">Animal Care Manager</p>
                     </div>
                     <div className="team-member">
-                        <Image className="employee-img" alt="employee" src={employee3} />
+                        <Image className="employee-img" alt="employee" src={employee2} />
                         <p className="employee-name">Jose Elizondo</p>
                         <p className="employee-title">Safari Guide</p>
                     </div>
