@@ -19,7 +19,7 @@ export default function VolunteerApplication() {
                     </p>
                 </div>
                 <div>
-                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSf2SERe-rryd9UmYvKEp3znUZrO50X0vwjoOzbZpnTmKSpaeQ/viewform" target="_blank">{language === "English" ? "Apply" : ""}</Link>
+                    <Link href="https://forms.gle/nUr74G1KZaRM74tV8" target="_blank">{language === "English" ? "Apply" : ""}</Link>
                 </div>
             </section>
         </main>

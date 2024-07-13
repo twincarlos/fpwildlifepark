@@ -20,7 +20,7 @@ export default function InternshipApplication() {
                     </p>
                 </div>
                 <div>
-                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeVcPYQGEHIDP2mAI8746LD3mia-FKWo94O8Dkzzh4zGLFbxQ/viewform" target="_blank">{language === "English" ? "Apply" : ""}</Link>
+                    <Link href="https://forms.gle/r2EkjvAf5nciT3yG6" target="_blank">{language === "English" ? "Apply" : ""}</Link>
                 </div>
             </section>
         </main>

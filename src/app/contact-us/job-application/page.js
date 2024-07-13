@@ -19,7 +19,7 @@ export default function JobApplication() {
                     </p>
                 </div>
                 <div>
-                    <Link href="https://docs.google.com/forms/d/e/1FAIpQLSeqoi7Mko5kEaawy1O4gReIuuMz9yVHosCtAvMPFgdR_qt-WQ/viewform" target="_blank">{language === "English" ? "Apply" : ""}</Link>
+                    <Link href="https://forms.gle/1qPSF3dQVLF9pJVc7" target="_blank">{language === "English" ? "Apply" : ""}</Link>
                 </div>
             </section>
         </main>
