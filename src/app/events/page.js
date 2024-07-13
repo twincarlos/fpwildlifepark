@@ -1,14 +1,17 @@
+"use client"
 import EventsHeader from "./(components)/EventsHeader";
 import Image from "next/image";
 import momsGoneWild from "../(assets)/moms-gone-wild.png";
 import grandparentsDay from "../(assets)/grandparents-day.png";
 import fathersDay from "../(assets)/fathers-day.png";
 import Link from "next/link";
+import { useLanguage } from "../context/LanguageContext";
 
 export default function Events() {
+    const {language} = useLanguage();
     return (
         <main>
-            <EventsHeader />
+            <EventsHeader language={language} />
             <section className="events-content">
                 <div className="event">
                     <div className="events-img">
@@ -18,14 +21,14 @@ export default function Events() {
                         <div>
                             <h1 className="event-name">
                                 <strong>
-                                    MOMS GONE WILD
+                                    {language === "English" ? "MOMS GONE WILD" : ""}
                                 </strong>
                             </h1>
                             <p>
-                                EVERY THURSDAY
+                                {language === "English" ? "EVERY THURSDAY" : ""}
                             </p>
                             <p>
-                                10 AM, 11 AM, 12 PM TOUR
+                                {language === "English" ? "10 AM, 11 AM, 12 PM TOUR" : ""}
                             </p>
                         </div>
                         <div>
@@ -35,34 +38,34 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                This includes admission to the:
+                                {language === "English" ? "This includes admission to the:" : ""}
                             </p>
                             <p>
-                                - Safari Wagon Tour
+                                {language === "English" ? "- Safari Wagon Tour" : ""}
                             </p>
                             <p>
-                                - Kangaroo / Wallaby
+                                {language === "English" ? "- Kangaroo / Wallaby" : ""}
                             </p>
                             <p>
-                                - Petting Zoo
+                                {language === "English" ? "- Petting Zoo" : ""}
                             </p>
                             <p>
-                                - Tent Mixer
+                                {language === "English" ? "- Tent Mixer" : ""}
                             </p>
                             <p>
-                                - FREE Mimosa
+                                {language === "English" ? "- FREE Mimosa" : ""}
                             </p>
                             <p>
-                                - FREE Popsicles
+                                {language === "English" ? "- FREE Popsicles" : ""}
                             </p>
                         </div>
                         <div>
                             <p>
-                                **General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*
+                                {language === "English" ? "**General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*" : ""}
                             </p>
                         </div>
                         <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555949/?full-items=yes&flow=no">Book Event</Link>
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555949/?full-items=yes&flow=no">{language === "English" ? "Book Event" : ""}</Link>
                         </div>
                     </div>
                 </div>
@@ -78,10 +81,10 @@ export default function Events() {
                                 </strong>
                             </h1>
                             <p>
-                                EVERY MONDAY
+                                {language === "English" ? "EVERY MONDAY" : ""}
                             </p>
                             <p>
-                                10 AM, 11AM, 12PM TOUR
+                                {language === "English" ? "10 AM, 11AM, 12PM TOUR" : ""}
                             </p>
                         </div>
                         <div>
@@ -91,30 +94,30 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                This includes admission to the:
+                                {language === "English" ? "This includes admission to the:" : ""}
                             </p>
                             <p>
-                                - Safari Wagon Tour
+                                {language === "English" ? "- Safari Wagon Tour" : ""}
                             </p>
                             <p>
-                                - Kangaroo / Wallaby
+                               {language === "English" ? " - Kangaroo / Wallaby" : ""}
                             </p>
                             <p>
-                                - Petting Zoo
+                                {language === "English" ? "- Petting Zoo" : ""}
                             </p>
                             <p>
-                                - Tent Mixer
+                                {language === "English" ? "- Tent Mixer" : ""}
                             </p>
                             <p>
-                                - FREE Mimosa
+                                {language === "English" ? "- FREE Mimosa" : ""}
                             </p>
                             <p>
-                                - FREE Popsicles
+                               {language === "English" ? " - FREE Popsicles" : ""}
                             </p>
                         </div>
                         <div>
                             <p>
-                                **General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*
+                                {language === "English" ? "**General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*" : ""}
                             </p>
                         </div>
                     </div>

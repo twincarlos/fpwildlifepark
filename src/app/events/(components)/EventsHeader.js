@@ -1,9 +1,9 @@
 import "../Events.css";
 
-export default function EventsHeader() {
+export default function EventsHeader({ language }) {
     return (
         <section className="events-header">
-            <h2>Events Calendar</h2>
+            <h2>{language === "English" ? "Events Calendar" : ""}</h2>
         </section>
     );
 };

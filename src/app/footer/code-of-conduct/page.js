@@ -1,6 +1,9 @@
+"use client";
 import "../Footer.css";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 export default function CodeOfConduct() {
+    const {language} = useLanguage()
     return (
         <main>
             <section className="page-header code-of-conduct-header">
