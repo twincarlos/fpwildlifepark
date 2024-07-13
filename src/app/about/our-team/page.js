@@ -20,7 +20,7 @@ export default function OurTeam() {
                 <div className="about-content">
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee1} />
-                        <p className="employee-name">Sam Wolfer</p>
+                        <p className="employee-name">Sam Wolter</p>
                         <p className="employee-title">{language === "English" ? "Animal Care Manager" : ""}</p>
                     </div>
                     <div className="team-member">
@@ -35,12 +35,12 @@ export default function OurTeam() {
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee5} />
-                        <p className="employee-name">Daryela Hernandez</p>
+                        <p className="employee-name">Cindy Torres</p>
                         <p className="employee-title">{language === "English" ? "Executive Assistant" : ""}</p>
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee6} />
-                        <p className="employee-name">Cindy Torres</p>
+                        <p className="employee-name">Daryela Hernandez</p>
                         <p className="employee-title">{language === "English" ? "Office Manager" : ""}</p>
                     </div>
                 </div>
