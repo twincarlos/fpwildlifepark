@@ -33,7 +33,7 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                {"Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!"}
+                                {language === "English" ? "Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : ""}
                             </p>
                         </div>
                         <div>
@@ -77,7 +77,7 @@ export default function Events() {
                         <div>
                             <h1 className="event-name">
                                 <strong>
-                                    {"GRANDPARENT'S DAY"}
+                                    {language === "English" ? "GRANDPARENT'S DAY" : ""}
                                 </strong>
                             </h1>
                             <p>
@@ -89,7 +89,7 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                {"Join us for our GRANDPARENT'S DAY and receive a FREE small feed cup and your grandchild too. Come for a morning of animal fun and learn about our animal SAFARI ambassadors!"}
+                                {language === "English" ? "Join us for our GRANDPARENT'S DAY and receive a FREE small feed cup and your grandchild too. Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : ""}
                             </p>
                         </div>
                         <div>

@@ -1,9 +1,9 @@
-"use client";
+"use client"
 import "../Footer.css";
 import { useLanguage } from "@/app/context/LanguageContext";
 
 export default function AccessibilityStatement() {
-    const {language} = useLanguage();
+    const {language} = useLanguage()
     return (
         <main>
             <section className="page-header accessibility-statement-header">

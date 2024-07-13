@@ -1,9 +1,12 @@
+"use client"
 import "./Footer.css";
 import Image from "next/image";
 import Link from "next/link";
 import logo from "../../(assets)/logo.png";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 export function Footer() {
+    const {language} = useLanguage()
     return (
         <footer>
             <div className="footer-logo">
@@ -17,14 +20,14 @@ export function Footer() {
             </div>
             <div className="footer-content">
                 <div className="footer-row footer-row-1">
-                    <Link href="/footer/accessibility-statement">Accessibility Statement</Link>
-                    <Link href="/footer/privacy-policy">Privacy Policy</Link>
-                    <Link href="/footer/terms-of-use">Terms of Use</Link>
-                    <Link href="/contact-us/lets-connect">Contact Us</Link>
+                    <Link href="/footer/accessibility-statement">{language === "English" ? "Accessibility Statement" : ""}</Link>
+                    <Link href="/footer/privacy-policy">{language === "English" ? "Privacy Policy" : ""}</Link>
+                    <Link href="/footer/terms-of-use">{language === "English" ? "Terms of Use" : ""}</Link>
+                    <Link href="/contact-us/lets-connect">{language === "English" ? "Contact Us" : ""}</Link>
                 </div>
                 <div className="footer-row footer-row-2">
-                    <Link href="/footer/tickets-terms-and-conditions">Tickets Terms & Conditions</Link>
-                    <Link href="/footer/code-of-conduct">Code of Conduct</Link>
+                    <Link href="/footer/tickets-terms-and-conditions">{language === "English" ? "Tickets Terms & Conditions" : ""}</Link>
+                    <Link href="/footer/code-of-conduct">{language === "English" ? "Code of Conduct" : ""}</Link>
                 </div>
                 <div className="footer-row footer-row-3">
                     <p>© 2021 Fragile Planet Wildlife Park</p>

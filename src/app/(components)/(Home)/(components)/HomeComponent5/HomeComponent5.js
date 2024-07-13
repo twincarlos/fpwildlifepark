@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export function HomeComponent5() {
+export function HomeComponent5({language}) {
     const [email, setEmail] = useState("");
     const [subscribed, setSubscribed] = useState(false);
     const [emailError, setEmailError] = useState(false);
@@ -29,14 +29,14 @@ export function HomeComponent5() {
             <div className="container">
                 <div className="email-icon">
                     <i className="fa-regular fa-envelope" />
-                    <p>Stay Wild!</p>
+                    <p>{language === "English" ? "Stay Wild!" : ""}</p>
                 </div>
                 <div className="sign-up-text">
-                    <h2>Stay updated on wildlife news, zoo activities, and exclusive offers.</h2>
+                    <h2>{language === "English" ? "Stay updated on wildlife news, zoo activities, and exclusive offers." : ""}</h2>
                 </div>
                 <div className="sign-up-form">
-                    <input type="text" placeholder="Email Address" value={email} onChange={e => setEmail(e.target.value)} />
-                    <button onClick={subscribe}>Submit</button>
+                    <input type="text" placeholder={language === "English" ? "Email Address" : ""} value={email} onChange={e => setEmail(e.target.value)} />
+                    <button onClick={subscribe}>{language === "English" ? "Submit" : ""}</button>
                 </div>
                 {
                     subscribed ? (
@@ -48,13 +48,13 @@ export function HomeComponent5() {
                 {
                     emailError ? (
                         <div className="email-error">
-                            <p>Enter a valid email address</p>
+                            <p>{language === "English" ? "Enter a valid email address" : ""}</p>
                         </div>
                     ) : null
                 }
                 <div className="follow-us-container">
                     <div className="follow-us-text">
-                        <h2>Follow Us</h2>
+                        <h2>{language === "English" ? "Follow Us" : ""}</h2>
                     </div>
                     <div className="social-media-links">
                         <Link href="https://m.facebook.com/FragilePlanetWildlifePark" target="_blank"><i className="fa-brands fa-facebook" /></Link>

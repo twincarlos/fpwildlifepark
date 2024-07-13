@@ -8,7 +8,7 @@ export default function Tours() {
     const {language} = useLanguage()
     return (
         <main>
-            <TicketsHeader useLanguage={useLanguage} />
+            <TicketsHeader language={language} />
             <HomeComponent2
                 tour1Price="$15"
                 tour1Description={
