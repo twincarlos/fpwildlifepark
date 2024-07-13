@@ -11,10 +11,10 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
         <section className="home-component home-component-2">
             <div className="container">
                 <div className="component-header">
-                    <h2>{language === "English" ? "Discover Wildlife Wonders on Every Visit!" : ""}</h2>
+                    <h2>{language === "English" ? "Discover Wildlife Wonders on Every Visit!" : "Descubra maravillas naturales en cada visita."}</h2>
                 </div>
                 <div className="component-description">
-                    <p>{language === "" ? "Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP RTV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!" : ""}</p>
+                    <p>{language === "" ? "Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP RTV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!" : "No se pierda estas increíbles experiencias. Ya sea maravillándose con las vistas desde nuestro Safari Wagon o acelerando la emoción en nuestro Tour VIP en RTV, tiene garantizada una aventura sin igual. Reserve su excursión hoy mismo y descubra las maravillas que le esperan."}</p>
                 </div>
                 <div className="tours-list">
                     <div className="tour-container">
@@ -23,7 +23,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                                 <Image alt="tour-1" src={tour1Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "Safari Wagon Tour" : ""}</p>
+                                <p>{language === "English" ? "Safari Wagon Tour" : "Safari Wagon Tour"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour1Description}
@@ -31,9 +31,9 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <button onClick={() => alert(language === "English" ? "All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations." : "")}>
+                                <button onClick={() => alert(language === "English" ? "All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations." : "Todos los paseos en Safari Wagon de 15 $ sólo pueden reservarse en la oficina de admisión del parque. Aceptamos reservas anticipadas para grupos de 20 personas o más. Póngase en contacto con nosotros para obtener más información o para hacer reservas de grupo.")}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book at Park" : ""}
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book at Park" : " Reserva en Persona"}
                                     </div>
                                     {
                                         tour1Price ? (
@@ -47,7 +47,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             {
                                 tour1Price ? (
                                     <div className="tour-price">
-                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : ""}</p>
+                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
                                     </div>
                                 ) : null
                             }
@@ -59,7 +59,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                                 <Image alt="tour-2" src={tour2Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "VIP RTV Tour" : ""}</p>
+                                <p>{language === "English" ? "VIP RTV Tour" : "VIP RTV Tour"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour2Description}
@@ -69,7 +69,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             <div className="tour-button">
                                 <Link href={tour2Link ? tour2Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : ""}
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
                                     {
                                         tour2Price ? (
@@ -83,7 +83,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             {
                                 tour2Price ? (
                                     <div className="tour-price">
-                                        <p className="per-person-text">{language === "English" ? "(Private ATV)" : ""}</p>
+                                        <p className="per-person-text">{language === "English" ? "(Private ATV)" : "(ATV Privado)"}</p>
                                     </div>
                                 ) : null
                             }
@@ -95,7 +95,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                                 <Image alt="tour-3" src={tour3Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "PRIVATE WAGON SAFARI" : ""}</p>
+                                <p>{language === "English" ? "PRIVATE WAGON SAFARI" : "WAGON SAFARI PRIVADO"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour3Description}
@@ -105,7 +105,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             <div className="tour-button">
                                 <Link href={tour3Link ? tour3Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : ""}
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
                                     {
                                         tour3Price ? (
@@ -119,7 +119,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             {
                                 tour3Price ? (
                                     <div className="tour-price">
-                                        <p className="per-person-text">{language === "English" ? "(Entire Wagon)" : ""}</p>
+                                        <p className="per-person-text">{language === "English" ? "(Entire Wagon)" : "(Vagon Entero)"}</p>
                                     </div>
                                 ) : null
                             }
@@ -131,7 +131,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                                 <Image alt="tour-4" src={tour4Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "Tipsy Safari Night" : ""}</p>
+                                <p>{language === "English" ? "Tipsy Safari Night" : "Tipsy Safari Night"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour4Description}
@@ -141,7 +141,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             <div className="tour-button">
                                 <Link href={tour4Link ? tour4Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : ""}
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
                                     {
                                         tour4Price ? (
@@ -155,7 +155,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                             {
                                 tour4Price ? (
                                     <div className="tour-price">
-                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : ""}</p>
+                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
                                     </div>
                                 ) : null
                             }
@@ -165,8 +165,8 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                 {
                     tourDepartureDetails ? (
                         <div className="component-description tour-departures">
-                            <h2>{language === "English" ? "Tour Departures: 10 AM to 7 PM" : ""}</h2>
-                            <p>{language === "English" ? "At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife. Our tours depart regularly from 10 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule." : ""}</p>
+                            <h2>{language === "English" ? "Tour Departures: 10 AM to 7 PM" : "Salidas de Tours: 10 AM a 7 PM"}</h2>
+                            <p>{language === "English" ? "At Fragile Planet Wildlife Park we offer a variety of tours to provide you with an unforgettable experience exploring the wonders of our wildlife. Our tours depart regularly from 10 AM to 7 PM, ensuring you have ample opportunities to join us at a time that fits your schedule." : "En Fragile Planet Wildlife Park ofrecemos una gran variedad de excursiones para que disfrute de una experiencia inolvidable explorando las maravillas de nuestra fauna salvaje. Nuestros tours salen regularmente de 10 AM a 7 PM, asegurando que usted tiene amplias oportunidades para unirse a nosotros en un momento en que se adapte a su horario."}</p>
                         </div>
                     ) : null
                 }

@@ -29,26 +29,26 @@ export function HomeComponent5({language}) {
             <div className="container">
                 <div className="email-icon">
                     <i className="fa-regular fa-envelope" />
-                    <p>{language === "English" ? "Stay Wild!" : ""}</p>
+                    <p>{language === "English" ? "Stay Wild!" : "Stay Wild!"}</p>
                 </div>
                 <div className="sign-up-text">
-                    <h2>{language === "English" ? "Stay updated on wildlife news, zoo activities, and exclusive offers." : ""}</h2>
+                    <h2>{language === "English" ? "Stay updated on wildlife news, zoo activities, and exclusive offers." : "Manténgase al día de las noticias sobre fauna salvaje, actividades del zoo y ofertas exclusivas."}</h2>
                 </div>
                 <div className="sign-up-form">
-                    <input type="text" placeholder={language === "English" ? "Email Address" : ""} value={email} onChange={e => setEmail(e.target.value)} />
-                    <button onClick={subscribe}>{language === "English" ? "Submit" : ""}</button>
+                    <input type="text" placeholder={language === "English" ? "Email Address" : "Correo electronico"} value={email} onChange={e => setEmail(e.target.value)} />
+                    <button onClick={subscribe}>{language === "English" ? "Submit" : "Enviar"}</button>
                 </div>
                 {
                     subscribed ? (
                         <div className="thanks-for-subscribing">
-                            <p>{"You're now subscribed"} {email} <i className="fa-solid fa-check" /></p>
+                            <p>{language === "English" ? "You're now subscribed" : "Subscripcion exitosa"} {email} <i className="fa-solid fa-check" /></p>
                         </div>
                     ) : null
                 }
                 {
                     emailError ? (
                         <div className="email-error">
-                            <p>{language === "English" ? "Enter a valid email address" : ""}</p>
+                            <p>{language === "English" ? "Enter a valid email address" : "Correo electronico invalido"}</p>
                         </div>
                     ) : null
                 }

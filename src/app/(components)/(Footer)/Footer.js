@@ -20,14 +20,14 @@ export function Footer() {
             </div>
             <div className="footer-content">
                 <div className="footer-row footer-row-1">
-                    <Link href="/footer/accessibility-statement">{language === "English" ? "Accessibility Statement" : ""}</Link>
-                    <Link href="/footer/privacy-policy">{language === "English" ? "Privacy Policy" : ""}</Link>
-                    <Link href="/footer/terms-of-use">{language === "English" ? "Terms of Use" : ""}</Link>
-                    <Link href="/contact-us/lets-connect">{language === "English" ? "Contact Us" : ""}</Link>
+                    <Link href="/footer/accessibility-statement">{language === "English" ? "Accessibility Statement" : "Declaracion de accesibilidad"}</Link>
+                    <Link href="/footer/privacy-policy">{language === "English" ? "Privacy Policy" : "Politica de privacidad"}</Link>
+                    <Link href="/footer/terms-of-use">{language === "English" ? "Terms of Use" : "Condiciones de uso"}</Link>
+                    <Link href="/contact-us/lets-connect">{language === "English" ? "Contact Us" : "Contactanos"}</Link>
                 </div>
                 <div className="footer-row footer-row-2">
-                    <Link href="/footer/tickets-terms-and-conditions">{language === "English" ? "Tickets Terms & Conditions" : ""}</Link>
-                    <Link href="/footer/code-of-conduct">{language === "English" ? "Code of Conduct" : ""}</Link>
+                    <Link href="/footer/tickets-terms-and-conditions">{language === "English" ? "Tickets Terms & Conditions" : "Condiciones de venta de entradas"}</Link>
+                    <Link href="/footer/code-of-conduct">{language === "English" ? "Code of Conduct" : "Codigo de conducta"}</Link>
                 </div>
                 <div className="footer-row footer-row-3">
                     <p>© 2021 Fragile Planet Wildlife Park</p>

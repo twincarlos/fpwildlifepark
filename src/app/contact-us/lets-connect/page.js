@@ -3,9 +3,10 @@ import "./LetsConnect.css";
 import Link from "next/link";
 import { useState } from "react";
 import { useLanguage } from "@/app/context/LanguageContext";
+import emailjs from "emailjs-com";
 
 export default function LetsConnect() {
-    const {language} = useLanguage()
+    const { language } = useLanguage()
     const [messageSent, setMessageSent] = useState(false);
     const [data, setData] = useState({
         firstName: "",
@@ -29,19 +30,17 @@ export default function LetsConnect() {
             return setErrors(newErrors);
         }
         else {
-            await fetch("/api/send-message", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({
-                    firstName: data.firstName,
-                    lastName: data.lastName,
-                    email: data.email,
+            await emailjs.send(
+                process.env.NEXT_PUBLIC_SERVICE_ID,
+                process.env.NEXT_PUBLIC_TEMPLATE_ID,
+                {
+                    senderEmail: data.email,
+                    receiverEmail: process.env.NEXT_PUBLIC_RECEIVER_EMAIL,
                     subject: data.subject,
-                    message: data.message
-                })
-            });
+                    message: data.message,
+                },
+                process.env.NEXT_PUBLIC_USER_ID
+            );
             setErrors([]);
             setData({
                 firstName: "",
@@ -89,27 +88,27 @@ export default function LetsConnect() {
                     <div className="contact-us-form-row contact-us-form-row-1">
                         <label>
                             {language === "English" ? "First name" : ""}
-                            <input type="text" value={data.firstName} onChange={e => setData({...data, firstName: e.target.value})} />
+                            <input type="text" value={data.firstName} onChange={e => setData({ ...data, firstName: e.target.value })} />
                         </label>
                         <label>
                             {language === "English" ? "Last name" : ""}
-                            <input type="text" value={data.lastName} onChange={e => setData({...data, lastName: e.target.value})} />
+                            <input type="text" value={data.lastName} onChange={e => setData({ ...data, lastName: e.target.value })} />
                         </label>
                     </div>
                     <div className="contact-us-form-row contact-us-form-row-2">
                         <label>
                             Email
-                            <input type="text" value={data.email} onChange={e => setData({...data, email: e.target.value})} />
+                            <input type="text" value={data.email} onChange={e => setData({ ...data, email: e.target.value })} />
                         </label>
                         <label>
                             {language === "English" ? "Subject" : ""}
-                            <input type="text" value={data.subject} onChange={e => setData({...data, subject: e.target.value})} />
+                            <input type="text" value={data.subject} onChange={e => setData({ ...data, subject: e.target.value })} />
                         </label>
                     </div>
                     <div className="contact-us-form-row contact-us-form-row-3">
                         <label>
                             {language === "English" ? "Leave us a message..." : ""}
-                            <input type="text" value={data.message} onChange={e => setData({...data, message: e.target.value})} />
+                            <input type="text" value={data.message} onChange={e => setData({ ...data, message: e.target.value })} />
                         </label>
                     </div>
                     <div className="contact-us-form-row contact-us-form-row-4">
