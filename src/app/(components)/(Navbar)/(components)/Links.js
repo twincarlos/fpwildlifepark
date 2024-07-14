@@ -7,7 +7,7 @@ import { DropdownMenu } from "./DropdownMenu";
 import { useLanguage } from "@/app/context/LanguageContext";
 
 export function Links() {
-    // const savedLanguage = localStorage.getItem("language")
+    const savedLanguage = localStorage.getItem("language")
     const [openMenu, setOpenMenu] = useState(false);
     const { language, setLanguage } = useLanguage();
 
@@ -53,8 +53,8 @@ export function Links() {
                 ]}
             />
             <DropdownMenu
-                // dropdownHeaderValue={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
-                dropdownHeaderValue={language === "English" ? "Language" : "Lenguaje"}
+                dropdownHeaderValue={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
+                // dropdownHeaderValue={language === "English" ? "Language" : "Lenguaje"}
                 dropdownOptions={[{
                     value: language === "English" ? "English" : "Ingles",
                     onClick: () => {
