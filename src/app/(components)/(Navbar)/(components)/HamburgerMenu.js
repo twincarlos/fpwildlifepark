@@ -7,7 +7,7 @@ import { useLanguage } from "@/app/context/LanguageContext";
 
 export function HamburgerMenu({ setOpenMenu }) {
     const {language, setLanguage} = useLanguage()
-    const savedLanguage = localStorage.getItem("language");
+    // const savedLanguage = localStorage.getItem("language");
     return (
         <div className="hamburger-menu-body">
             <div className="hamburger-menu-item-container">
@@ -65,8 +65,8 @@ export function HamburgerMenu({ setOpenMenu }) {
             />
             <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
-                hamburgerDropdownTitle={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
-                // hamburgerDropdownTitle={language === "English" ? "Language" : "Lenguaje"}
+                // hamburgerDropdownTitle={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
+                hamburgerDropdownTitle={language === "English" ? "Language" : "Lenguaje"}
                 hamburgerDropdownOptions={[
                     {
                         name: language === "English" ? "English" : "Ingles",
