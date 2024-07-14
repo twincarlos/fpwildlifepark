@@ -6,7 +6,8 @@ import { MobileBigDropdownMenu } from "./MobileBigDropdownMenu";
 import { useLanguage } from "@/app/context/LanguageContext";
 
 export function HamburgerMenu({ setOpenMenu }) {
-    const {language} = useLanguage()
+    const {language, setLanguage} = useLanguage()
+    const savedLanguage = localStorage.getItem("language");
     return (
         <div className="hamburger-menu-body">
             <div className="hamburger-menu-item-container">
@@ -62,28 +63,26 @@ export function HamburgerMenu({ setOpenMenu }) {
                     }
                 ]}
             />
-            {/* <HamburgerDropdownMenu
+            <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
-                hamburgerDropdownTitle="About"
+                hamburgerDropdownTitle={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
                 hamburgerDropdownOptions={[
                     {
-                        name: "Our Story",
-                        path: "/about/our-story"
+                        name: language === "English" ? "English" : "Ingles",
+                        onClick: () => {
+                            localStorage.setItem("language", "English");
+                            setLanguage("English")
+                        }
                     },
                     {
-                        name: "Our Team",
-                        path: "/about/our-team"
-                    },
-                    {
-                        name: "Education",
-                        path: "/about/education"
-                    },
-                    {
-                        name: "Our Animals",
-                        path: "/about/our-animals"
+                        name: language === "English" ? "Spanish" : "Español",
+                        onClick: () => {
+                            localStorage.setItem("language", "Spanish");
+                            setLanguage("Spanish")
+                        }
                     }
                 ]}
-            /> */}
+            />
             {/* <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
                 hamburgerDropdownTitle="Contact Us"

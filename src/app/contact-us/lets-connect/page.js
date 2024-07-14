@@ -57,13 +57,13 @@ export default function LetsConnect() {
         <main>
             <section className="lets-connect-header">
                 <div>
-                    <h2>{language === "English" ? "Connect with Fragile Planet Wildlife Park" : ""}</h2>
+                    <h2>{language === "English" ? "Connect with Fragile Planet Wildlife Park" : "Conectate con Fragile Planet Wildlife Park"}</h2>
                 </div>
             </section>
             <section className="lets-connect-description">
                 <div>
                     <p>
-                        {language === "English" ? "Get in touch with us! Whether you're curious about our wildlife, conservation efforts, or planning your visit, we're here to assist you. Reach out to our team via phone, email, or visit us in person. We look forward to hearing from you and sharing our commitment to wildlife preservation!" : ""}
+                        {language === "English" ? "Get in touch with us! Whether you're curious about our wildlife, conservation efforts, or planning your visit, we're here to assist you. Reach out to our team via phone, email, or visit us in person. We look forward to hearing from you and sharing our commitment to wildlife preservation!" : "Póngase en contacto con nosotros Tanto si tiene curiosidad por nuestra fauna y flora silvestres, como por nuestros esfuerzos de conservación o por planificar su visita, estamos aquí para ayudarle. Póngase en contacto con nuestro equipo por teléfono, correo electrónico o visítenos en persona. Estamos deseando conocerle y compartir nuestro compromiso con la conservación de la fauna."}
                     </p>
                 </div>
             </section>
@@ -80,18 +80,18 @@ export default function LetsConnect() {
                 {
                     messageSent ? (
                         <div className="thanks-for-contacting">
-                            <p>{language === "English" ? "Thanks for contacting us! We'll get back to you soon." : ""}</p>
+                            <p>{language === "English" ? "Thanks for contacting us! We'll get back to you soon." : "Gracias por ponerse en contacto con nosotros. Nos pondremos en contacto con usted en breve."}</p>
                         </div>
                     ) : null
                 }
                 <div className="contact-us-form">
                     <div className="contact-us-form-row contact-us-form-row-1">
                         <label>
-                            {language === "English" ? "First name" : ""}
+                            {language === "English" ? "First name" : "Primer nombre"}
                             <input type="text" value={data.firstName} onChange={e => setData({ ...data, firstName: e.target.value })} />
                         </label>
                         <label>
-                            {language === "English" ? "Last name" : ""}
+                            {language === "English" ? "Last name" : "Apellido"}
                             <input type="text" value={data.lastName} onChange={e => setData({ ...data, lastName: e.target.value })} />
                         </label>
                     </div>
@@ -101,18 +101,18 @@ export default function LetsConnect() {
                             <input type="text" value={data.email} onChange={e => setData({ ...data, email: e.target.value })} />
                         </label>
                         <label>
-                            {language === "English" ? "Subject" : ""}
+                            {language === "English" ? "Subject" : "Titulo"}
                             <input type="text" value={data.subject} onChange={e => setData({ ...data, subject: e.target.value })} />
                         </label>
                     </div>
                     <div className="contact-us-form-row contact-us-form-row-3">
                         <label>
-                            {language === "English" ? "Leave us a message..." : ""}
+                            {language === "English" ? "Leave us a message..." : "Deja un mensaje..."}
                             <input type="text" value={data.message} onChange={e => setData({ ...data, message: e.target.value })} />
                         </label>
                     </div>
                     <div className="contact-us-form-row contact-us-form-row-4">
-                        <button onClick={hanldeSubmit}>{language === "English" ? "Submit" : ""}</button>
+                        <button onClick={hanldeSubmit}>{language === "English" ? "Submit" : "Enviar"}</button>
                     </div>
                 </div>
                 <div className="lets-connect-footer">
@@ -124,7 +124,7 @@ export default function LetsConnect() {
                     </div>
                     <div className="follow-us-container">
                         <div className="follow-us-text">
-                            <h2>{language === "English" ? "Follow Us" : ""}</h2>
+                            <h2>{language === "English" ? "Follow Us" : "Siguenos"}</h2>
                         </div>
                         <div className="social-media-links">
                             <Link href="https://m.facebook.com/FragilePlanetWildlifePark" target="_blank"><i className="fa-brands fa-facebook" /></Link>

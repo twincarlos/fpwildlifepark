@@ -1,101 +1,97 @@
+"use client"
 import "../Footer.css";
+import { useLanguage } from "@/app/context/LanguageContext";
 
 export default function TicketsTermsAndConditions() {
+    const {language} = useLanguage()
     return (
         <main>
             <section className="page-header tickets-terms-and-conditions-header">
                 <h2>
-                    Safari Park Ticket Term & Conditions
+                    {language === "English" ? "Safari Park Ticket Term & Conditions" : ""}
                 </h2>
             </section>
             <section className="page-content">
                 <p>
-                    Thank you for purchasing tickets to Fragile Planet Wildlife Park! These terms and conditions
-                    apply to all admission and tour tickets.
+                    {language === "English" ? "Thank you for purchasing tickets to Fragile Planet Wildlife Park! These terms and conditions apply to all admission and tour tickets." : ""}
                 </p>
                 <strong>
-                    General Admission:
+                    {language === "English" ? "General Admission:" : ""}
                 </strong>
-                <p>- Tickets are valid only for the date and tour selected at purchase.</p>
+                <p>{language === "English" ? "- Tickets are valid only for the date and tour selected at purchase." : ""}</p>
                 <strong>
-                    Safari Wagon Tour:
-                </strong>
-                <div>
-                    <p>
-                        - Your Safari Wagon tour ticket includes:
-                    </p>
-                    <p className="indent">
-                        - Admission to the Kangaroo Walkabout and Petting Zoo.
-                    </p>
-                    <p className="indent">
-                        - A ride through the safari park on our open-air wagon. (<strong>Note:</strong> Ride duration can
-                        vary between 45 minutes and 1 hour depending on guest loading times.)
-                    </p>
-                    <p>
-                        - Each ticket grants one guest a single ride on the Safari Wagon.
-                    </p>
-                    <p>
-                        - To ride the wagon again, you must purchase an additional ticket.
-                    </p>
-                </div>
-                <strong>
-                    VIP RTV Tour:
+                    {language === "English" ? "Safari Wagon Tour:" : ""}
                 </strong>
                 <div>
                     <p>
-                        Your VIP RTV Tour ticket includes:
+                        {language === "English" ? "- Your Safari Wagon tour ticket includes:" : ""}
                     </p>
                     <p className="indent">
-                        - Admission to the Kangaroo Walkabout and Petting Zoo.
+                        {language === "English" ? "- Admission to the Kangaroo Walkabout and Petting Zoo." : ""}
                     </p>
                     <p className="indent">
-                        - A ride through the safari park on our open-air wagon. (Note: Ride duration can
-                        vary between 1 hour 45 minutes and 2 hours depending on guest loading times.)
-                    </p>
-                    <p className="indent">
-                        - Animal feed for interaction during the tour.
-                    </p>
-                    <p className="indent">
-                        - A rhinoceros iguana feeding encounter.
+                        {language === "English" ? "- A ride through the safari park on our open-air wagon." : ""} (<strong>{language === "English" ? "Note:" : ""}</strong>{language === "English" ? " Ride duration can vary between 45 minutes and 1 hour depending on guest loading times.)" : ""}
                     </p>
                     <p>
-                        - Each VIP RTV Tour ticket grants three (3) guests participation in the tour.
+                        {language === "English" ? "- Each ticket grants one guest a single ride on the Safari Wagon." : ""}
+                    </p>
+                    <p>
+                        {language === "English" ? "- To ride the wagon again, you must purchase an additional ticket." : ""}
                     </p>
                 </div>
                 <strong>
-                    Tour Times:
+                    {language === "English" ? "VIP RTV Tour:" : ""}
                 </strong>
                 <div>
                     <p>
-                        - All tours depart promptly at their scheduled times.
+                        {language === "English" ? "Your VIP RTV Tour ticket includes:" : ""}
+                    </p>
+                    <p className="indent">
+                        {language === "English" ? "- Admission to the Kangaroo Walkabout and Petting Zoo." : ""}
+                    </p>
+                    <p className="indent">
+                        {language === "English" ? "- A ride through the safari park on our open-air wagon. (Note: Ride duration can vary between 1 hour 45 minutes and 2 hours depending on guest loading times.)" : ""}
+                    </p>
+                    <p className="indent">
+                        {language === "English" ? "- Animal feed for interaction during the tour." : ""}
+                    </p>
+                    <p className="indent">
+                        {language === "English" ? "- A rhinoceros iguana feeding encounter." : ""}
                     </p>
                     <p>
-                        - Late arrivals will not be accommodated, and the tour duration will not be extended.
+                        {language === "English" ? "- Each VIP RTV Tour ticket grants three (3) guests participation in the tour." : ""}
                     </p>
                 </div>
                 <strong>
-                    Refunds & Exchanges:
+                    {language === "English" ? "Tour Times:" : ""}
                 </strong>
                 <div>
                     <p>
-                        - Tickets are non-refundable and non-exchangeable.
+                        {language === "English" ? "- All tours depart promptly at their scheduled times." : ""}
                     </p>
                     <p>
-                        - In exceptional circumstances, we may offer a credit for a future tour of equal value.
-                        Please contact us at (956) 710-2025 or info@fpwildlifepark.com to inquire about
-                        applying a credit.
+                        {language === "English" ? "- Late arrivals will not be accommodated, and the tour duration will not be extended." : ""}
                     </p>
                 </div>
                 <strong>
-                    Privacy Policy:
+                    {language === "English" ? "Refunds & Exchanges:" : ""}
+                </strong>
+                <div>
+                    <p>
+                        {language === "English" ? "- Tickets are non-refundable and non-exchangeable." : ""}
+                    </p>
+                    <p>
+                        {language === "English" ? "- In exceptional circumstances, we may offer a credit for a future tour of equal value. Please contact us at (956) 710-2025 or info@fpwildlifepark.com to inquire about applying a credit." : ""}
+                    </p>
+                </div>
+                <strong>
+                    {language === "English" ? "Privacy Policy:" : ""}
                 </strong>
                 <p>
-                    - By entering the park, guests grant Fragile Planet Wildlife Park the right to film, video,
-                    record or photograph guests on park property for any reason.
+                    {language === "English" ? "- By entering the park, guests grant Fragile Planet Wildlife Park the right to film, video, record or photograph guests on park property for any reason." : ""}
                 </p>
                 <p>
-                    We recommend reviewing these terms and conditions thoroughly before purchasing your
-                    {"tickets. If you have any questions, please don't hesitate to contact us!"}
+                    {language === "English" ? "We recommend reviewing these terms and conditions thoroughly before purchasing your tickets. If you have any questions, please don't hesitate to contact us!" : ""}
                 </p>
             </section>
         </main>

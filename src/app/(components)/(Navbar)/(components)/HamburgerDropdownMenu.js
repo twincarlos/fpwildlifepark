@@ -16,13 +16,12 @@ export function HamburgerDropdownMenu({ setOpenMenu, hamburgerDropdownTitle, ham
                     <div className="hamburger-dropdown-options">
                         {
                             hamburgerDropdownOptions.map((hamburgerDropdownOption, index) => (
-                                <Link
+                                <div
                                 key={index}
-                                href={hamburgerDropdownOption.path}
-                                onClick={() => setOpenMenu(false)}
+                                onClick={hamburgerDropdownOption.onClick}
                                 >
                                     {hamburgerDropdownOption.name}
-                                </Link>
+                                </div>
                             ))
                         }
                     </div>

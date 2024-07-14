@@ -7,6 +7,7 @@ import { DropdownMenu } from "./DropdownMenu";
 import { useLanguage } from "@/app/context/LanguageContext";
 
 export function Links() {
+    const savedLanguage = localStorage.getItem("language")
     const [openMenu, setOpenMenu] = useState(false);
     const { language, setLanguage } = useLanguage();
 
@@ -52,13 +53,19 @@ export function Links() {
                 ]}
             />
             <DropdownMenu
-                dropdownHeaderValue="Language"
+                dropdownHeaderValue={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
                 dropdownOptions={[{
-                    value: "English",
-                    onClick: () => setLanguage("English")
+                    value: language === "English" ? "English" : "Ingles",
+                    onClick: () => {
+                        localStorage.setItem("language", "English");
+                        setLanguage("English")
+                    }
                 },{
-                    value: "Spanish",
-                    onClick: () => setLanguage("Spanish")
+                    value: language === "English" ? "Spanish" : "Español",
+                    onClick: () => {
+                        localStorage.setItem("language", "Spanish");
+                        setLanguage("Spanish")
+                    }
                 }]}
             />
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
