@@ -4,6 +4,10 @@ import { Navbar } from "./(components)/(Navbar)/Navbar";
 import { Footer } from "./(components)/(Footer)/Footer";
 import { LanguageProvider } from "./context/LanguageContext";
 import Script from "next/script";
+import dynamic from "next/dynamic";
+const {LanguageProvider} = dynamic(() => import("./context/LanguageContext"), {
+  ssr: false
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
