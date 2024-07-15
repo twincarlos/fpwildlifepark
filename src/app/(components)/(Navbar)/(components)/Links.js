@@ -55,6 +55,7 @@ export function Links() {
             <DropdownMenu
                 dropdownHeaderValue={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
                 // dropdownHeaderValue={language === "English" ? "Language" : "Lenguaje"}
+                dropdownHeaderIcon={<i className="fa-solid fa-earth-americas" />}
                 dropdownOptions={[{
                     value: language === "English" ? "English" : "Ingles",
                     onClick: () => {
