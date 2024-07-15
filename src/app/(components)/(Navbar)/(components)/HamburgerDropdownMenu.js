@@ -8,6 +8,7 @@ export function HamburgerDropdownMenu({ setOpenMenu, hamburgerDropdownTitle, ham
     return (
         <div className="hamburger-menu-item-container hamburger-dropdown">
             <div onClick={() => setShowOptions(!showOptions)} className="hamburger-menu-item hamburger-dropdown-title">
+                <i className="fa-solid fa-earth-americas" />
                 <p>{hamburgerDropdownTitle}</p>
                 { showOptions ? <i className="fa-solid fa-chevron-up" /> : <i className="fa-solid fa-chevron-down" /> }
             </div>
