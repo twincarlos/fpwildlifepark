@@ -65,21 +65,21 @@ export function HamburgerMenu({ setOpenMenu }) {
             />
             <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
-                hamburgerDropdownTitle={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
+                hamburgerDropdownTitle={savedLanguage || "English"}
                 // hamburgerDropdownTitle={language === "English" ? "Language" : "Lenguaje"}
                 hamburgerDropdownOptions={[
                     {
-                        name: language === "English" ? "English" : "Ingles",
+                        name: "English",
                         onClick: () => {
                             localStorage.setItem("language", "English");
                             setLanguage("English")
                         }
                     },
                     {
-                        name: language === "English" ? "Spanish" : "Español",
+                        name: "Español",
                         onClick: () => {
-                            localStorage.setItem("language", "Spanish");
-                            setLanguage("Spanish")
+                            localStorage.setItem("language", "Español");
+                            setLanguage("Español")
                         }
                     }
                 ]}
