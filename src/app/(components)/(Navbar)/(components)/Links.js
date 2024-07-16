@@ -53,20 +53,20 @@ export function Links() {
                 ]}
             />
             <DropdownMenu
-                dropdownHeaderValue={savedLanguage ? (savedLanguage === "English" ? "English" : "Español") : "Language"}
+                dropdownHeaderValue={savedLanguage ? (savedLanguage || "English"}
                 // dropdownHeaderValue={language === "English" ? "Language" : "Lenguaje"}
                 dropdownHeaderIcon={<i className="fa-solid fa-earth-americas" />}
                 dropdownOptions={[{
-                    value: language === "English" ? "English" : "Ingles",
+                    value: "English",
                     onClick: () => {
                         localStorage.setItem("language", "English");
                         setLanguage("English")
                     }
                 },{
-                    value: language === "English" ? "Spanish" : "Español",
+                    value: "Español",
                     onClick: () => {
-                        localStorage.setItem("language", "Spanish");
-                        setLanguage("Spanish")
+                        localStorage.setItem("language", "Español");
+                        setLanguage("Español")
                     }
                 }]}
             />
