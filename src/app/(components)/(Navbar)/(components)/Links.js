@@ -53,22 +53,35 @@ export function Links() {
                 ]}
             />
             <DropdownMenu
-                dropdownHeaderValue={savedLanguage ? (savedLanguage || "English"}
+                dropdownHeaderValue={savedLanguage || "English"}
                 // dropdownHeaderValue={language === "English" ? "Language" : "Lenguaje"}
                 dropdownHeaderIcon={<i className="fa-solid fa-earth-americas" />}
-                dropdownOptions={[{
-                    value: "English",
-                    onClick: () => {
-                        localStorage.setItem("language", "English");
-                        setLanguage("English")
-                    }
-                },{
-                    value: "Español",
-                    onClick: () => {
+                // dropdownOptions={[{
+                //     value: "English",
+                //     onClick: () => {
+                //         localStorage.setItem("language", "English");
+                //         setLanguage("English")
+                //     }
+                // },{
+                //     value: "Español",
+                //     onClick: () => {
+                //         localStorage.setItem("language", "Español");
+                //         setLanguage("Español")
+                //     }
+                // }]}
+                onClick={() => {
+                    if (savedLanguage === "English") {
                         localStorage.setItem("language", "Español");
                         setLanguage("Español")
-                    }
-                }]}
+                    } else if (savedLanguage === "Español") {
+                        localStorage.setItem("language", "English");
+                        setLanguage("English")
+                    } else {
+                        localStorage.setItem("language", "Español");
+                        setLanguage("Español")
+                    };
+                }}
+                dropdownOptions={[]}
             />
             <i onClick={() => setOpenMenu(!openMenu)} className="menu-icon Small fa-solid fa-bars" />
             {

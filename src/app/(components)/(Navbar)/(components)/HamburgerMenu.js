@@ -66,23 +66,35 @@ export function HamburgerMenu({ setOpenMenu }) {
             <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
                 hamburgerDropdownTitle={savedLanguage || "English"}
+                onClick={() => {
+                    if (savedLanguage === "English") {
+                        localStorage.setItem("language", "Español");
+                        setLanguage("Español")
+                    } else if (savedLanguage === "Español") {
+                        localStorage.setItem("language", "English");
+                        setLanguage("English")
+                    } else {
+                        localStorage.setItem("language", "Español");
+                        setLanguage("Español")
+                    };
+                }}
                 // hamburgerDropdownTitle={language === "English" ? "Language" : "Lenguaje"}
-                hamburgerDropdownOptions={[
-                    {
-                        name: "English",
-                        onClick: () => {
-                            localStorage.setItem("language", "English");
-                            setLanguage("English")
-                        }
-                    },
-                    {
-                        name: "Español",
-                        onClick: () => {
-                            localStorage.setItem("language", "Español");
-                            setLanguage("Español")
-                        }
-                    }
-                ]}
+                // hamburgerDropdownOptions={[
+                //     {
+                //         name: "English",
+                //         onClick: () => {
+                //             localStorage.setItem("language", "English");
+                //             setLanguage("English")
+                //         }
+                //     },
+                //     {
+                //         name: "Español",
+                //         onClick: () => {
+                //             localStorage.setItem("language", "Español");
+                //             setLanguage("Español")
+                //         }
+                //     }
+                // ]}
             />
             {/* <HamburgerDropdownMenu
                 setOpenMenu={setOpenMenu}
