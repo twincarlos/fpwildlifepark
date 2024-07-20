@@ -4,9 +4,11 @@ import tour1Image from "../../../../(assets)/tour-1.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import tour4Image from "../../../../(assets)/tour-4.png";
+import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
 import Link from "next/link";
 
-export function HomeComponent2({ language, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
+export function HomeComponent2({ language, tour5Price, tour5Link, tour5Description, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
+
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -56,6 +58,42 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                     <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">
+                                <Image alt="tour-5" src={tour5Image} />
+                            </div>
+                            <div className="tour-name">
+                                <p>{language === "English" ? "Sips With Sloths" : "Sips With Sloths"}</p>
+                            </div>
+                            <div className="tour-description">
+                                {tour5Description}
+                            </div>
+                        </div>
+                        <div className="tour-footer">
+                            <div className="tour-button">
+                                <Link href={tour5Link ? tour5Link : "/"}>
+                                    <div className="book-tour-text">
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                    </div>
+                                    {
+                                        tour5Price ? (
+                                            <div className="book-tour-price">
+                                                <p className="tour-price-text">{tour5Price}</p>
+                                            </div>
+                                        ) : null
+                                    }
+                                </Link>
+                            </div>
+                            {
+                                tour5Price ? (
+                                    <div className="tour-price">
+                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
+                                    </div>
+                                ) : null
+                            }
+                        </div>
+                    </div>
+                    {tour2Description && <div className="tour-container">
+                        <div className="tour-body">
+                            <div className="tour-image">
                                 <Image alt="tour-2" src={tour2Image} />
                             </div>
                             <div className="tour-name">
@@ -88,7 +126,7 @@ export function HomeComponent2({ language, tour1Price, tour1Description, tour2Pr
                                 ) : null
                             }
                         </div>
-                    </div>
+                    </div>}
                     <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">

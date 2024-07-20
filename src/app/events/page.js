@@ -6,6 +6,8 @@ import grandparentsDay from "../(assets)/grandparents-day.png";
 import fathersDay from "../(assets)/fathers-day.png";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
+import sipsWithSloths from "../(assets)/sips-with-sloths.png";
+import tipsySafari from "../(assets)/tipsy-safari.png";
 
 export default function Events() {
     const {language} = useLanguage();
@@ -33,7 +35,7 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : "Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!"}
+                                {language === "English" ? "Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : "Únete a nosotros para un evento de bienvenida para que las mamás conozcan a otras mamás. Consigue comida gratis para los animales y disfruta de una mimosa gratis. Ven a pasar una mañana de diversión con los animales y conoce a nuestros embajadores SAFARI."}
                             </p>
                         </div>
                         <div>
@@ -41,22 +43,22 @@ export default function Events() {
                                 {language === "English" ? "This includes admission to the:" : "Esto incluye accesso a:"}
                             </p>
                             <p>
-                                {language === "English" ? "- Safari Wagon Tour" : ""}
+                                {language === "English" ? "- Safari Wagon Tour" : "- Safari Wagon Tour"}
                             </p>
                             <p>
-                                {language === "English" ? "- Kangaroo / Wallaby" : ""}
+                                {language === "English" ? "- Kangaroo / Wallaby" : "- Kangaroo / Wallaby"}
                             </p>
                             <p>
-                                {language === "English" ? "- Petting Zoo" : ""}
+                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
                             </p>
                             <p>
-                                {language === "English" ? "- Tent Mixer" : ""}
+                                {language === "English" ? "- Tent Mixer" : "- Tent Mixer"}
                             </p>
                             <p>
-                                {language === "English" ? "- FREE Mimosa" : ""}
+                                {language === "English" ? "- FREE Mimosa" : "- Mimosa GRATIS"}
                             </p>
                             <p>
-                                {language === "English" ? "- FREE Popsicles" : ""}
+                                {language === "English" ? "- FREE Popsicles" : "- Palets GRATIS"}
                             </p>
                         </div>
                         <div>
@@ -71,54 +73,89 @@ export default function Events() {
                 </div>
                 <div className="event">
                     <div className="events-img">
-                        <Image src={grandparentsDay} />
+                        <Image src={sipsWithSloths} />
                     </div>
                     <div className="events-details">
                         <div>
                             <h1 className="event-name">
                                 <strong>
-                                    {language === "English" ? "GRANDPARENT'S DAY" : "GRANDPARENT'S DAY"}
+                                    {language === "English" ? "Sips With Sloths" : "Sips With Sloths"}
                                 </strong>
                             </h1>
                             <p>
-                                {language === "English" ? "EVERY MONDAY" : "TODOS LOS LUNES"}
+                                {language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}
                             </p>
                             <p>
-                                {language === "English" ? "10 AM, 11AM, 12PM TOUR" : "10 AM, 11AM, 12PM TOUR"}
+                                {language === "English" ? "Drink Wine and Support Sloth Conservation!" : "Veve Vino y Apoya los Conservacion de los Perezosos!"}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "Join us for our GRANDPARENT'S DAY and receive a FREE small feed cup and your grandchild too. Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : "Únase a nosotros en nuestro DÍA DE LOS ABUELOS y reciba un pequeño comedero GRATIS y su nieto también. Ven a pasar una mañana de diversión con los animales y conoce a nuestros embajadores SAFARI."}
+                                {language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "This includes admission to the:" : "Esto incluye acceso a"}
+                                {language === "English" ? "This includes admission to the:" : "Esto incluye accesso a:"}
                             </p>
                             <p>
-                                {language === "English" ? "- Safari Wagon Tour" : ""}
+                                {language === "English" ? "- Wine Tastings" : "- Degustacion de Vinos"}
                             </p>
                             <p>
-                               {language === "English" ? " - Kangaroo / Wallaby" : ""}
+                                {language === "English" ? "- Sloth Encounters and Photo Opportunity" : "- Encuentros con perezosos y oportunidad para tomar fotos"}
                             </p>
                             <p>
-                                {language === "English" ? "- Petting Zoo" : ""}
+                                {language === "English" ? "- Mini Safari Wagon Ride" : "- Atraccion de Mini Safari Wagon"}
                             </p>
                             <p>
-                                {language === "English" ? "- Tent Mixer" : ""}
+                                {language === "English" ? "- Animal Encounters and Feedings" : "- Encuentros con animales y alimentación"}
                             </p>
                             <p>
-                                {language === "English" ? "- FREE Mimosa" : ""}
+                                {language === "English" ? "- Mixer and Small Plates from Fat Pelican Food Truck" : "- Mezclador y pequeños platos de Fat Pelican Food Truck"}
                             </p>
+                        </div>
+                        <div className="book-event">
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="event">
+                    <div className="events-img">
+                        <Image src={tipsySafari} />
+                    </div>
+                    <div className="events-details">
+                        <div>
+                            <h1 className="event-name">
+                                <strong>
+                                    {language === "English" ? "Tipsy Safari" : "Tipsy Safari"}
+                                </strong>
+                            </h1>
                             <p>
-                               {language === "English" ? " - FREE Popsicles" : ""}
+                                {language === "English" ? "Experience the excitement of Tipsy Safari Night, an exclusive adults-only adventure! Enjoy wine tastings, intimate animal encounters, and an educational amphibian lab tour. This special evening features adults-only safari wagon rides, perfect for couples, groups of friends, dates, or ladies' nights out." : "Viva la emoción de Tipsy Safari Night, una aventura exclusiva sólo para adultos. Disfrute de catas de vino, encuentros íntimos con animales y una visita educativa al laboratorio de anfibios. Esta velada especial incluye paseos en carromato safari solo para adultos, perfectos para parejas, grupos de amigos, citas o noches de chicas."}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "**General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*" : "La entrada general incluirá un pequeño comedero de zoo GRATIS por familia. Una Mimosa GRATIS por mamá."}
+                                {language === "English" ? "Your Tipsy Safari Night tour includes:" : "Su excursión Tipsy Safari incluye:"}
                             </p>
+                            <p>
+                                {language === "English" ? "- Safari Wagon Sunset Tour" : "- Safari Wagon Sunset Tour"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Kangaroo / Wallaby" : "- Canguro / Wallaby"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Petting Zoo" : "- Zoo de mascotas"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Free 4 Station Wine Tasters" : "- Degustación gratuita de vinos en 4 estaciones"}
+                            </p>
+                            <p>
+                                {language === "English" ? "General Admission: $35" : "Entrada general: 35"}
+                            </p>
+                        </div>
+                        <div className="book-event">
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
                         </div>
                     </div>
                 </div>

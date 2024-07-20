@@ -19,12 +19,12 @@ export function Home() {
                     </>
                 }
                 tour1Link="/tickets"
-                tour2Description={
+                tour5Description={
                     <>
-                        <p className="text-align-justify">{language === "English" ? "For an exclusive and personalized experience, our VIP RTV Tour offers the ultimate adventure. Spend two hours exploring our Safari Park on a private RTV ride, guided by our expert staff. You'll see magnificent animals up close, enjoy special activities not available to the public, and receive complimentary animal food for feeding." : "Si desea vivir una experiencia exclusiva y personalizada, nuestro Tour VIP en RTV le ofrece la aventura definitiva.Pase dos horas explorando nuestro Safari Park en un paseo privado en RTV, guiado por nuestro personal experto.Verá magníficos animales de cerca, disfrutará de actividades especiales no disponibles para el público y recibirá comida de animales de cortesía para alimentarlos."}</p>
+                        <p className="text-align-justify">{language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}</p>
                     </>
                 }
-                tour2Link="/tickets"
+                tour5Link="/tickets"
                 tour3Description={
                     <>
                         <p className="text-align-justify">{language === "English" ? "Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 40 people. Explore the Safari Park with of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique, private, and unforgettable connection with nature." : "Experimente la naturaleza salvaje en un entorno exclusivo con nuestra Excursión Privada en Vagón Safari para un máximo de 40 personas. Explore el Safari Park con nuestros extraordinarios embajadores animales y disfrute de encuentros íntimos y educativos. Perfecto para familias numerosas, amigos u ocasiones especiales, este tour ofrece una conexión única, privada e inolvidable con la naturaleza."}</p>

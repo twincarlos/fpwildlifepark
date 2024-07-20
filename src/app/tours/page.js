@@ -7,7 +7,7 @@ import { useLanguage } from "../context/LanguageContext";
 export default function Tours() {
     const {language} = useLanguage()
     return (
-        <main>
+        <main className="tours">
             <ToursHeader language={language} />
             <HomeComponent2
                 tour1Price="$15"
@@ -17,6 +17,20 @@ export default function Tours() {
                     </>
                 }
                 tour1Link="/tickets"
+                tour5Price="$45"
+                tour5Description={
+                    <>
+                        <p>{language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}</p>
+                        <p className="text-align-justify">{language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}</p>
+                        <p>{language === "English" ? "This includes admission to the:" : "Esto incluye acceso a:"}</p>
+                        <p>{language === "English" ? "- Wine Tastings" : "- Degustacion de Vinos"}</p>
+                        <p>{language === "English" ? "- Sloth Encounters and Photo Opportunity" : "- Encuentros con perezosos y oportunidad para tomar fotos"}</p>
+                        <p>{language === "English" ? "- Mini Safari Wagon Ride" : "- Atraccion de Mini Safari Wagon"}</p>
+                        <p>{language === "English" ? "- Animal Encounters and Feedings" : "- Encuentros con animales y alimentación"}</p>
+                        <p>{language === "English" ? "- Mixer and Small Plates from Fat Pelican Food Truck" : "- Mezclador y pequeños platos de Fat Pelican Food Truck"}</p>
+                    </>
+                }
+                tour5Link="/tickets"
                 tour2Price="$200"
                 tour2Description={
                     <>

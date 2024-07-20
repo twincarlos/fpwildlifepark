@@ -7,3 +7,11 @@
 section.tours-header h2 {
     font-size: 30px;
 }
+
+.tours .tours-list {
+    width: 80%;
+}
+
+.tours .tour-container {
+    min-width: 25%;
+}

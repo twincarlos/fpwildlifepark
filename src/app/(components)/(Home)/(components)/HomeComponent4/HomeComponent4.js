@@ -15,7 +15,7 @@ export function HomeComponent4({language}) {
                     <p className="park-name">Fragile Planet Wildlife Park</p>
                     <h2 className="getting-there">{language === "English" ? "Getting Here" : "Como llegar aqui"}</h2>
                     <p className="park-address">34748 FM2480, Los Fresnos, TX 78566</p>
-                    <p className="location-description">{language === "English" ? "Fragile Planet Wildlife Park is located just outside of Natureville, nestled in the beautiful green landscapes, minutes from Brownsville and Harlingen." : "Fragile Planet Wildlife Park se encuentra a las afueras de Natureville, enclavado en un hermoso paisaje verde, a pocos minutos de Brownsville y Harlingen."}</p>
+                    <p className="location-description">{language === "English" ? "Fragile Planet Wildlife Park is located in Los Fresnos, Texas, nestled in the beautiful landscapes, minutes from Brownsville and Harlingen." : "Fragile Planet Wildlife Park se encuentra en Los Fresnos, Texas, enclavado en un bello paisaje, a pocos minutos de Brownsville y Harlingen."}</p>
                     <Link href="https://maps.app.goo.gl/9vGc7XmMQP2GZHPG7" target="_blank" className="get-directions-button">{language === "English" ? "Get Directions " : "Direcciones"}<i className="fa-solid fa-paper-plane" /></Link>
                 </div>
             </div>
