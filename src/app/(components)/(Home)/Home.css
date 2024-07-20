@@ -520,8 +520,8 @@ h2.getting-there {
         gap: 1em;
     }
 
-    .tour-container {
-        min-width: 95%;
+    .tours-list .tour-container {
+        min-width: 95% !important;
     }
 
     .container-row {

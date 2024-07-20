@@ -15,3 +15,7 @@ section.tours-header h2 {
 .tours .tour-container {
     min-width: 25%;
 }
+
+.tours .tours-list {
+    padding-left: 0;
+}
