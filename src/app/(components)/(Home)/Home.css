@@ -518,10 +518,11 @@ h2.getting-there {
         overflow-x: scroll;
         justify-content: flex-start;
         padding: 2em;
+        gap: 1em;
     }
 
     .tour-container {
-        min-width: 100%;
+        min-width: 95%;
     }
 
     .container-row {
