@@ -475,6 +475,26 @@ h2.getting-there {
 }
 
 @media screen and (max-width: 1200px) {
+    .tours-list.tour-container-1 .tour-container {
+        right: 0px;
+    }
+
+    .tours-list.tour-container-2 .tour-container {
+        right: 330px;
+    }
+
+    .tours-list.tour-container-3 .tour-container {
+        right: 670px;
+    }
+
+    .tours-list.tour-container-4 .tour-container {
+        right: 1000px;
+    }
+
+    .tours-list.tour-container-5 .tour-container {
+        right: 0px;
+    }
+
     .component-description.tour-departures h2 {
         font-size: 20px;
     }
@@ -515,15 +535,17 @@ h2.getting-there {
 
     .tours-list {
         width: 100%;
-        overflow-x: scroll;
         justify-content: flex-start;
         padding: 2em;
         gap: 1em;
+        position: relative;
+        overflow-x: hidden;
     }
 
     .tours-list .tour-container {
         min-width: 90% !important;
         position: relative;
+        transition: .5s;
     }
 
     .container-row {

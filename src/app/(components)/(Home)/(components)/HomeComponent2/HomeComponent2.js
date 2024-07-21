@@ -6,9 +6,10 @@ import tour3Image from "../../../../(assets)/tour-3.png";
 import tour4Image from "../../../../(assets)/tour-4.png";
 import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
 import Link from "next/link";
+import { useState } from "react";
 
 export function HomeComponent2({ language, tour5Price, tour5Link, tour5Description, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
-    console.log(language)
+    const [containerNumber, setContainerNumber] = useState("1");
     return (
         <section className="home-component home-component-2">
             <div className="container">
@@ -18,8 +19,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                 <div className="component-description">
                     <p>{language === "English" ? "Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP RTV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!" : "No se pierda estas increíbles experiencias. Ya sea maravillándose con las vistas desde nuestro Safari Wagon o acelerando la emoción en nuestro Tour VIP en RTV, tiene garantizada una aventura sin igual. Reserve su excursión hoy mismo y descubra las maravillas que le esperan."}</p>
                 </div>
-                <div className="tours-list">
-                    <div className="tour-container">
+                <div className={`tours-list tour-container-${containerNumber}`}>
+                    <div className="tour-container" onClick={() => setContainerNumber("1")}>
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-1" src={tour1Image} />
@@ -55,7 +56,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                             }
                         </div>
                     </div>
-                    <div className="tour-container">
+                    <div className="tour-container" onClick={() => setContainerNumber("2")}>
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-5" src={tour5Image} />
@@ -91,7 +92,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                             }
                         </div>
                     </div>
-                    {tour2Description && <div className="tour-container">
+                    {tour2Description && <div className="tour-container" onClick={() => setContainerNumber("3")}>
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-2" src={tour2Image} />
@@ -127,7 +128,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                             }
                         </div>
                     </div>}
-                    <div className="tour-container">
+                    <div className="tour-container" onClick={() => tour2Description ? setContainerNumber("4") : setContainerNumber("3")}>
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-3" src={tour3Image} />
@@ -163,7 +164,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                             }
                         </div>
                     </div>
-                    <div className="tour-container">
+                    <div className="tour-container" onClick={() => tour2Description ? setContainerNumber("5") : setContainerNumber("4")}>
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-4" src={tour4Image} />

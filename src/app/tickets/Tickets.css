@@ -21,4 +21,24 @@ section.tickets-header h2 {
     .tickets .tours-list .tour-container {
         min-width: 95% !important;
     }
+
+    .tickets .tours-list.tour-container-1 .tour-container {
+        right: 0px;
+    }
+
+    .tickets .tours-list.tour-container-2 .tour-container {
+        right: 355px;
+    }
+
+    .tickets .tours-list.tour-container-3 .tour-container {
+        right: 720px;
+    }
+
+    .tickets .tours-list.tour-container-4 .tour-container {
+        right: 1085px;
+    }
+
+    .tickets .tours-list.tour-container-5 .tour-container {
+        right: 1440px;
+    }
 }
