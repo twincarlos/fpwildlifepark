@@ -11,8 +11,8 @@ section.page-header h2 {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 1000px;
     gap: 1em;
+    max-width: 1000px;
 }
 
 p.indent {
