@@ -19,3 +19,9 @@ section.tickets-header h2 {
 .tickets .tours-list {
     padding-left: 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .tickets .tours-list .tour-container {
+        min-width: 95% !important;
+    }
+}
