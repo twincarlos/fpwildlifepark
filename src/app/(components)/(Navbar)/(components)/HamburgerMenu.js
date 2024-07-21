@@ -12,21 +12,21 @@ export function HamburgerMenu({ setOpenMenu }) {
         <div className="hamburger-menu-body">
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/tickets">{language === "English" ? "Tickets" : "Entradas"}</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/tickets"><i className="fa-solid fa-ticket" /> {language === "English" ? "Tickets" : "Entradas"}</Link>
                 </div>
             </div>
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/tours">{language === "English" ? "Tours" : "Tours"}</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/tours"><i className="fa-solid fa-tractor" /> {language === "English" ? "Tours" : "Tours"}</Link>
                 </div>
             </div>
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/events">{language === "English" ? "Events" : "Eventos"}</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/events"><i className="fa-solid fa-calendar-days" /> {language === "English" ? "Events" : "Eventos"}</Link>
                 </div>
             </div>
             <MobileBigDropdownMenu
-                // dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
+                dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 setOpenMenu={setOpenMenu}
                 dropdownHeaderValue={language === "English" ? "About" : "Sobre Nosotros"}
                 dropdownOptions={[
@@ -45,7 +45,7 @@ export function HamburgerMenu({ setOpenMenu }) {
                 ]}
             />
             <MobileBigDropdownMenu
-                // dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
+                dropdownHeaderIcon={<i className="fa-solid fa-campground" />}
                 setOpenMenu={setOpenMenu}
                 dropdownHeaderValue={language === "English" ? "Contact Us" : "Contactanos"}
                 dropdownOptions={[

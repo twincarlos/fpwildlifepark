@@ -10,6 +10,7 @@ export default function Tours() {
         <main className="tours">
             <ToursHeader language={language} />
             <HomeComponent2
+                language={language}
                 tour1Price="$15"
                 tour1Description={
                     <>

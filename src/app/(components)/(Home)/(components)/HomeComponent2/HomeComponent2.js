@@ -8,7 +8,7 @@ import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
 import Link from "next/link";
 
 export function HomeComponent2({ language, tour5Price, tour5Link, tour5Description, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
-
+    console.log(language)
     return (
         <section className="home-component home-component-2">
             <div className="container">
