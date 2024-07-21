@@ -17,7 +17,8 @@ section.tours-header h2 {
 }
 
 .tours .tours-list {
-    padding-left: 0;
+    width: 100vw;
+    padding-left: 30px;
 }
 
 @media screen and (max-width: 1200px) {

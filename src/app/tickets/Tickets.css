@@ -8,16 +8,13 @@ section.tickets-header h2 {
     font-size: 30px;
 }
 
-.tickets .tours-list {
-    width: 80%;
-}
-
 .tickets .tour-container {
     min-width: 25%;
 }
 
 .tickets .tours-list {
-    padding-left: 0;
+    width: 100vw;
+    padding-left: 30px;
 }
 
 @media screen and (max-width: 1200px) {

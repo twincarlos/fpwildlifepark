@@ -478,7 +478,7 @@ h2.getting-there {
     .component-description.tour-departures h2 {
         font-size: 20px;
     }
-    
+
     .component-header h2 {
         font-size: 22px;
     }
@@ -523,6 +523,7 @@ h2.getting-there {
 
     .tours-list .tour-container {
         min-width: 90% !important;
+        position: relative;
     }
 
     .container-row {
