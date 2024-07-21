@@ -21,27 +21,27 @@ export default function OurTeam() {
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee1} />
                         <p className="employee-name">Sam Wolter</p>
-                        <p className="employee-title">{language === "English" ? "Animal Care Manager" : ""}</p>
+                        <p className="employee-title">{language === "English" ? "Animal Care Manager" : "Encargado de Cuidado de Animales"}</p>
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee2} />
                         <p className="employee-name">Jose Elizondo</p>
-                        <p className="employee-title">{language === "English" ? "Safari Guide" : "Safari Guide"}</p>
+                        <p className="employee-title">{language === "English" ? "Safari Guide" : "Guia de Safari"}</p>
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee4} />
                         <p className="employee-name">Jorge Garcia</p>
-                        <p className="employee-title">{language === "English" ? "Lead Educator" : "Lead Educator"}</p>
+                        <p className="employee-title">{language === "English" ? "Lead Educator" : "Director de Educacion"}</p>
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee5} />
                         <p className="employee-name">Cindy Torres</p>
-                        <p className="employee-title">{language === "English" ? "Executive Assistant" : ""}</p>
+                        <p className="employee-title">{language === "English" ? "Office Manager" : "Director de Oficina"}</p>
                     </div>
                     <div className="team-member">
                         <Image className="employee-img" alt="employee" src={employee6} />
                         <p className="employee-name">Daryela Hernandez</p>
-                        <p className="employee-title">{language === "English" ? "Office Manager" : ""}</p>
+                        <p className="employee-title">{language === "English" ? "Executive Assistant" : "Asistente Ejecutivo"}</p>
                     </div>
                 </div>
             </section>

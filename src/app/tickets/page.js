@@ -69,6 +69,7 @@ export default function Tours() {
                 tour4Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no"
                 tour4Description={
                     <>
+                        <p>{language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}</p>
                         <p className="text-align-justify">{language === "English" ? "Experience the excitement of Tipsy Safari Night, an exclusive adults-only adventure! Enjoy wine tastings, intimate animal encounters, and an educational amphibian lab tour. This special evening features adults-only safari wagon rides, perfect for couples, groups of friends, dates, or ladies' nights out." : "Viva la emoción de Tipsy Safari Night, una aventura exclusiva sólo para adultos. Disfrute de catas de vino, encuentros íntimos con animales y una visita educativa al laboratorio de anfibios. Esta velada especial incluye paseos en carromato safari solo para adultos, perfectos para parejas, grupos de amigos, citas o noches de chicas."}</p>
                         <p>{language === "English" ? "Your Tipsy Safari Night tour includes:" : "Tu Tipsy Safari Night tour incluye:"}</p>
                         <p>{language === "English" ? "- Safari Wagon Sunset Tour" : "- Safari Wagon Sunset Tour"}</p>
