@@ -53,7 +53,7 @@
 
 .tours-list {
     overflow-x: scroll;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 2em;
     gap: 1em;
     display: flex;

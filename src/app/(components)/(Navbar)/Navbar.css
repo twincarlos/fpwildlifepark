@@ -192,6 +192,12 @@ img.logo {
         width: 100%;
         justify-content: flex-start;
     }
+
+    .bison-icon {
+        width: 20px;
+        height: 15px;
+        transition: .5s;
+    }
 }
 
 .big-dropdown-menu-body {
