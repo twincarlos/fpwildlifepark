@@ -541,7 +541,7 @@ h2.getting-there {
         padding: 2em;
         gap: 1em;
         position: relative;
-        overflow-x: hidden;
+        overflow-x: scroll;
     }
 
     .tours-list .tour-container {

@@ -23,8 +23,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                 <div className={`tours-list tour-container-${containerNumber}`}>
                     <div className="tour-container">
                         <div className="swipe-box">
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("1")} />
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("2")} />
+                            <div className="inner-box"  />
+                            <div className="inner-box"  />
                         </div>
                         <div className="tour-body">
                             <div className="tour-image">
@@ -63,8 +63,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                     </div>
                     <div className="tour-container">
                         <div className="swipe-box">
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("1")} />
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("3")} />
+                            <div className="inner-box"  />
+                            <div className="inner-box"  />
                         </div>
                         <div className="tour-body">
                             <div className="tour-image">
@@ -103,8 +103,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                     </div>
                     {tour2Description && <div className="tour-container">
                         <div className="swipe-box">
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("2")} />
-                            <div className="inner-box" onMouseMove={() => setContainerNumber("4")} />
+                            <div className="inner-box"  />
+                            <div className="inner-box"  />
                         </div>
                         <div className="tour-body">
                             <div className="tour-image">
@@ -143,8 +143,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                     </div>}
                     <div className="tour-container">
                         <div className="swipe-box">
-                            <div className="inner-box" onMouseMove={() => tour2Description ? setContainerNumber("3") : setContainerNumber("2")} />
-                            <div className="inner-box" onMouseMove={() => tour2Description ? setContainerNumber("5") : setContainerNumber("4")} />
+                            <div className="inner-box"  />
+                            <div className="inner-box"  />
                         </div>
                         <div className="tour-body">
                             <div className="tour-image">
@@ -183,8 +183,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                     </div>
                     <div className="tour-container">
                     <div className="swipe-box">
-                            <div className="inner-box" onMouseMove={() => tour2Description ? setContainerNumber("4") : setContainerNumber("3")} />
-                            <div className="inner-box" onMouseMove={() => tour2Description ? setContainerNumber("5") : setContainerNumber("4")} />
+                            <div className="inner-box"  />
+                            <div className="inner-box"  />
                         </div>
                         <div className="tour-body">
                             <div className="tour-image">
