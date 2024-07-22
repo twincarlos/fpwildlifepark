@@ -4,6 +4,8 @@ import "../../../globals.css";
 import { HamburgerDropdownMenu } from "./HamburgerDropdownMenu";
 import { MobileBigDropdownMenu } from "./MobileBigDropdownMenu";
 import { useLanguage } from "@/app/context/LanguageContext";
+import bisonIcon from "../../../(assets)/bison-icon.png";
+import Image from "next/image";
 
 export function HamburgerMenu({ setOpenMenu }) {
     const {language, setLanguage} = useLanguage()
@@ -17,7 +19,10 @@ export function HamburgerMenu({ setOpenMenu }) {
             </div>
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
-                    <Link onClick={() => setOpenMenu(false)} href="/tours"><i className="fa-solid fa-tractor" /> {language === "English" ? "Tours" : "Tours"}</Link>
+                    <Link onClick={() => setOpenMenu(false)} href="/tours">
+                        <Image className="bison-icon" src={bisonIcon} />
+                        {language === "English" ? "Tours" : "Tours"}
+                    </Link>
                 </div>
             </div>
             <div className="hamburger-menu-item-container">

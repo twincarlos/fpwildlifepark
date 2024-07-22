@@ -5,6 +5,8 @@ import { HamburgerMenu } from "./HamburgerMenu";
 import { BigDropdownMenu } from "./BigDropdownMenu";
 import { DropdownMenu } from "./DropdownMenu";
 import { useLanguage } from "@/app/context/LanguageContext";
+import bisonIcon from "../../../(assets)/bison-icon.png";
+import Image from "next/image";
 
 export function Links() {
     const savedLanguage = localStorage.getItem("language")
@@ -14,7 +16,11 @@ export function Links() {
     return (
         <div className="links">
             <Link className="Large nav-link" href="/tickets"><i className="fa-solid fa-ticket" />{language === "English" ? "Tickets" : "Entradas"}</Link>
-            <Link className="Large nav-link" href="/tours"><i className="fa-solid fa-tractor" />{language === "English" ? "Tours" : "Tours"}</Link>
+            <Link className="Large nav-link link-icon-img" href="/tours">
+                {/* <i className="fa-solid fa-tractor" /> */}
+                <Image className="bison-icon" src={bisonIcon} />
+                {language === "English" ? "Tours" : "Tours"}
+            </Link>
             <Link className="Large nav-link" href="/events"><i className="fa-solid fa-calendar-days" />{language === "English" ? "Events" : "Eventos"}</Link>
             <BigDropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}

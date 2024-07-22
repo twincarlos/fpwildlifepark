@@ -22,10 +22,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                 </div>
                 <div className={`tours-list tour-container-${containerNumber}`}>
                     <div className="tour-container">
-                        <div className="swipe-box">
-                            <div className="inner-box"  />
-                            <div className="inner-box"  />
-                        </div>
+    
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-1" src={tour1Image} />
@@ -62,10 +59,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                         </div>
                     </div>
                     <div className="tour-container">
-                        <div className="swipe-box">
-                            <div className="inner-box"  />
-                            <div className="inner-box"  />
-                        </div>
+    
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-5" src={tour5Image} />
@@ -101,11 +95,8 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                             }
                         </div>
                     </div>
-                    {tour2Description && <div className="tour-container">
-                        <div className="swipe-box">
-                            <div className="inner-box"  />
-                            <div className="inner-box"  />
-                        </div>
+                    {/* {tour2Description && <div className="tour-container">
+    
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-2" src={tour2Image} />
@@ -140,12 +131,9 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                                 ) : null
                             }
                         </div>
-                    </div>}
+                    </div>} */}
                     <div className="tour-container">
-                        <div className="swipe-box">
-                            <div className="inner-box"  />
-                            <div className="inner-box"  />
-                        </div>
+    
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-3" src={tour3Image} />
@@ -182,10 +170,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                         </div>
                     </div>
                     <div className="tour-container">
-                    <div className="swipe-box">
-                            <div className="inner-box"  />
-                            <div className="inner-box"  />
-                        </div>
+
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-4" src={tour4Image} />
