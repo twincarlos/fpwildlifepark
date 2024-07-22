@@ -126,6 +126,7 @@
     background: var(--fourth-color);
     flex-direction: column;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .tour-button button {
@@ -144,6 +145,7 @@
     font-family: 'Montserrat', sans-serif;
     transition: .5s;
     border-radius: 10px;
+    z-index: 1;
 }
 
 .tour-button button:hover {
