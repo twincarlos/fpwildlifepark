@@ -11,6 +11,7 @@ export default function Tours() {
             <TicketsHeader language={language} />
             <HomeComponent2
                 language={language}
+                tour1Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566856/?full-items=yes&flow=no"
                 tour1Price="$15"
                 tour1Description={
                     <>

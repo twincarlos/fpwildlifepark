@@ -8,7 +8,7 @@ import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
 import Link from "next/link";
 import { useState } from "react";
 
-export function HomeComponent2({ language, tour5Price, tour5Link, tour5Description, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
+export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tour5Description, tour1Price, tour1Description, tour2Price, tour2Description, tour2Link, tour3Price, tour3Description, tour3Link, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
     const [containerNumber, setContainerNumber] = useState("1");
 
     return (
@@ -22,7 +22,6 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                 </div>
                 <div className={`tours-list tour-container-${containerNumber}`}>
                     <div className="tour-container">
-    
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-1" src={tour1Image} />
@@ -36,30 +35,19 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <button onClick={() => alert(language === "English" ? "All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations." : "Todos los paseos en Safari Wagon de 15 $ sólo pueden reservarse en la oficina de admisión del parque. Aceptamos reservas anticipadas para grupos de 20 personas o más. Póngase en contacto con nosotros para obtener más información o para hacer reservas de grupo.")}>
+                                <Link href={tour1Link ? tour1Link : "/"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book at Park" : " Reserva en Persona"}
+                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
-                                    {
-                                        tour1Price ? (
-                                            <div className="book-tour-price">
-                                                <p className="tour-price-text">{tour1Price}</p>
-                                            </div>
-                                        ) : null
-                                    }
-                                </button>
+                                </Link>
                             </div>
-                            {
-                                tour1Price ? (
-                                    <div className="tour-price">
-                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
-                                    </div>
-                                ) : null
-                            }
+                            <div className="tour-price" style={{ display: 'none' }}>
+                                <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
+                            </div>
                         </div>
                     </div>
                     <div className="tour-container">
-    
+
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-5" src={tour5Image} />
@@ -133,7 +121,7 @@ export function HomeComponent2({ language, tour5Price, tour5Link, tour5Descripti
                         </div>
                     </div>} */}
                     <div className="tour-container">
-    
+
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-3" src={tour3Image} />
