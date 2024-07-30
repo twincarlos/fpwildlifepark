@@ -33,7 +33,7 @@ export function Home() {
                 tour3Link="/tickets"
                 tour4Description={
                     <>
-                        <p className="text-align-justify">{language === "English" ? "Experience the excitement of Tipsy Safari Night, an exclusive adults-only adventure! Enjoy wine tastings, intimate animal encounters, and an educational amphibian lab tour. This special evening features adults-only safari wagon rides, perfect for couples, groups of friends, dates, or ladies' nights out." : "Viva la emoción de Tipsy Safari Night, una aventura exclusiva sólo para adultos. Disfrute de catas de vino, encuentros íntimos con animales y una visita educativa al laboratorio de anfibios. Esta velada especial incluye paseos en carromato safari solo para adultos, perfectos para parejas, grupos de amigos, citas o noches de chicas."}</p>
+                        <p className="text-align-justify">{language === "English" ? "Join us for an unforgettable evening at Safari Wine Tasting Events, where you can choose between two unique experiences: Sips With Sloths and Tipsy Safari Night. Both events offer the perfect blend of wine tastings, and animal encounters, making them ideal for adults looking to enjoy a fun and educational night out." : "Viva la emoción de Tipsy Safari Night, una aventura exclusiva sólo para adultos. Disfrute de catas de vino, encuentros íntimos con animales y una visita educativa al laboratorio de anfibios. Esta velada especial incluye paseos en carromato safari solo para adultos, perfectos para parejas, grupos de amigos, citas o noches de chicas."}</p>
                     </>
                 }
                 tour4Link="/tickets"
