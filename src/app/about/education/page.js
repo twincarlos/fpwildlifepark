@@ -32,10 +32,10 @@ export default function Education() {
                         <strong>{language === "English" ? "Teacher's Corner" : "Teacher's Corner"}</strong>{language === "English" ? ": A password-protected area featuring games, activity sheets, promotions, and discounted study abroad programs." : ": Una zona protegida por contraseña que ofrece juegos, fichas de actividades, promociones y descuentos en programas de estudios en el extranjero."}
                     </p>
                     <p className="indent">
-                        <strong>{language === "English" ? "Fundraising Opportunities" : "Oportunidades para Recaudar Fondos"}</strong>{language === "English" ? "Programs that help schools earn money." : "Programas que ayudan escuelas a recaudar fondos"}
+                        <strong>{language === "English" ? "Fundraising Opportunities" : "Oportunidades para Recaudar Fondos"}</strong>{language === "English" ? ": Programs that help schools earn money." : ": Programas que ayudan escuelas a recaudar fondos"}
                     </p>
                     <p className="indent">
-                        <strong>{language === "English" ? "Incentives" : "Incentivos"}</strong>{language === "English" ? "Amazon gift cards and free butterfly raise and release kits." : "Tarjetas regalo de Amazon y kits gratuitos de cría y liberación de mariposas."}
+                        <strong>{language === "English" ? "Incentives" : "Incentivos"}</strong>{language === "English" ? ": Amazon gift cards and free butterfly raise and release kits." : ": Tarjetas regalo de Amazon y kits gratuitos de cría y liberación de mariposas."}
                     </p>
                     <p>
                         <strong>{language === "English" ? "Wide Reach:" : "Amplio Alcance"}</strong>
