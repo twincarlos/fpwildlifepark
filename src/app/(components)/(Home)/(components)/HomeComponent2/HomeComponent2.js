@@ -51,9 +51,6 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                     )
                                 }
                             </div>
-                            <div className="tour-price" style={{ display: 'none' }}>
-                                <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
-                            </div>
                         </div>
                     </div>
                     {/* <div className="tour-container">
