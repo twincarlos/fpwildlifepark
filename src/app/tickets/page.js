@@ -44,7 +44,7 @@ export default function Tours() {
                         <div className="modal-option modal-option-1 tour-button">
                             <p>Tipsy Safari</p>
                             <Image alt="Wine Tasting" src={wineTastingImg} />
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566866/?full-items=yes&flow=no" >
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no" >
                                 <div className="book-tour-text">
                                     <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                 </div>
@@ -53,7 +53,7 @@ export default function Tours() {
                         <div className="modal-option modal-option-2 tour-button">
                             <p>Sips With Sloths</p>
                             <Image alt="Sips With Sloths" src={sipsWithSlothsImg} />
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no" >
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no" >
                                 <div className="book-tour-text">
                                     <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                 </div>
