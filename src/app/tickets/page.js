@@ -42,7 +42,7 @@ export default function Tours() {
                 ) : (
                     <>
                         <div className="modal-option modal-option-1 tour-button">
-                            <p>Safari Wine Tasting Events</p>
+                            <p>Tipsy Safari</p>
                             <Image alt="Wine Tasting" src={wineTastingImg} />
                             <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566866/?full-items=yes&flow=no" >
                                 <div className="book-tour-text">
@@ -51,7 +51,7 @@ export default function Tours() {
                             </Link>
                         </div>
                         <div className="modal-option modal-option-2 tour-button">
-                            <p>Tipsy Safari</p>
+                            <p>Sips With Sloths</p>
                             <Image alt="Sips With Sloths" src={sipsWithSlothsImg} />
                             <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no" >
                                 <div className="book-tour-text">
