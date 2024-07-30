@@ -13,6 +13,7 @@ import animal10 from "../../(assets)/animal-10.png";
 import animal11 from "../../(assets)/animal-11.png";
 import Image from "next/image";
 import { useLanguage } from "@/app/context/LanguageContext";
+import Link from "next/link";
 
 export default function AnimalsAndPlants() {
     const {language} = useLanguage()
@@ -23,48 +24,48 @@ export default function AnimalsAndPlants() {
             </section>
             <section className="about-body">
                 <div className="about-content">
-                    <div className="animal-container">
+                    <Link href="/about/our-animals/american-bison" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal2} />
                         <div className="animal-info">
                             <p className="animal-name">American Bison</p>
                         </div>
-                    </div>
-                    <div className="animal-container">
+                    </Link>
+                    <Link href="/about/our-animals/bactrian-camel" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal3} />
                         <div className="animal-info">
-                            <p className="animal-name">Bactrian</p>
+                            <p className="animal-name">Bactrian Camel</p>
                         </div>
-                    </div>
-                    <div className="animal-container">
+                    </Link>
+                    <Link href="/about/our-animals/donkey" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal5} />
                         <div className="animal-info">
                             <p className="animal-name">Donkey</p>
                         </div>
-                    </div>
-                    <div className="animal-container">
+                    </Link>
+                    <Link href="/about/our-animals/emu" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal6} />
                         <div className="animal-info">
                             <p className="animal-name">Emu</p>
                         </div>
-                    </div>
-                    <div className="animal-container">
+                    </Link>
+                    <Link href="/about/our-animals/ostrich" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal8} />
                         <div className="animal-info">
                             <p className="animal-name">Ostrich</p>
                         </div>
-                    </div>
+                    </Link>
                     <div className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal10} />
                         <div className="animal-info">
                             <p className="animal-name">Peahen</p>
                         </div>
                     </div>
-                    <div className="animal-container">
+                    <Link href="/about/our-animals/watusi" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal11} />
                         <div className="animal-info">
                             <p className="animal-name">Watusi</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </section>
         </main>

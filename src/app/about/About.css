@@ -22,6 +22,11 @@ section.about h2 {
 .our-animals-header {
     background-color: var(--fifth-color);
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .about-body {
@@ -95,6 +100,62 @@ p.animal-name {
     position: relative;
     bottom: 40px;
     left: 15px;
+}
+
+.animal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.not-extinct i {
+    background: green;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.critically-endangered i {
+    background: red;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.least-concern i {
+    background: orange;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.at-a-glance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.at-a-glance i {
+    font-size: 30px;
+}
+
+.at-a-glance p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.animal-description p {
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1200px) {

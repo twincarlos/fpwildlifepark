@@ -35,19 +35,28 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href={tour1Link ? tour1Link : "/"}>
-                                    <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
-                                    </div>
-                                </Link>
+                                {
+                                    typeof tour1Link === "string" ? (
+                                        <Link href={tour1Link ? tour1Link : "/"}>
+                                            <div className="book-tour-text">
+                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                            </div>
+                                        </Link>
+                                    ) : (
+                                        <button onClick={tour1Link}>
+                                            <div className="book-tour-text">
+                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                            </div>
+                                        </button>
+                                    )
+                                }
                             </div>
                             <div className="tour-price" style={{ display: 'none' }}>
                                 <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
                             </div>
                         </div>
                     </div>
-                    <div className="tour-container">
-
+                    {/* <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-5" src={tour5Image} />
@@ -82,7 +91,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                 ) : null
                             }
                         </div>
-                    </div>
+                    </div> */}
                     {/* {tour2Description && <div className="tour-container">
     
                         <div className="tour-body">
@@ -121,7 +130,6 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                         </div>
                     </div>} */}
                     <div className="tour-container">
-
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-3" src={tour3Image} />
@@ -158,13 +166,12 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                         </div>
                     </div>
                     <div className="tour-container">
-
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-4" src={tour4Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "Tipsy Safari Night" : "Tipsy Safari Night"}</p>
+                                <p>{language === "English" ? "Safari Winte Tasting Events" : "Safari Winte Tasting Events"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour4Description}
