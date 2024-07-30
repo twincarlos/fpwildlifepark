@@ -6,6 +6,10 @@ import { useLanguage } from "../context/LanguageContext";
 import { useModal } from "../context/ModalContext";
 import Modal from "../(components)/Modal/Modal";
 import Link from "next/link";
+import Image from "next/image";
+import safariWagonTourImg from "../(assets)/tour-1.png";
+import wineTastingImg from "../(assets)/tour-4.png";
+import sipsWithSlothsImg from "../(assets)/sips-with-sloths-home.png";
 
 export default function Tours() {
     const { language } = useLanguage()
@@ -14,28 +18,55 @@ export default function Tours() {
     return (
         <main className="tickets">
             <Modal>
-                <div className="modal-option modal-option-1 tour-button">
-                    <p>Safari Wagon Tour</p>
-                    <button onClick={() => alert("All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations.")}>
-                        <div className="book-tour-text">
-                            <i className="fa-solid fa-ticket" />{language === "English" ? " Book at Park" : " Reserva en Persona"}
+                {showModal === 1 ? (
+                    <>
+                        <div className="modal-option modal-option-1 tour-button">
+                            <p>Safari Wagon Tour</p>
+                            <Image alt="Safari Wagon Tour" src={safariWagonTourImg} />
+                            <button onClick={() => alert("All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations.")}>
+                                <div className="book-tour-text">
+                                    <i className="fa-solid fa-ticket" />{language === "English" ? " Book at Park" : " Reserva en Persona"}
+                                </div>
+                            </button>
                         </div>
-                    </button>
-                </div>
-                <div className="modal-option modal-option-1 tour-button">
-                    <p>Priority Pass</p>
-                    <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566856/?full-items=yes&flow=no" >
-                        <div className="book-tour-text">
-                            <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                        <div className="modal-option modal-option-1 tour-button">
+                            <p>Priority Pass</p>
+                            <Image alt="Safari Wagon Tour" src={safariWagonTourImg} />
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566856/?full-items=yes&flow=no" >
+                                <div className="book-tour-text">
+                                    <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                </div>
+                            </Link>
                         </div>
-                    </Link>
-                </div>
+                    </>
+                ) : (
+                    <>
+                        <div className="modal-option modal-option-1 tour-button">
+                            <p>Safari Wine Tasting Events</p>
+                            <Image alt="Wine Tasting" src={wineTastingImg} />
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566866/?full-items=yes&flow=no" >
+                                <div className="book-tour-text">
+                                    <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                </div>
+                            </Link>
+                        </div>
+                        <div className="modal-option modal-option-2 tour-button">
+                            <p>Tipsy Safari</p>
+                            <Image alt="Sips With Sloths" src={sipsWithSlothsImg} />
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555956/?full-items=yes&flow=no" >
+                                <div className="book-tour-text">
+                                    <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                </div>
+                            </Link>
+                        </div>
+                    </>
+                )}
             </Modal>
             <TicketsHeader language={language} />
             <HomeComponent2
                 language={language}
                 // tour1Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566856/?full-items=yes&flow=no"
-                tour1Link={() => setShowModal(true)}
+                tour1Link={() => setShowModal(1)}
                 tour1Price="$15"
                 tour1Description={
                     <>
@@ -48,20 +79,20 @@ export default function Tours() {
                         <p>{language === "English" ? "Experience the thrill of the wild and create lasting memories with your loved ones. Book your Safari Wagon Tour today and let the adventure begin!" : "Experimente la emoción de lo salvaje y cree recuerdos imborrables con sus seres queridos. Reserve hoy mismo su Safari Wagon Tour y ¡que empiece la aventura!"}</p>
                     </>
                 }
-                // tour5Price="$45"
-                // tour5Description={
-                //     <>
-                //         <p>{language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}</p>
-                //         <p className="text-align-justify">{language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}</p>
-                //         <p>{language === "English" ? "This includes admission to the:" : "Esto incluye acceso a:"}</p>
-                //         <p>{language === "English" ? "- Wine Tastings" : "- Degustacion de Vinos"}</p>
-                //         <p>{language === "English" ? "- Sloth Encounters and Photo Opportunity" : "- Encuentros con perezosos y oportunidad para tomar fotos"}</p>
-                //         <p>{language === "English" ? "- Mini Safari Wagon Ride" : "- Atraccion de Mini Safari Wagon"}</p>
-                //         <p>{language === "English" ? "- Animal Encounters and Feedings" : "- Encuentros con animales y alimentación"}</p>
-                //         <p>{language === "English" ? "- Mixer and Small Plates from Fat Pelican Food Truck" : "- Mezclador y pequeños platos de Fat Pelican Food Truck"}</p>
-                //     </>
-                // }
-                // tour5Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no"
+                tour5Price="$45"
+                tour5Description={
+                    <>
+                        <p>{language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}</p>
+                        <p className="text-align-justify">{language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}</p>
+                        <p>{language === "English" ? "This includes admission to the:" : "Esto incluye acceso a:"}</p>
+                        <p>{language === "English" ? "- Wine Tastings" : "- Degustacion de Vinos"}</p>
+                        <p>{language === "English" ? "- Sloth Encounters and Photo Opportunity" : "- Encuentros con perezosos y oportunidad para tomar fotos"}</p>
+                        <p>{language === "English" ? "- Mini Safari Wagon Ride" : "- Atraccion de Mini Safari Wagon"}</p>
+                        <p>{language === "English" ? "- Animal Encounters and Feedings" : "- Encuentros con animales y alimentación"}</p>
+                        <p>{language === "English" ? "- Mixer and Small Plates from Fat Pelican Food Truck" : "- Mezclador y pequeños platos de Fat Pelican Food Truck"}</p>
+                    </>
+                }
+                tour5Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no"
                 tour2Price="$200"
                 tour2Description={
                     <>
@@ -91,7 +122,8 @@ export default function Tours() {
                     </>
                 }
                 tourDepartureDetails={true}
-                tour4Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566866/?full-items=yes&flow=no"
+                // tour4Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/566866/?full-items=yes&flow=no"
+                tour4Link={() => setShowModal(2)}
                 tour4Description={
                     <>
                         <p>{language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}</p>

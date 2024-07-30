@@ -179,7 +179,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button">
-                                <Link href={tour4Link ? tour4Link : "/"}>
+                                {/* <Link href={tour4Link ? tour4Link : "/"}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
@@ -190,7 +190,22 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                             </div>
                                         ) : null
                                     }
-                                </Link>
+                                </Link> */}
+                                {
+                                    typeof tour4Link === "string" ? (
+                                        <Link href={tour4Link ? tour4Link : "/"}>
+                                            <div className="book-tour-text">
+                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                            </div>
+                                        </Link>
+                                    ) : (
+                                        <button onClick={tour4Link}>
+                                            <div className="book-tour-text">
+                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                            </div>
+                                        </button>
+                                    )
+                                }
                             </div>
                             {
                                 tour4Price ? (

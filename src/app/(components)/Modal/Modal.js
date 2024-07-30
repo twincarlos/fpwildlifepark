@@ -9,7 +9,7 @@ const Modal = ({ children }) => {
   return (
     <div className="modal-overlay">
       <div className="modal" onClick={(e) => e.stopPropagation()}>
-        <button className="modal-close-button" onClick={() => setShowModal(false)}>
+        <button className="modal-close-button" onClick={() => setShowModal(null)}>
           &times;
         </button>
         {children}
