@@ -168,7 +168,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                 <Image alt="tour-4" src={tour4Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "Safari Winte Tasting Events" : "Safari Winte Tasting Events"}</p>
+                                <p>{language === "English" ? "Safari Wine Tasting Events" : "Safari Wine Tasting Events"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour4Description}
