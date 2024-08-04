@@ -1,8 +1,8 @@
 .home-component-1 {
-    height: 725px;
-    background: url("../../(assets)/home-component-1-background-image.png");
+    height: 750px;
+    background: url("../../(assets)/splash-background.png");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -20,13 +20,10 @@
 
 .home-component-1 .text-box p {
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
-}
-
-.home-component-2 {
-    background: var(--tertiary-color);
+    text-transform: uppercase;
 }
 
 .home-component-2 .container {
@@ -55,8 +52,9 @@
     overflow-x: scroll;
     justify-content: center;
     padding: 2em;
-    gap: 1em;
+    gap: 50px;
     display: flex;
+    height: calc(800px*0.87);
 }
 
 .tour-container {
@@ -64,43 +62,74 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
-    background: white;
-    padding: 15px;
+    width: calc(452px*0.8);
+    background: #f4f4f0;
     height: 100%;
-    gap: 1em;
-    border-radius: 10px;
-    box-shadow: #0000003d 0px 0px 20px;
+    border-radius: calc(32px*0.8);
+    box-shadow: #00000029 0px 10px 5px;
+    padding: 15px 0;
 }
 
 .tour-body {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    color: #554435;
 }
 
 .tour-image {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tour-image img {
-    width: 100%;
-    height: 220px;
+    width: calc(355px*0.8);
+    height: calc(355px*0.8);
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: calc(32px*0.8);
+}
+
+.tour-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tour-name p {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: calc(31px*0.8);
     text-align: center;
     font-weight: 700;
+}
+
+.tour-1 .tour-name p {
+    width: 200px;
+}
+
+.tour-2 .tour-name p {
+    width: 234px;
+}
+
+.swt-3 .tour-name p {
+    width: 220px;
 }
 
 .tour-description {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1em;
+}
+
+.tour-description p {
+    text-align: center;
+    font-weight: 550;
+    font-size: calc(18px*0.8);
+    width: calc(359px*0.87);
 }
 
 .tour-description .text-align-justify {
@@ -114,21 +143,39 @@
     align-items: center;
 }
 
-.tour-button a {
-    width: 100%;
-    height: 60px;
+.tour-button a, .tour-button button {
+    width: calc(202px*0.8);
+    height: calc(60px*0.8);
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
     text-transform: uppercase;
-    font-weight: 500;
-    background: var(--fourth-color);
+    font-weight: 600;
     flex-direction: column;
-    border-radius: 10px;
+    border-radius: 50px;
+    color: white;
+    box-shadow: #0000003d 0px 5px;
+    border: none;
 }
 
-.tour-button button {
+.tour-button.green a {
+    background: var(--primary-color);
+}
+
+.tour-button.orange a {
+    background: var(--secondary-color);
+}
+
+.tour-button.green button {
+    background: var(--primary-color);
+}
+
+.tour-button.orange button {
+    background: var(--secondary-color);
+}
+
+/* .tour-button button {
     width: 100%;
     height: 60px;
     display: flex;
@@ -144,11 +191,11 @@
     font-family: 'Montserrat', sans-serif;
     transition: .5s;
     border-radius: 10px;
-}
+} */
 
-.tour-button button:hover {
+/* .tour-button button:hover {
     filter: brightness(0.7);
-}
+} */
 
 .tour-footer {
     width: 100%;
@@ -164,7 +211,8 @@
     justify-content: center;
     align-items: center;
     gap: .5em;
-    font-size: 16px;
+    font-size: calc(24px*0.8);
+    font-family: var(--paragraph-font-family);
 }
 
 .tour-price-text {
@@ -186,8 +234,9 @@
     gap: 1em;
 }
 
-.home-component-3 {
+section.home-component-3 {
     background: white;
+    padding-bottom: 7em;
 }
 
 .home-component-3 .container {
@@ -297,7 +346,7 @@
 }
 
 .home-component-4 {
-    background: var(--tertiary-color);
+    background: #f4f4f0;
     padding: 0;
     justify-content: flex-start;
 }
@@ -543,9 +592,9 @@ h2.getting-there {
     }
 
     .tours-list .tour-container {
-        min-width: 90% !important;
         position: relative;
         transition: .5s;
+        min-width: calc(452px* 0.8);
     }
 
     .container-row {

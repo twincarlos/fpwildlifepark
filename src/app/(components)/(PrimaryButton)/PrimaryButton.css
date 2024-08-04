@@ -3,4 +3,8 @@ a.primary-button {
     background-color: var(--primary-color);
     color: white;
     border-radius: 300px;
+    font-size: calc(24px* 0.8);
+    font-family: var(--paragraph-font-family);
+    text-transform: uppercase;
+    font-weight: 600;
 }

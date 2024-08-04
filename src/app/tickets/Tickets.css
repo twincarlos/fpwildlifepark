@@ -4,8 +4,38 @@
     width: 130%;
 }
 
+.safari-wagon-tour-header {
+    background: var(--primary-color);
+    padding: 4em;
+    width: 130%;
+}
+
+.safari-wine-tasting-events-header {
+    background: var(--secondary-color);
+    padding: 4em;
+    width: 130%;
+}
+
 section.tickets-header h2 {
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+section.safari-wagon-tour-header h2 {
+    font-size: 40px;
+    padding: 0 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+section.safari-wine-tasting-events-header h2 {
+    font-size: 40px;
+    padding: 0 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
 }
 
 .tickets .tour-price {
@@ -25,9 +55,6 @@ section.tickets-header h2 {
 }
 
 @media screen and (max-width: 1200px) {
-    .tickets .tours-list .tour-container {
-        min-width: 95% !important;
-    }
 
     .tickets .tours-list.tour-container-1 .tour-container {
         right: 0px;

@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
-import tour1Image from "../../../../(assets)/tour-1.png";
+import tour1Image from "../../../../(assets)/safari-wagon-tour-green.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
-import tour4Image from "../../../../(assets)/tour-4.png";
+import tour4Image from "../../../../(assets)/safari-wine-tasting-events-orange.png";
 import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
 import Link from "next/link";
 import { useState } from "react";
@@ -21,7 +21,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                     <p>{language === "English" ? "Don't miss out on these incredible experiences! Whether you're marveling at the sights from our Safari Wagon or revving up excitement on our VIP RTV Tour, you're guaranteed an adventure like no other. Book your tour today and discover the wildlife wonders that await!" : "No se pierda estas increíbles experiencias. Ya sea maravillándose con las vistas desde nuestro Safari Wagon o acelerando la emoción en nuestro Tour VIP en RTV, tiene garantizada una aventura sin igual. Reserve su excursión hoy mismo y descubra las maravillas que le esperan."}</p>
                 </div>
                 <div className={`tours-list tour-container-${containerNumber}`}>
-                    <div className="tour-container">
+                    <div className="tour-container tour-1">
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-1" src={tour1Image} />
@@ -34,18 +34,18 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                             </div>
                         </div>
                         <div className="tour-footer">
-                            <div className="tour-button">
+                            <div className="tour-button green">
                                 {
                                     typeof tour1Link === "string" ? (
                                         <Link href={tour1Link ? tour1Link : "/"}>
                                             <div className="book-tour-text">
-                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                                {language === "English" ? " Book tour" : " Reserva tour"}
                                             </div>
                                         </Link>
                                     ) : (
                                         <button onClick={tour1Link}>
                                             <div className="book-tour-text">
-                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                                {language === "English" ? " Book tour" : " Reserva tour"}
                                             </div>
                                         </button>
                                     )
@@ -126,13 +126,13 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                             }
                         </div>
                     </div>} */}
-                    <div className="tour-container">
+                    {/* <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-3" src={tour3Image} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "PRIVATE WAGON SAFARI" : "WAGON SAFARI PRIVADO"}</p>
+                                <p>{language === "English" ? "PARTY SAFARI" : "PARTY SAFARI"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour3Description}
@@ -161,8 +161,8 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                 ) : null
                             }
                         </div>
-                    </div>
-                    <div className="tour-container">
+                    </div> */}
+                    <div className="tour-container tour-2">
                         <div className="tour-body">
                             <div className="tour-image">
                                 <Image alt="tour-4" src={tour4Image} />
@@ -175,7 +175,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                             </div>
                         </div>
                         <div className="tour-footer">
-                            <div className="tour-button">
+                            <div className="tour-button orange">
                                 {/* <Link href={tour4Link ? tour4Link : "/"}>
                                     <div className="book-tour-text">
                                         <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
@@ -192,13 +192,13 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                     typeof tour4Link === "string" ? (
                                         <Link href={tour4Link ? tour4Link : "/"}>
                                             <div className="book-tour-text">
-                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                                {language === "English" ? " Book tour" : " Reserva tour"}
                                             </div>
                                         </Link>
                                     ) : (
                                         <button onClick={tour4Link}>
                                             <div className="book-tour-text">
-                                                <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                                {language === "English" ? " Book tour" : " Reserva tour"}
                                             </div>
                                         </button>
                                     )

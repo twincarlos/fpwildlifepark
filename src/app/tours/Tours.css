@@ -2,10 +2,13 @@
     background: var(--fourth-color);
     padding: 4em;
     width: 130%;
+    color: white;
 }
 
 section.tours-header h2 {
-    font-size: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
 }
 
 .tours .tours-list {

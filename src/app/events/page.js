@@ -17,62 +17,6 @@ export default function Events() {
             <section className="events-content">
                 <div className="event">
                     <div className="events-img">
-                        <Image src={momsGoneWild} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "MOMS GONE WILD" : "MOMS GONE WILD"}
-                                </strong>
-                            </h1>
-                            <p>
-                                {language === "English" ? "EVERY THURSDAY" : "TODOS LOS JUEVES"}
-                            </p>
-                            <p>
-                                {language === "English" ? "10 AM, 11 AM, 12 PM TOUR" : "10 AM, 11 AM, 12 PM TOUR"}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Join us for a greet meet event for Mom’s to meet other Mom’s! Get FREE animal food for the animals & Enjoy a FREE Mimosa on the House! Come for a morning of animal fun and learn about our animal SAFARI ambassadors!" : "Únete a nosotros para un evento de bienvenida para que las mamás conozcan a otras mamás. Consigue comida gratis para los animales y disfruta de una mimosa gratis. Ven a pasar una mañana de diversión con los animales y conoce a nuestros embajadores SAFARI."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "This includes admission to the:" : "Esto incluye accesso a:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Safari Wagon Tour" : "- Safari Wagon Tour"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Kangaroo / Wallaby" : "- Kangaroo / Wallaby"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Tent Mixer" : "- Tent Mixer"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- FREE Mimosa" : "- Mimosa GRATIS"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- FREE Popsicles" : "- Palets GRATIS"}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "**General admission will include one FREE small petting zoo feed cup per family. One FREE Mimosa per Mom.*" : "La entrada general incluirá un pequeño comedero de zoo GRATIS por familia. Una Mimosa GRATIS por mamá."}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555949/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="event">
-                    <div className="events-img">
                         <Image src={sipsWithSloths} />
                     </div>
                     <div className="events-details">
@@ -154,7 +98,7 @@ export default function Events() {
                                 {language === "English" ? "- Free 4 Station Wine Tasters" : "- Degustación gratuita de vinos en 4 estaciones"}
                             </p>
                             <p>
-                                {language === "English" ? "General Admission: $35" : "Entrada general: 35"}
+                                {language === "English" ? "Adult Admission: $35" : "Entrada para adultos: $35"}
                             </p>
                         </div>
                         <div className="book-event">
