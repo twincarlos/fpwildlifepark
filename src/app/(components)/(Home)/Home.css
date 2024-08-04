@@ -524,6 +524,10 @@ h2.getting-there {
 }
 
 @media screen and (max-width: 1200px) {
+    .home-component-1 .text-box p {
+        font-size: 16px;
+    }
+
     .tours-list.tour-container-1 .tour-container {
         right: 0px;
     }
