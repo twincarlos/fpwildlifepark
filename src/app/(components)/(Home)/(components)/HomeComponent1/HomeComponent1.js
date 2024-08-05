@@ -8,7 +8,7 @@ export function HomeComponent1({language}) {
                     <p>{language === "English" ? "Explore animals like never before!" : "Explora los animales como nunca antes!"}</p>
                 </div>
                 <div className="button-box">
-                    <PrimaryButton text={language === "English" ? "Book your Tour" : "Reserva tu Tour"} path="/tours"/>
+                    <PrimaryButton text={language === "English" ? "Book your Tour" : "Reserva tu Tour"} path="/tickets"/>
                 </div>
             </div>
         </section>
