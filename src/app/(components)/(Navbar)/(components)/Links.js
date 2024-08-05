@@ -16,11 +16,11 @@ export function Links() {
     return (
         <div className="links">
             <Link className="Large nav-link" href="/tickets"><i className="fa-solid fa-ticket" />{language === "English" ? "Tickets" : "Entradas"}</Link>
-            <Link className="Large nav-link link-icon-img" href="/tours">
+            {/* <Link className="Large nav-link link-icon-img" href="/tours"> */}
                 {/* <i className="fa-solid fa-tractor" /> */}
-                <Image className="bison-icon" src={bisonIcon} />
-                {language === "English" ? "Tours" : "Tours"}
-            </Link>
+                {/* <Image className="bison-icon" src={bisonIcon} /> */}
+                {/* {language === "English" ? "Tours" : "Tours"} */}
+            {/* </Link> */}
             <Link className="Large nav-link" href="/events"><i className="fa-solid fa-calendar-days" />{language === "English" ? "Events" : "Eventos"}</Link>
             <BigDropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}

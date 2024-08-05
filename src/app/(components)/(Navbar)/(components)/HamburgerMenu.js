@@ -17,14 +17,14 @@ export function HamburgerMenu({ setOpenMenu }) {
                     <Link onClick={() => setOpenMenu(false)} href="/tickets"><i className="fa-solid fa-ticket" /> {language === "English" ? "Tickets" : "Entradas"}</Link>
                 </div>
             </div>
-            <div className="hamburger-menu-item-container">
+            {/* <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
                     <Link onClick={() => setOpenMenu(false)} href="/tours">
                         <Image className="bison-icon" src={bisonIcon} />
                         {language === "English" ? "Tours" : "Tours"}
                     </Link>
                 </div>
-            </div>
+            </div> */}
             <div className="hamburger-menu-item-container">
                 <div className="hamburger-menu-item">
                     <Link onClick={() => setOpenMenu(false)} href="/events"><i className="fa-solid fa-calendar-days" /> {language === "English" ? "Events" : "Eventos"}</Link>
