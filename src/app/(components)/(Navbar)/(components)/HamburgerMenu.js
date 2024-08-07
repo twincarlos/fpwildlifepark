@@ -30,6 +30,11 @@ export function HamburgerMenu({ setOpenMenu }) {
                     <Link onClick={() => setOpenMenu(false)} href="/events"><i className="fa-solid fa-calendar-days" /> {language === "English" ? "Events" : "Eventos"}</Link>
                 </div>
             </div>
+            <div className="hamburger-menu-item-container">
+                <div className="hamburger-menu-item">
+                    <Link onClick={() => setOpenMenu(false)} href="/field-trip"><i className="fa-solid fa-book-open-reader" /> {language === "English" ? "Field Trip" : "Field Trip"}</Link>
+                </div>
+            </div>
             <MobileBigDropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 setOpenMenu={setOpenMenu}
