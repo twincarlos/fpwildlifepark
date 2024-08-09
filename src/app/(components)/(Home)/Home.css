@@ -1,13 +1,27 @@
 .home-component-1 {
     height: 750px;
-    background: url("../../(assets)/splash-background.png");
-    background-size: cover;
-    background-position: bottom;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    /* background: url("../../(assets)/splash-background.png"); */
+    background-size: cover !important;
+    background-position: bottom;
+    justify-content: flex-end;
     padding-bottom: 5em;
+    transition: .5s;
+}
+
+.home-component-1.background-1 {
+    background: url("../../(assets)/splash-background.png");
+}
+
+.home-component-1.background-2 {
+    background: url("../../(assets)/reptile-weekend-home.png");
+}
+
+.home-component-1.background-2 .container {
+    display: none;
 }
 
 .home-component-1 .container {
@@ -143,7 +157,8 @@
     align-items: center;
 }
 
-.tour-button a, .tour-button button {
+.tour-button a,
+.tour-button button {
     width: calc(202px*0.8);
     height: calc(60px*0.8);
     display: flex;
@@ -530,7 +545,7 @@ h2.getting-there {
         top: 10px;
         gap: 10px;
     }
-    
+
     .home-component-1 .text-box p {
         font-size: 14px;
     }
