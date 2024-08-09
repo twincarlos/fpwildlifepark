@@ -30,12 +30,12 @@ export default function Events() {
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through our Safari Park. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals." : "Join us for a wild ride on our Safari Wagon Tour! Get up close and personal with our incredible animal ambassadors as you journey through our Safari Park. This family-friendly tour is perfect for all ages and offers a unique opportunity to learn about and interact with a variety of animals."}
+                                {language === "English" ? "Get ready for an exciting adventure at our Reptile Weekend! Meet Fragile Planet’s amazing reptile ambassadors while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get ready for an exciting adventure at our Reptile Weekend! Meet Fragile Planet’s amazing reptile ambassadors while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
                             </p>
                         </div>
                         <div>
                             <p>
-                                {language === "English" ? "This includes:" : "Esto incluye:"}
+                                {language === "English" ? "This event includes:" : "Este evento incluye:"}
                             </p>
                             <p>
                                 {language === "English" ? "- Safari Wagon Rides" : "- Safari Wagon Rides"}
@@ -47,13 +47,22 @@ export default function Events() {
                                 {language === "English" ? "- Parrot experience" : "- Parrot experience"}
                             </p>
                             <p>
-                                {language === "English" ? "- Amphibian lab tour" : "- EAmphibian lab tour"}
+                                {language === "English" ? "- Amphibian lab tour" : "- Amphibian lab tour"}
+                            </p>
+        <p>
+                                {language === "English" ? "- Wallaby Walkabout" : "- Wallaby Walkabout"}
                             </p>
                             <p>
                                 {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
                             </p>
                             <p>
                                 {language === "English" ? "- Axolotl Exhibit Merch in Gift Shop" : "- Axolotl Exhibit Merch in Gift Shop"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Rhino Iguana Fishing/Feeding for $5" : "- Rhino Iguana Fishing/Feeding for $5"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Gem Mine Experience for $10" : "- Gem Mine Experience for $10"}
                             </p>
                         </div>
                         <div className="book-event">
