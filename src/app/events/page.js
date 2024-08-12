@@ -16,60 +16,6 @@ export default function Events() {
         <main>
             <EventsHeader language={language} />
             <section className="events-content">
-            <div className="event">
-                    <div className="events-img">
-                        <Image src={reptileWeekendHome} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "Reptile Weekend" : "Reptile Weekend"}
-                                </strong>
-                            </h1>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Get ready for an exciting adventure at our Reptile Weekend! Meet Fragile Planet’s amazing reptile ambassadors while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get ready for an exciting adventure at our Reptile Weekend! Meet Fragile Planet’s amazing reptile ambassadors while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "This event includes:" : "Este evento incluye:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Safari Wagon Rides" : "- Safari Wagon Rides"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- FREE printed reptile photos" : "- FREE printed reptile photos"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Parrot experience" : "- Parrot experience"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Amphibian lab tour" : "- Amphibian lab tour"}
-                            </p>
-        <p>
-                                {language === "English" ? "- Wallaby Walkabout" : "- Wallaby Walkabout"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Axolotl Exhibit Merch in Gift Shop" : "- Axolotl Exhibit Merch in Gift Shop"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Rhino Iguana Fishing/Feeding for $5" : "- Rhino Iguana Fishing/Feeding for $5"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Gem Mine Experience for $10" : "- Gem Mine Experience for $10"}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="/tickets/safari-wagon-tour">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
                 <div className="event">
                     <div className="events-img">
                         <Image src={sipsWithSloths} />
