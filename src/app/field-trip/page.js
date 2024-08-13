@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useLanguage } from "../context/LanguageContext";
 import fieldTripFrontImage from "../(assets)/field-trip-front-image.png";
 import fieldTripBackImage from "../(assets)/field-trip-back-image.png";
+import Link from "next/link";
 
 export default function FieldTrip() {
     const { language } = useLanguage();
@@ -50,6 +51,7 @@ export default function FieldTrip() {
                     </div>
                 </div>
             </section>
+            <Link href="https://forms.gle/UnWE5YB9WDAf9g3KA" target="_blank">{language === "English" ? "Scholarship Request" : "Scholarship Request"}</Link>
         </main>
     );
 };
