@@ -106,6 +106,16 @@ p.bold {
     text-align: center;
 }
 
+.field-trip a {
+    background: var(--secondary-color);
+    padding: 1em 2em;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
 @media screen and (max-width: 1200px) {
     section.field-trip-body {
         overflow-x: scroll;
