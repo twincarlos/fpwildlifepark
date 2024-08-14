@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useModal } from "@/app/context/ModalContext";
 import Modal from "../Modal/Modal";
 import Image from "next/image";
-import reptileWeekendModal from "../../(assets)/reptile-weekend-modal.png";
+import backpacksForKids from "../../(assets)/backpack-for-kids.png";
 
 export default function HiddenModal() {
     const {setShowModal} = useModal();
@@ -14,7 +14,7 @@ export default function HiddenModal() {
     }, []);
     return (
         <Modal>
-            <Image alt="reptile week modal" src={reptileWeekendModal} />
+            <Image alt="reptile week modal" src={backpacksForKids} />
         </Modal>
     );
 };

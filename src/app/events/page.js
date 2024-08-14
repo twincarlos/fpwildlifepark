@@ -4,18 +4,66 @@ import Image from "next/image";
 import momsGoneWild from "../(assets)/moms-gone-wild.png";
 import grandparentsDay from "../(assets)/grandparents-day.png";
 import fathersDay from "../(assets)/fathers-day.png";
-import reptileWeekendHome from "../(assets)/reptile-weekend-home.png";
+import backpackForKids from "../(assets)/backpack-for-kids.png";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 import sipsWithSloths from "../(assets)/sips-with-sloths.png";
 import tipsySafari from "../(assets)/tipsy-safari.png";
 
 export default function Events() {
-    const {language} = useLanguage();
+    const { language } = useLanguage();
     return (
         <main>
             <EventsHeader language={language} />
             <section className="events-content">
+                <div className="event">
+                    <div className="events-img">
+                        <Image src={backpackForKids} />
+                    </div>
+                    <div className="events-details">
+                        <div>
+                            <h1 className="event-name">
+                                <strong>
+                                    {language === "English" ? "Back to School Weekend" : "Back to School Weekend"}
+                                </strong>
+                            </h1>
+                        </div>
+                        <div>
+                            <p>
+                                {language === "English" ? "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                {language === "English" ? "This event includes:" : "Este evento incluye:"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Safari Wagon Rides" : "- Safari Wagon Rides"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Parrot encounters" : "- Parrot encounters"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Amphibian lab tour" : "- Amphibian lab tour"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Wallaby Walkabout" : "- Wallaby Walkabout"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Axolotl Exhibit Merch in Gift Shop" : "- Axolotl Exhibit Merch in Gift Shop"}
+                            </p>
+                            <p>
+                                {language === "English" ? "Book Priority Pass online or General Admission at ticket office." : "Book Priority Pass online or General Admission at ticket office."}
+                            </p>
+                        </div>
+                        <div className="book-event">
+                            <Link href="/tickets/safari-wagon-tour">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
+                        </div>
+                    </div>
+                </div>
                 <div className="event">
                     <div className="events-img">
                         <Image src={sipsWithSloths} />
