@@ -116,6 +116,17 @@ p.bold {
     margin-bottom: 40px;
 }
 
+.field-trip-img {
+    width: 450px;
+    height: 550px;
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.field-trip-img:hover {
+    transform: translateY(-10px)
+}
+
 @media screen and (max-width: 1200px) {
     section.field-trip-body {
         overflow-x: scroll;
@@ -125,5 +136,10 @@ p.bold {
 
     .field-trip-card {
         height: 660px !important;
+    }
+
+    .field-trip-img {
+        width: 300px;
+        height: 400px;
     }
 }

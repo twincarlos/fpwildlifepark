@@ -2,8 +2,8 @@
 import "./FieldTrip.css";
 import Image from "next/image";
 import { useLanguage } from "../context/LanguageContext";
-import fieldTripFrontImage from "../(assets)/field-trip-front-image.png";
-import fieldTripBackImage from "../(assets)/field-trip-back-image.png";
+import safariFieldTrip from "../(assets)/safari-field-trip.png";
+import fieldTripDetails from "../(assets)/field-trip-details.png";
 import Link from "next/link";
 
 export default function FieldTrip() {
@@ -14,7 +14,9 @@ export default function FieldTrip() {
                 <h2>{language === "English" ? "Field Trip" : "Field Trip"}</h2>
             </section>
             <section className="field-trip-body">
-                <div className="field-trip-card front-card">
+                <Image className="field-trip-img" alt="safari field trip" src={safariFieldTrip} />
+                <Image className="field-trip-img" alt="field trip details" src={fieldTripDetails} />
+                {/* <div className="field-trip-card front-card">
                     <div className="field-trip-content">
                         <h1>Field Trip Fragile Planet</h1>
                         <p>Includes</p>
@@ -49,7 +51,7 @@ export default function FieldTrip() {
                         <p className="bold">First field trip October 1st</p>
                         <p className="bold">Low income schools can apply for a scholarship</p>
                     </div>
-                </div>
+                </div> */}
             </section>
             <Link href="https://forms.gle/UnWE5YB9WDAf9g3KA" target="_blank">{language === "English" ? "Scholarship Request" : "Scholarship Request"}</Link>
         </main>

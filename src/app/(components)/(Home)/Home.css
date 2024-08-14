@@ -169,12 +169,20 @@
     background: var(--secondary-color);
 }
 
+.tour-button.yellow a {
+    background: var(--fourth-color);
+}
+
 .tour-button.green button {
     background: var(--primary-color);
 }
 
 .tour-button.orange button {
     background: var(--secondary-color);
+}
+
+.tour-button.yellow button {
+    background: var(--fourth-color);
 }
 
 /* .tour-button button {

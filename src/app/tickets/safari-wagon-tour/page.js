@@ -2,9 +2,9 @@
 import "../Tickets.css";
 import "../../(components)/(Home)/Home.css";
 import Image from "next/image";
-import image1 from "../../(assets)/safari-wagon-tour-priority-pass-green.png";
-import image2 from "../../(assets)/safari-wagon-tour-general-admission-green.png";
-import image3 from "../../(assets)/safari-wagon-tour-private-wagon-safari-green.png";
+import image1 from "../../(assets)/priority-pass.png";
+import image2 from "../../(assets)/general-admission.png";
+import image3 from "../../(assets)/party-wagon.png";
 import Link from "next/link";
 import { useLanguage } from "@/app/context/LanguageContext";
 
@@ -53,7 +53,7 @@ export default function SafariWagonTour() {
                                 </div>
                             </div>
                             <div className="tour-footer">
-                                <div className="tour-button green">
+                                <div className="tour-button orange">
                                     <button onClick={() => alert(language === "English" ? "All $15 Safari Wagon Rides can only be booked at the park admission office. We accept pre-booked reservations for groups of 20 or more. Please contact us for more information or to make group reservations." : "Todos los paseos en vagón safari de 15 $ sólo pueden reservarse en la oficina de admisión del parque. Aceptamos reservas anticipadas para grupos de 20 personas o más. Póngase en contacto con nosotros para obtener más información o para hacer reservas de grupo.")}>
                                         <div className="book-tour-text">
                                             {language === "English" ? " Book tour" : " Reserva tour"}
@@ -75,7 +75,7 @@ export default function SafariWagonTour() {
                                 </div>
                             </div>
                             <div className="tour-footer">
-                                <div className="tour-button green">
+                                <div className="tour-button yellow">
                                     <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555462/?full-items=yes&flow=no">
                                         <div className="book-tour-text">
                                             {language === "English" ? " Book tour" : " Reserva tour"}
