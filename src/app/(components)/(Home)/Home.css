@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    /* background: url("../../(assets)/splash-background.png"); */
+    background: url("../../(assets)/splash-background.png");
     background-size: cover !important;
     background-position: bottom;
     justify-content: flex-end;
@@ -12,7 +12,7 @@
     transition: .5s;
 }
 
-.home-component-1.background-1 {
+/* .home-component-1.background-1 {
     background: url("../../(assets)/splash-background.png");
 }
 
@@ -22,7 +22,7 @@
 
 .home-component-1.background-2 .container {
     display: none;
-}
+} */
 
 .home-component-1 .container {
     width: 440px;
