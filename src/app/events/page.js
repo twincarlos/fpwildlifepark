@@ -5,6 +5,7 @@ import momsGoneWild from "../(assets)/moms-gone-wild.png";
 import grandparentsDay from "../(assets)/grandparents-day.png";
 import fathersDay from "../(assets)/fathers-day.png";
 import backpackForKids from "../(assets)/backpack-for-kids.png";
+import safariHomeSchoolDay from "../(assets)/safari-home-school-day.png";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 import sipsWithSloths from "../(assets)/sips-with-sloths.png";
@@ -16,6 +17,57 @@ export default function Events() {
         <main>
             <EventsHeader language={language} />
             <section className="events-content">
+            <div className="event">
+                    <div className="events-img">
+                        <Image src={safariHomeSchoolDay} />
+                    </div>
+                    <div className="events-details">
+                        <div>
+                            <h1 className="event-name">
+                                <strong>
+                                    {language === "English" ? "Safari Home School Day" : "Safari Home School Day"}
+                                </strong>
+                            </h1>
+                        </div>
+                        <div>
+                            <p>
+                                {language === "English" ? "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
+                            </p>
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
+                            <p>
+                                {language === "English" ? "What's included:" : "Lo que incluye:"}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Safari Wagon Tour: Embark on an educational journey through our safari park, where you’ll learn about exotic animals in their natural habitats." : "- Safari Wagon Tour: Embark on an educational journey through our safari park, where you’ll learn about exotic animals in their natural habitats."}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Wallaby Walkabout: Get up close with our friendly wallabies and discover their unique behaviors." : "- Wallaby Walkabout: Get up close with our friendly wallabies and discover their unique behaviors."}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Amphibian Lab: Dive into the fascinating world of amphibians with hands-on encounters and educational insights." : "- Amphibian Lab: Dive into the fascinating world of amphibians with hands-on encounters and educational insights."}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Parrot Encounters: Meet our array of colorful parrots from around the World." : "- Parrot Encounters: Meet our array of colorful parrots from around the World."}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Gift Shop & Axolotls: Explore our gift shop and meet our fascinating axolotls, the \"Mexican walking fish.\"" : "- Gift Shop & Axolotls: Explore our gift shop and meet our fascinating axolotls, the \"Mexican walking fish.\""}
+                            </p>
+                            <p>
+                                {language === "English" ? "- Optional Gem Mine: Pan for gems and uncover hidden treasures in our interactive gem mine experience." : "- Optional Gem Mine: Pan for gems and uncover hidden treasures in our interactive gem mine experience."}
+                            </p>
+                            <p>
+                                {language === "English" ? "Join us for a day filled with discovery, learning, and unforgettable memories. Don’t miss out on this unique opportunity to bring your homeschool curriculum to life at Fragile Planet Wildlife Park!" : "Join us for a day filled with discovery, learning, and unforgettable memories. Don’t miss out on this unique opportunity to bring your homeschool curriculum to life at Fragile Planet Wildlife Park!"}
+                            </p>
+                            <p>
+                                {language === "English" ? "Limited space ticketed event" : "Limited space ticketed event"}
+                            </p>
+                        </div>
+                        <div className="book-event">
+                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570274/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
+                        </div>
+                    </div>
+                </div>
                 <div className="event">
                     <div className="events-img">
                         <Image src={backpackForKids} />
