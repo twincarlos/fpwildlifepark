@@ -70,54 +70,6 @@ export default function Events() {
                 </div>
                 <div className="event">
                     <div className="events-img">
-                        <Image src={backpackForKids} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "Back to School Weekend" : "Back to School Weekend"}
-                                </strong>
-                            </h1>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "This event includes:" : "Este evento incluye:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Safari Wagon Rides" : "- Safari Wagon Rides"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Parrot encounters" : "- Parrot encounters"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Amphibian lab tour" : "- Amphibian lab tour"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Wallaby Walkabout" : "- Wallaby Walkabout"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Axolotl Exhibit Merch in Gift Shop" : "- Axolotl Exhibit Merch in Gift Shop"}
-                            </p>
-                            <p>
-                                {language === "English" ? "Book Priority Pass online or General Admission at ticket office." : "Book Priority Pass online or General Admission at ticket office."}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="/tickets/safari-wagon-tour">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="event">
-                    <div className="events-img">
                         <Image src={sipsWithSloths} />
                     </div>
                     <div className="events-details">
