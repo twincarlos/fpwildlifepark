@@ -5,7 +5,7 @@ import { Footer } from "./(components)/(Footer)/Footer";
 import Script from "next/script";
 import dynamic from "next/dynamic";
 import { ModalProvider } from "./context/ModalContext";
-import HiddenModal from "./(components)/HiddenModal/HiddenModal";
+// import HiddenModal from "./(components)/HiddenModal/HiddenModal";
 const LanguageProvider = dynamic(() => import("./context/LanguageContext"), { ssr: false });
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
         <LanguageProvider>
           <ModalProvider>
             <Navbar />
-            <HiddenModal />
+            // <HiddenModal />
               {children}
             <Footer />
           </ModalProvider>
