@@ -59,7 +59,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                 <Image alt="tour-5" src={teachersEnterFree} />
                             </div>
                             <div className="tour-name">
-                                <p style={{ width: "200px" }}>{language === "English" ? "Teachers Enter Free" : "T  eachers Enter Free"}</p>
+                                <p style={{ width: "200px" }}>{language === "English" ? "Teachers Enter Free" : "Teachers Enter Free"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour5Description}
@@ -67,11 +67,11 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button blue">
-                                <Link href={"/contact-us/lets-connect"}>
+                                <button onClick={() => alert("All free tickets for teachers must be obtained at the park's ticket office. Entry will be validated by presenting a teacher ID. Visit us in August to enjoy free admission and meet the incredible animals at Fragile Planet!")}>
                                     <div className="book-tour-text">
                                         {language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
-                                </Link>
+                                </button>
                             </div>
                             {
                                 tour5Price ? (
