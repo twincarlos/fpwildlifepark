@@ -19,11 +19,11 @@ export function Home() {
                     </>
                 }
                 tour1Link="/tickets/safari-wagon-tour"
-                // tour5Description={
-                //     <>
-                //         <p>{language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}</p>
-                //     </>
-                // }
+                tour5Description={
+                      <>
+                        <p>{language === "English" ? "Visit Fragile Planet’s new Safari Park in Los Fresnos, Texas, where teachers enter free for the entire month of August. Teachers can learn about field trip opportunities and see the incredible animals that live at our facility. Just visit our ticket office and show your teacher ID for free entry." : "Visit Fragile Planet’s new Safari Park in Los Fresnos, Texas, where teachers enter free for the entire month of August. Teachers can learn about field trip opportunities and see the incredible animals that live at our facility. Just visit our ticket office and show your teacher ID for free entry."}</p>
+                     </>
+                 }
                 // tour5Link="/tickets"
                 tour3Description={
                     <>
