@@ -4,7 +4,7 @@ import tour1Image from "../../../../(assets)/safari-wagon-tour-green.png";
 import tour2Image from "../../../../(assets)/tour-2.png";
 import tour3Image from "../../../../(assets)/tour-3.png";
 import tour4Image from "../../../../(assets)/safari-wine-tasting-events-orange.png";
-import tour5Image from "../../../../(assets)/sips-with-sloths-home.png";
+import teachersEnterFree from "../../../../(assets)/teachers-enter-free.png";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -53,31 +53,24 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                             </div>
                         </div>
                     </div>
-                    {/* <div className="tour-container">
+                    <div className="tour-container">
                         <div className="tour-body">
                             <div className="tour-image">
-                                <Image alt="tour-5" src={tour5Image} />
+                                <Image alt="tour-5" src={teachersEnterFree} />
                             </div>
                             <div className="tour-name">
-                                <p>{language === "English" ? "Sips With Sloths" : "Sips With Sloths"}</p>
+                                <p style={{ width: "200px" }}>{language === "English" ? "Teachers Enter Free" : "T  eachers Enter Free"}</p>
                             </div>
                             <div className="tour-description">
                                 {tour5Description}
                             </div>
                         </div>
                         <div className="tour-footer">
-                            <div className="tour-button">
-                                <Link href={tour5Link ? tour5Link : "/"}>
+                            <div className="tour-button blue">
+                                <Link href={"/contact-us/lets-connect"}>
                                     <div className="book-tour-text">
-                                        <i className="fa-solid fa-ticket" />{language === "English" ? " Book tour" : " Reserva tour"}
+                                        {language === "English" ? " Book tour" : " Reserva tour"}
                                     </div>
-                                    {
-                                        tour5Price ? (
-                                            <div className="book-tour-price">
-                                                <p className="tour-price-text">{tour5Price}</p>
-                                            </div>
-                                        ) : null
-                                    }
                                 </Link>
                             </div>
                             {
@@ -88,7 +81,7 @@ export function HomeComponent2({ language, tour1Link, tour5Price, tour5Link, tou
                                 ) : null
                             }
                         </div>
-                    </div> */}
+                    </div>
                     {/* {tour2Description && <div className="tour-container">
     
                         <div className="tour-body">
