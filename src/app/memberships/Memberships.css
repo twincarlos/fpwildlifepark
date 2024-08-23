@@ -1,19 +1,27 @@
-section.field-trip-header {
+section.memberships-header {
     background: var(--secondary-color);
     color: white;
     padding: 4em;
 }
 
-section.field-trip-header h2 {
+section.memberships-header h2 {
     font-size: 40px;
     text-transform: uppercase;
 }
 
-section.field-trip-body {
+section.memberships-body {
     gap: 40px;
 }
 
-.field-trip a {
+.membership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.memberships a {
     background: var(--secondary-color);
     padding: 1em 2em;
     border-radius: 5px;
@@ -23,25 +31,25 @@ section.field-trip-body {
     margin-bottom: 40px;
 }
 
-.field-trip-img {
+.memberships-img {
     width: 450px;
     height: 550px;
     border-radius: 15px;
     transition: .5s;
 }
 
-.field-trip-img:hover {
+.memberships-img:hover {
     transform: translateY(-10px)
 }
 
 @media screen and (max-width: 1200px) {
-    section.field-trip-body {
+    section.memberships-body {
         overflow-x: scroll;
         display: flex;
         justify-content: flex-start;
     }
 
-    .field-trip-img {
+    .memberships-img {
         width: 300px;
         height: 400px;
     }

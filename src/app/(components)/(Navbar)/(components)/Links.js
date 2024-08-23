@@ -23,6 +23,7 @@ export function Links() {
             {/* </Link> */}
             <Link className="Large nav-link" href="/events"><i className="fa-solid fa-calendar-days" />{language === "English" ? "Events" : "Eventos"}</Link>
             <Link className="Large nav-link" href="/field-trip"><i className="fa-solid fa-book-open-reader" />{language === "English" ? "Field Trip" : "Field Trip"}</Link>
+            <Link className="Large nav-link" href="/memberships"><i className="fa-solid fa-people-group" />{language === "English" ? "Memberships" : "Membresias"}</Link>
             <BigDropdownMenu
                 dropdownHeaderIcon={<i className="fa-solid fa-paw" />}
                 dropdownHeaderValue={language === "English" ? "About" : "Sobre Nosotros"}
