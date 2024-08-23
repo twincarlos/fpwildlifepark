@@ -16,11 +16,11 @@ export default function Memberships() {
             <section className="memberships-body">
                 <div className="membership">
                     <Image className="memberships-img" alt="safari field trip" src={familyMembership} />
-                    <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570306/?full-items=yes&flow=no" target="_blank">{language === "English" ? "Family Membership" : "Membresia Familiar"}</Link>
+                    <Link href="/memberships">{language === "English" ? "Family Membership" : "Membresia Familiar"}</Link>
                 </div>
                 <div className="membership">
                     <Image className="memberships-img" alt="field trip details" src={singleMembership} />
-                    <Link href="/memberships" target="_blank">{language === "English" ? "Single Membership" : "Membresia Individual"}</Link>
+                    <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570306/?full-items=yes&flow=no" target="_blank">{language === "English" ? "Single Membership" : "Membresia Individual"}</Link>
                 </div>
             </section>
         </main>
