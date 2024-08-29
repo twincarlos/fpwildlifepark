@@ -45,85 +45,85 @@ export default function AnimalsAndPlants() {
                         <Image className="animal-img" alt="animal" src={pic1} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic2} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic3} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic4} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic5} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic6} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic7} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic8} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic9} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic10} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic11} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic12} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic13} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic14} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic15} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic16} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic17} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic18} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic19} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic20} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic21} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic22} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic23} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic24} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic25} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic26} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic27} />
                     </div>
                     <div className="animal-container">
-                        <Image className="animal-img" alt="animal" src={pic1} />
+                        <Image className="animal-img" alt="animal" src={pic28} />
                     </div>
                 </div>
             </section>
