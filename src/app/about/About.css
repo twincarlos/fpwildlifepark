@@ -42,7 +42,11 @@ section.about h2 {
 }
 
 .about-body {
-    width: 1000px;
+    max-width: 1000px;
+}
+
+.our-animals .about-body {
+    max-width: 2000px;
 }
 
 .about-content {
