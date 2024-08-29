@@ -88,7 +88,7 @@ p.animal-name {
     transition: .5s;
     border-radius: 15px;
     width: 300px;
-    height: 190px;
+    height: auto;
 }
 
 .animal-img:hover {
@@ -101,6 +101,7 @@ p.animal-name {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 p.animal-name {
