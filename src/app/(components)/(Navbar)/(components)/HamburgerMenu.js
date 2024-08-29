@@ -55,7 +55,7 @@ export function HamburgerMenu({ setOpenMenu }) {
                         value: language === "English" ? "Education" : "Educacion", path: "/about/education", icon: <i className="fa-solid fa-book-open-reader" />, description: language === "English" ? "Explore our educational programs designed to inspire and inform all ages about wildlife conservation and environmental stewardship." : "Explore nuestros programas educativos diseñados para inspirar e informar a todas las edades sobre la conservación de la fauna salvaje y la gestión medioambiental."
                     },
                     {
-                        value: language === "English" ? "Our Animals" : "Nuestros Animales", path: "/about/our-animals", icon: <i className="fa-solid fa-cow" />, description: language === "English" ? "Get to know the diverse species of animals and plants that call our park home." : "Conozca las diversas especies de animales y plantas que habitan nuestro parque."
+                        value: language === "English" ? "Gallery" : "Galeria", path: "/about/gallery", icon: <i className="fa-solid fa-cow" />, description: language === "English" ? "Get to know the diverse species of animals and plants that call our park home." : "Conozca las diversas especies de animales y plantas que habitan nuestro parque."
                     }
                 ]}
             />

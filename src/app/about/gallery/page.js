@@ -20,35 +20,35 @@ export default function AnimalsAndPlants() {
     return (
         <main className="our-animals">
             <section className="about-header our-animals-header">
-                <h2>{language === "English" ? "Our Animals" : "Nuestros Animales"}</h2>
+                <h2>{language === "English" ? "Gallery" : "Galeria"}</h2>
             </section>
             <section className="about-body">
                 <div className="about-content">
-                    <Link href="/about/our-animals/american-bison" className="animal-container">
+                    <Link href="/about/gallery/american-bison" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal2} />
                         <div className="animal-info">
                             <p className="animal-name">American Bison</p>
                         </div>
                     </Link>
-                    <Link href="/about/our-animals/bactrian-camel" className="animal-container">
+                    <Link href="/about/gallery/bactrian-camel" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal3} />
                         <div className="animal-info">
                             <p className="animal-name">Bactrian Camel</p>
                         </div>
                     </Link>
-                    <Link href="/about/our-animals/donkey" className="animal-container">
+                    <Link href="/about/gallery/donkey" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal5} />
                         <div className="animal-info">
                             <p className="animal-name">Donkey</p>
                         </div>
                     </Link>
-                    <Link href="/about/our-animals/emu" className="animal-container">
+                    <Link href="/about/gallery/emu" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal6} />
                         <div className="animal-info">
                             <p className="animal-name">Emu</p>
                         </div>
                     </Link>
-                    <Link href="/about/our-animals/ostrich" className="animal-container">
+                    <Link href="/about/gallery/ostrich" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal8} />
                         <div className="animal-info">
                             <p className="animal-name">Ostrich</p>
@@ -60,7 +60,7 @@ export default function AnimalsAndPlants() {
                             <p className="animal-name">Peahen</p>
                         </div>
                     </div>
-                    <Link href="/about/our-animals/watusi" className="animal-container">
+                    <Link href="/about/gallery/watusi" className="animal-container">
                         <Image className="animal-img" alt="animal" src={animal11} />
                         <div className="animal-info">
                             <p className="animal-name">Watusi</p>

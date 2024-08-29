@@ -15,9 +15,9 @@ export function HomeComponent3({language}) {
                     </div>
                     <div className="container-cell cell-2">
                         <div className="cell-description">
-                            <p>{language === "English" ? "Our Animals" : "Nuestros Animales"}</p>
+                            <p>{language === "English" ? "Gallery" : "Galeria"}</p>
                         </div>
-                        <Link href="/about/our-animals" className="cell-image">
+                        <Link href="/about/gallery" className="cell-image">
                             <p>
                                 {language === "English" ? "Explore detailed profiles and fascinating facts about the diverse species of animals and plants at our park. Learn about their habitats, behaviors, and the conservation efforts dedicated to their protection." : "Explore perfiles detallados y datos fascinantes sobre las diversas especies de animales y plantas de nuestro parque. Conozca sus hábitats, comportamientos y los esfuerzos de conservación dedicados a su protección."}
                             </p>
