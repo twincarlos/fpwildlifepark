@@ -84,9 +84,11 @@ p.animal-name {
 
 .animal-img {
     max-width: 90vw;
-    filter: brightness(0.9);
+    filter: brightness(.9);
     transition: .5s;
     border-radius: 15px;
+    width: 300px;
+    height: 190px;
 }
 
 .animal-img:hover {
