@@ -599,6 +599,10 @@ h2.getting-there {
         padding: 2em;
     }
 
+    .home-component-1.background-2 {
+        height: 200px;
+    }
+
     .home-component .container {
         width: 100%;
         margin: 0 auto;
