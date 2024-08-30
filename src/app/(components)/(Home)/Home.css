@@ -1,4 +1,5 @@
 .home-component-1 {
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -12,12 +13,10 @@
 }
 
 .home-component-1.background-1 {
-    height: 750px;
     background: url("../../(assets)/splash-background.png");
 }
 
 .home-component-1.background-2 {
-    height: 1000px;
     background: url("../../(assets)/labor-day-weekend-home.png");
 }
 
