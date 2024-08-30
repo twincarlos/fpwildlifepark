@@ -6,6 +6,7 @@ import Script from "next/script";
 import dynamic from "next/dynamic";
 import { ModalProvider } from "./context/ModalContext";
 const LanguageProvider = dynamic(() => import("./context/LanguageContext"), { ssr: false });
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
           <ModalProvider>
             <Navbar />
               {children}
+              <Analytics />
             <Footer />
           </ModalProvider>
         </LanguageProvider>
