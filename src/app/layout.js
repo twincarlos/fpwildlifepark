@@ -5,6 +5,7 @@ import { Footer } from "./(components)/(Footer)/Footer";
 import Script from "next/script";
 import dynamic from "next/dynamic";
 import { ModalProvider } from "./context/ModalContext";
+import HiddenModal from "./(components)/HiddenModal/HiddenModal";
 const LanguageProvider = dynamic(() => import("./context/LanguageContext"), { ssr: false });
 import { Analytics } from "@vercel/analytics/react"
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
           <ModalProvider>
             <Navbar />
               {children}
+              <HiddenModal />
               <Analytics />
             <Footer />
           </ModalProvider>

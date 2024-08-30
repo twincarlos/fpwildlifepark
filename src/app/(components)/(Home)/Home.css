@@ -1,5 +1,4 @@
 .home-component-1 {
-    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -12,17 +11,19 @@
     transition: .5s;
 }
 
-/* .home-component-1.background-1 {
+.home-component-1.background-1 {
+    height: 750px;
     background: url("../../(assets)/splash-background.png");
 }
 
 .home-component-1.background-2 {
-    background: url("../../(assets)/backpack-for-kids.png");
+    height: 1000px;
+    background: url("../../(assets)/labor-day-weekend-home.png");
 }
 
 .home-component-1.background-2 .container {
     display: none;
-} */
+}
 
 .home-component-1 .container {
     width: 440px;
