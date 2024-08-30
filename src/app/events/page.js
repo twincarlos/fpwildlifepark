@@ -43,7 +43,7 @@ export default function Events() {
                             </p>
                         </div>
                         <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570274/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
+                            <Link href="/events">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
                         </div>
                     </div>
                 </div>
