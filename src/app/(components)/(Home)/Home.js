@@ -19,12 +19,6 @@ export function Home() {
                     </>
                 }
                 tour1Link="/tickets/safari-wagon-tour"
-                tour5Description={
-                      <>
-                        <p>{language === "English" ? "Visit Fragile Planet’s new Safari Park in Los Fresnos, Texas, where teachers enter free for the entire month of August. Teachers can learn about field trip opportunities and see the incredible animals that live at our facility. Just visit our ticket office and show your teacher ID for free entry." : "Visit Fragile Planet’s new Safari Park in Los Fresnos, Texas, where teachers enter free for the entire month of August. Teachers can learn about field trip opportunities and see the incredible animals that live at our facility. Just visit our ticket office and show your teacher ID for free entry."}</p>
-                     </>
-                 }
-                // tour5Link="/tickets"
                 tour3Description={
                     <>
                         <p>{language === "English" ? "Experience the wild in an exclusive setting with our Private Safari Wagon Tour for up to 40 people. Explore the Safari Park with of our extraordinary animal ambassadors and enjoy intimate, educational encounters. Perfect for large families, friends, or special occasions, this tour offers a unique, private, and unforgettable connection with nature." : "Experimente la naturaleza salvaje en un entorno exclusivo con nuestra Excursión Privada en Vagón Safari para un máximo de 40 personas. Explore el Safari Park con nuestros extraordinarios embajadores animales y disfrute de encuentros íntimos y educativos. Perfecto para familias numerosas, amigos u ocasiones especiales, este tour ofrece una conexión única, privada e inolvidable con la naturaleza."}</p>
