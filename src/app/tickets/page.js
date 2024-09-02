@@ -1,3 +1,4 @@
+"use client";
 import "../(components)/(Home)/Home.css";
 import TicketsHeader from "./(components)/TicketsHeader";
 import { HomeComponent2 } from "../(components)/(Home)/(components)/HomeComponent2/HomeComponent2";
