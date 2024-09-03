@@ -26,59 +26,44 @@ export default function Events() {
                                 </strong>
                             </h1>
                         </div>
+                        <div>
+                            <p>We're extending the promotion to next weekend as Bonus Days!</p>
+                        </div>
+                        <div>
+                            <p>FREE Kids Entry this September 7 & 8. Celebrate Labor Day Weekend at Fragile Planet Wildlife Park! </p>
+                        </div>
+                        <div>
+                            <p>Bring the whole family for an unforgettable adventure! Admit one FREE child per paying adult!  Explore everything we have to offer, including:</p>
+                        </div>
+                        <div>
+                            <p>Safari Ride – Get up close with majestic wildlife</p>
+                            <p>Petting Zoo – Hands-on fun with our friendly animals</p>
+                            <p>Parrot Experience – Meet our colorful feathered friends</p>
+                            <p>Amphibian Lab – Discover the wonders of the amphibian world</p>
+                            <p>Reptile Discovery – Learn about fascinating reptiles</p>
+                            <p>Iguana Fishing (optional) – A unique, interactive experience</p>
+                            <p>Gem Mine (optional) – Uncover hidden treasures</p>
+                        </div>
+                        <div>
+                            <p>Adults pay just $15 for all this excitement! Don't miss out on this wild adventure!</p>
+                        </div>
+                        <div>
+                            <p>Not valid with other discounts or offers. One FREE child per paying adult.</p>
+                        </div>
+                        <div>
+                            <p>September 7 & 8 last days of promotion!</p>
+                        </div>
+                        <div>
+                            <p>Thank you RGV! We SOLD OUT 2 days this weekend,</p>
+                        </div>
+                        <div>
+                            <p>You must come to the park office to redeem the promo. We cannot accept free child bookings over the phone or online.</p>
+                        </div>
+                        <div>
+                            <p>Book Priority Passes online to guarantee your seats this weekend!</p>
+                        </div>
                         <div className="book-event">
                             <Link href="/tickets">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="event">
-                    <div className="events-img">
-                        <Image src={safariHomeSchoolDay} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "Safari Home School Day" : "Safari Home School Day"}
-                                </strong>
-                            </h1>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories." : "Get your little ones ready to return to school with our Back to School Weekend! Get free drawstring backpacks for your kids while enjoying a thrilling Safari Wagon Ride. Perfect for all ages, this event offers a unique chance to interact with fascinating animals and create unforgettable memories."}
-                            </p>
-                        </div>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                            <p>
-                                {language === "English" ? "What's included:" : "Lo que incluye:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Safari Wagon Tour: Embark on an educational journey through our safari park, where you’ll learn about exotic animals in their natural habitats." : "- Safari Wagon Tour: Embark on an educational journey through our safari park, where you’ll learn about exotic animals in their natural habitats."}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Wallaby Walkabout: Get up close with our friendly wallabies and discover their unique behaviors." : "- Wallaby Walkabout: Get up close with our friendly wallabies and discover their unique behaviors."}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Amphibian Lab: Dive into the fascinating world of amphibians with hands-on encounters and educational insights." : "- Amphibian Lab: Dive into the fascinating world of amphibians with hands-on encounters and educational insights."}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Parrot Encounters: Meet our array of colorful parrots from around the World." : "- Parrot Encounters: Meet our array of colorful parrots from around the World."}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Gift Shop & Axolotls: Explore our gift shop and meet our fascinating axolotls, the \"Mexican walking fish.\"" : "- Gift Shop & Axolotls: Explore our gift shop and meet our fascinating axolotls, the \"Mexican walking fish.\""}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Optional Gem Mine: Pan for gems and uncover hidden treasures in our interactive gem mine experience." : "- Optional Gem Mine: Pan for gems and uncover hidden treasures in our interactive gem mine experience."}
-                            </p>
-                            <p>
-                                {language === "English" ? "Join us for a day filled with discovery, learning, and unforgettable memories. Don’t miss out on this unique opportunity to bring your homeschool curriculum to life at Fragile Planet Wildlife Park!" : "Join us for a day filled with discovery, learning, and unforgettable memories. Don’t miss out on this unique opportunity to bring your homeschool curriculum to life at Fragile Planet Wildlife Park!"}
-                            </p>
-                            <p>
-                                {language === "English" ? "Limited space ticketed event" : "Limited space ticketed event"}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570274/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
                         </div>
                     </div>
                 </div>
