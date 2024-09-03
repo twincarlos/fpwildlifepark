@@ -27,7 +27,7 @@ export default function Events() {
                             </h1>
                         </div>
                         <div className="book-event">
-                            <Link href="/events">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
+                            <Link href="/tickets">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
                         </div>
                     </div>
                 </div>
