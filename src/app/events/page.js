@@ -27,40 +27,40 @@ export default function Events() {
                             </h1>
                         </div>
                         <div>
-                            <p>We're extending the promotion to next weekend as Bonus Days!</p>
+                            <p>{"We're extending the promotion to next weekend as Bonus Days!"}</p>
                         </div>
                         <div>
-                            <p>FREE Kids Entry this September 7 & 8. Celebrate Labor Day Weekend at Fragile Planet Wildlife Park! </p>
+                            <p>{"FREE Kids Entry this September 7 & 8. Celebrate Labor Day Weekend at Fragile Planet Wildlife Park! "}</p>
                         </div>
                         <div>
-                            <p>Bring the whole family for an unforgettable adventure! Admit one FREE child per paying adult!  Explore everything we have to offer, including:</p>
+                            <p>{"Bring the whole family for an unforgettable adventure! Admit one FREE child per paying adult!  Explore everything we have to offer, including:"}</p>
                         </div>
                         <div>
-                            <p>Safari Ride – Get up close with majestic wildlife</p>
-                            <p>Petting Zoo – Hands-on fun with our friendly animals</p>
-                            <p>Parrot Experience – Meet our colorful feathered friends</p>
-                            <p>Amphibian Lab – Discover the wonders of the amphibian world</p>
-                            <p>Reptile Discovery – Learn about fascinating reptiles</p>
-                            <p>Iguana Fishing (optional) – A unique, interactive experience</p>
-                            <p>Gem Mine (optional) – Uncover hidden treasures</p>
+                            <p>{"Safari Ride – Get up close with majestic wildlife"}</p>
+                            <p>{"Petting Zoo – Hands-on fun with our friendly animals"}</p>
+                            <p>{"Parrot Experience – Meet our colorful feathered friends"}</p>
+                            <p>{"Amphibian Lab – Discover the wonders of the amphibian world"}</p>
+                            <p>{"Reptile Discovery – Learn about fascinating reptiles"}</p>
+                            <p>{"Iguana Fishing (optional) – A unique, interactive experience"}</p>
+                            <p>{"Gem Mine (optional) – Uncover hidden treasures"}</p>
                         </div>
                         <div>
-                            <p>Adults pay just $15 for all this excitement! Don't miss out on this wild adventure!</p>
+                            <p>{"Adults pay just $15 for all this excitement! Don't miss out on this wild adventure!"}</p>
                         </div>
                         <div>
-                            <p>Not valid with other discounts or offers. One FREE child per paying adult.</p>
+                            <p>{"Not valid with other discounts or offers. One FREE child per paying adult."}</p>
                         </div>
                         <div>
-                            <p>September 7 & 8 last days of promotion!</p>
+                            <p>{"September 7 & 8 last days of promotion!"}</p>
                         </div>
                         <div>
-                            <p>Thank you RGV! We SOLD OUT 2 days this weekend,</p>
+                            <p>{"Thank you RGV! We SOLD OUT 2 days this weekend,"}</p>
                         </div>
                         <div>
-                            <p>You must come to the park office to redeem the promo. We cannot accept free child bookings over the phone or online.</p>
+                            <p>{"You must come to the park office to redeem the promo. We cannot accept free child bookings over the phone or online."}</p>
                         </div>
                         <div>
-                            <p>Book Priority Passes online to guarantee your seats this weekend!</p>
+                            <p>{"Book Priority Passes online to guarantee your seats this weekend!"}</p>
                         </div>
                         <div className="book-event">
                             <Link href="/tickets">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
