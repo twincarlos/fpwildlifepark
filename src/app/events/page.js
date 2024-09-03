@@ -6,8 +6,7 @@ import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 import sipsWithSloths from "../(assets)/sips-with-sloths.png";
 import tipsySafari from "../(assets)/tipsy-safari.png";
-import laborDayWeekendEnglish from "@/app/(assets)/labor-day-weekend-english.png";
-import laborDayWeekendSpanish from "@/app/(assets)/labor-day-weekend-spanish.png";
+import kidsEnterFree from "@/app/(assets)/kids-enter-free.png";
 
 export default function Events() {
     const { language } = useLanguage();
@@ -17,30 +16,15 @@ export default function Events() {
             <section className="events-content">
                 <div className="event">
                     <div className="events-img">
-                        <Image src={language === "English" ? laborDayWeekendEnglish : laborDayWeekendSpanish} />
+                        <Image src={kidsEnterFree} />
                     </div>
                     <div className="events-details">
                         <div>
                             <h1 className="event-name">
                                 <strong>
-                                    {language === "English" ? "Labor Day Weekend" : "Fin de Semana del Trabajo"}
+                                    {language === "English" ? "Kids Enter Free" : "Niños Entran Gratis"}
                                 </strong>
                             </h1>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Celebrate Labor Day weekend with a visit to the #1 Safari Park in the RGV! Enjoy a wild adventure with the whole family - kids enter FREE with every paying adult. That's right, one child free per adult ticket!" : "¡Celebre el fin de semana del Día del Trabajo con una visita al Parque Safari #1 en el RGV! Disfrute de una aventura salvaje con toda la familia - los niños entran GRATIS con cada adulto que paga. Así es, ¡un niño gratis por boleto de adulto!"}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Adult tickets are just $15. Don't miss out on this exciting opportunity to make unforgettable memories. Come safari with us!" : "Las entradas para adultos cuestan sólo 15 $. No se pierda esta emocionante oportunidad de crear recuerdos inolvidables. ¡Ven de safari con nosotros!"}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Plan your adventure today!" : "Planea tu aventura hoy!"}
-                            </p>
                         </div>
                         <div className="book-event">
                             <Link href="/events">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
