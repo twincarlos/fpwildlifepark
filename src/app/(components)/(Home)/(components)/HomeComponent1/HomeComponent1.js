@@ -6,10 +6,10 @@ import PrimaryButton from "@/app/(components)/(PrimaryButton)/PrimaryButton";
 export function HomeComponent1({language}) {
     const [currentClass, setCurrentClass] = useState(true);
 
-    useEffect(() => {
-        const interval = setInterval(() => setCurrentClass(!currentClass), 7000);
-        return () => clearInterval(interval);
-    }, [currentClass]);
+    // useEffect(() => {
+    //     const interval = setInterval(() => setCurrentClass(!currentClass), 7000);
+    //     return () => clearInterval(interval);
+    // }, [currentClass]);
 
     return (
         <section className={`home-component home-component-1 background-${currentClass ? "1" : "2"}`}>

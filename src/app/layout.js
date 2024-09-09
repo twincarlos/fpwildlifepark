@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
           <ModalProvider>
             <Navbar />
               {children}
-              <HiddenModal />
+              {/* <HiddenModal /> */}
               <Analytics />
             <Footer />
           </ModalProvider>
