@@ -1,6 +1,7 @@
 import Image from "next/image";
 import tour1Image from "../../../../(assets)/safari-wagon-tour-green.png";
 import tour4Image from "../../../../(assets)/safari-wine-tasting-events-orange.png";
+import slothEncounter from "../../../../(assets)/sloth-encounter.png";
 import Link from "next/link";
 
 export function HomeComponent2({ language, tour1Link, tour1Description, tour4Price, tour4Link, tour4Description, tourDepartureDetails }) {
@@ -76,6 +77,35 @@ export function HomeComponent2({ language, tour1Link, tour1Description, tour4Pri
                                         </button>
                                     )
                                 }
+                            </div>
+                            {
+                                tour4Price ? (
+                                    <div className="tour-price">
+                                        <p className="per-person-text">{language === "English" ? "(Per Person)" : "(Por Persona)"}</p>
+                                    </div>
+                                ) : null
+                            }
+                        </div>
+                    </div>
+                    <div className="tour-container tour-3">
+                        <div className="tour-body">
+                            <div className="tour-image">
+                                <Image alt="tour-4" src={slothEncounter} />
+                            </div>
+                            <div className="tour-name">
+                                <p>{language === "English" ? "Sloth Encounter" : "Encountro con Sloths"}</p>
+                            </div>
+                            <div className="tour-description">
+                                <p>{"This unforgettable experience takes you behind the scenes for an up-close and personal encounter with our beloved sloths, along with New World Birds and other fascinating South American animals."}</p>
+                            </div>
+                        </div>
+                        <div className="tour-footer">
+                            <div className="tour-button orange">
+                                <Link href={"https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570281/?full-items=yes&flow=no"}>
+                                    <div className="book-tour-text">
+                                        {language === "English" ? " Book tour" : " Reserva tour"}
+                                    </div>
+                                </Link>
                             </div>
                             {
                                 tour4Price ? (
