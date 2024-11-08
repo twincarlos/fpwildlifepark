@@ -27,9 +27,6 @@ export default function Events() {
                                 </strong>
                             </h1>
                             <p>
-                                {language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}
-                            </p>
-                            <p>
                                 {language === "English" ? "Create holiday memories to last a lifetime with an unforgettable experience at Fragile Planet Wildlife Park! Meet the RGV’s most authentic Santa and Mrs. Claus, and enjoy holiday fun for the whole family." : "Create holiday memories to last a lifetime with an unforgettable experience at Fragile Planet Wildlife Park! Meet the RGV’s most authentic Santa and Mrs. Claus, and enjoy holiday fun for the whole family."}
                             </p>
                         </div>
