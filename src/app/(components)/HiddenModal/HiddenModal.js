@@ -16,7 +16,7 @@ export default function HiddenModal() {
     return (
         <Modal>
             <Image alt="christmas event" src={christmasEvent} />
-            <Link href={"https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/570281/?full-items=yes&flow=no"}>
+            <Link href={"/events"}>
                 <div className="book-tour-text">Book Tour</div>
             </Link>
         </Modal>
