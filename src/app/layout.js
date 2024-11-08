@@ -6,7 +6,7 @@ import Script from "next/script";
 import dynamic from "next/dynamic";
 import { ModalProvider } from "./context/ModalContext";
 import HiddenModal from "./(components)/HiddenModal/HiddenModal";
-const LanguageProvider = dynamic(() => import("./context/LanguageContext"));
+const LanguageProvider = dynamic(() => import("./context/LanguageContext"), { ssr: false });
 import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
