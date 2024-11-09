@@ -16,8 +16,8 @@ export default function HiddenModal() {
     return (
         <Modal>
             <Image alt="christmas event" src={christmasEvent} />
-            <Link href={"/events"}>
-                <div className="book-tour-text">Book your ticket</div>
+            <Link style={{ width: "fit-content", padding: "1em" }} href={"/events"}>
+                <div style={{ fontSize: "1em" }} className="book-tour-text">Book your ticket</div>
             </Link>
         </Modal>
     );
