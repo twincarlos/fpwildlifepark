@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background: url("../../(assets)/splash-background.png");
+    background: url("../../(assets)/splash-background.jpg");
     background-size: cover !important;
     background-position: bottom;
     justify-content: flex-end;
