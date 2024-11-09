@@ -17,7 +17,7 @@ export default function HiddenModal() {
         <Modal>
             <Image alt="christmas event" src={christmasEvent} />
             <Link href={"/events"}>
-                <div className="book-tour-text">Book Tour</div>
+                <div className="book-tour-text">Book your ticket</div>
             </Link>
         </Modal>
     );
