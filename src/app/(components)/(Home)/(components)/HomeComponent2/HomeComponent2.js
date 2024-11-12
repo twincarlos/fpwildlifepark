@@ -1,6 +1,6 @@
 import Image from "next/image";
 import tour1Image from "../../../../(assets)/safari-wagon-tour-green.png";
-import tour4Image from "../../../../(assets)/safari-wine-tasting-events-orange.png";
+import tour4Image from "../../../../(assets)/tipsy-safari-orange.png";
 import slothEncounter from "../../../../(assets)/sloth-encounter.png";
 import Link from "next/link";
 
