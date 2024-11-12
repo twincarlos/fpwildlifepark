@@ -20,10 +20,10 @@ export function Home() {
                 }
                 tour4Description={
                     <>
-                        <p>{language === "English" ? "Join us for an unforgettable evening at Safari Wine Tasting Events, where you can choose between two unique experiences: Sips With Sloths and Tipsy Safari Night. Both events offer the perfect blend of wine tastings, and animal encounters, making them ideal for adults looking to enjoy a fun and educational night out." : "Viva la emoción de Tipsy Safari Night, una aventura exclusiva sólo para adultos. Disfrute de catas de vino, encuentros íntimos con animales y una visita educativa al laboratorio de anfibios. Esta velada especial incluye paseos en carromato safari solo para adultos, perfectos para parejas, grupos de amigos, citas o noches de chicas."}</p>
+                        <p>{language === "English" ? "Enjoy relaxation, wine and wildlife while supporting a great cause. Book your Tipsy Safari tickets today and experience a unique and memorable moment." : "Enjoy relaxation, wine and wildlife while supporting a great cause. Book your Tipsy Safari tickets today and experience a unique and memorable moment."}</p>
                     </>
                 }
-                tour4Link="/tickets/safari-wine-tasting-events"
+                tour4Link="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no"
             />
             <HomeComponent3 language={language} />
             <HomeComponent4 language={language} />
