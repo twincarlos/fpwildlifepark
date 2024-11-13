@@ -66,54 +66,6 @@ export default function Events() {
                 </div>
                 <div className="event">
                     <div className="events-img">
-                        <Image src={sipsWithSloths} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "Sips With Sloths" : "Sips With Sloths"}
-                                </strong>
-                            </h1>
-                            <p>
-                                {language === "English" ? "ADULTS ONLY (21+)" : "SOLO ADULTOS (21+)"}
-                            </p>
-                            <p>
-                                {language === "English" ? "Drink Wine and Support Sloth Conservation!" : "Veve Vino y Apoya los Conservacion de los Perezosos!"}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "This event is a great way to have fun with other adults and meet animals from around the world including sloths, kangaroos, safari animals and more! Proceeds from the event go directly to support a non profit jungle hospital for sloths in Costa Rica!" : "Este evento es una forma estupenda de divertirse con otros adultos y conocer animales de todo el mundo, como perezosos, canguros, animales de safari y muchos más. Los beneficios del evento se destinarán directamente a un hospital de la selva sin ánimo de lucro para perezosos en Costa Rica."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "This includes admission to the:" : "Esto incluye accesso a:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Wine Tastings" : "- Degustacion de Vinos"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Sloth Encounters and Photo Opportunity" : "- Encuentros con perezosos y oportunidad para tomar fotos"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Mini Safari Wagon Ride" : "- Atraccion de Mini Safari Wagon"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Animal Encounters and Feedings" : "- Encuentros con animales y alimentación"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Mixer and Small Plates from Fat Pelican Food Truck" : "- Mezclador y pequeños platos de Fat Pelican Food Truck"}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/555960/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="event">
-                    <div className="events-img">
                         <Image src={tipsySafari} />
                     </div>
                     <div className="events-details">
