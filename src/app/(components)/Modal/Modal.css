@@ -21,7 +21,7 @@
     align-items: center;
     max-width: 700px;
     flex-direction: column;
-    gap: 30px;
+    gap: 6px;
     max-height: 800px;
     height: 100%;
 }
