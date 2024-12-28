@@ -15,55 +15,6 @@ export default function Events() {
         <main>
             <EventsHeader language={language} />
             <section className="events-content">
-            <div className="event">
-                    <div className="events-img">
-                        <Image src={christmasEvent} />
-                    </div>
-                    <div className="events-details">
-                        <div>
-                            <h1 className="event-name">
-                                <strong>
-                                    {language === "English" ? "Pancakes with Santa at Fragile Planet Wildlife Park!" : "Pancakes con Santa en Fragile Planet Wildlife Park!"}
-                                </strong>
-                            </h1>
-                            <p>
-                                {language === "English" ? "Create holiday memories to last a lifetime with an unforgettable experience at Fragile Planet Wildlife Park! Meet the RGV’s most authentic Santa and Mrs. Claus, and enjoy holiday fun for the whole family." : "Create holiday memories to last a lifetime with an unforgettable experience at Fragile Planet Wildlife Park! Meet the RGV’s most authentic Santa and Mrs. Claus, and enjoy holiday fun for the whole family."}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {language === "English" ? "Each ticket includes:" : "Each ticket includes:"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Professionally taken photos with Santa and a free 4x6 print (additional print packages available)" : "- Professionally taken photos with Santa and a free 4x6 print (additional print packages available)"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Ornament-making with Mrs. Claus" : "- Ornament-making with Mrs. Claus"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Festive Christmas Music" : "- Festive Christmas Music"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Petting Zoo" : "- Petting Zoo"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Animal Encounters" : "- Animal Encounters"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Frog Lab Tours" : "- Frog Lab Tours"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Axolotl Gift Shop" : "- Axolotl Gift Shop"}
-                            </p>
-                            <p>
-                                {language === "English" ? "- Free pancake breakfast with toppings" : "- Free pancake breakfast with toppings"}
-                            </p>
-                        </div>
-                        <div className="book-event">
-                            <Link href="https://fareharbor.com/embeds/book/fragileplanetwildlifepark/items/587520/?full-items=yes&flow=no">{language === "English" ? "Book Event" : "Reserva Evento"}</Link>
-                        </div>
-                    </div>
-                </div>
                 <div className="event">
                     <div className="events-img">
                         <Image src={tipsySafari} />
