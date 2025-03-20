@@ -34,10 +34,10 @@ export default function LetsConnect() {
                 process.env.NEXT_PUBLIC_SERVICE_ID,
                 process.env.NEXT_PUBLIC_TEMPLATE_ID,
                 {
-                    senderEmail: data.email,
-                    receiverEmail: process.env.NEXT_PUBLIC_RECEIVER_EMAIL,
-                    subject: data.subject,
+                    user_name: data.firstName + " " + data.lastName,
+                    user_email: data.email,
                     message: data.message,
+                    subject: data.subject
                 },
                 process.env.NEXT_PUBLIC_USER_ID
             );
