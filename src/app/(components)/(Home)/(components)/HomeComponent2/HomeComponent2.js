@@ -30,21 +30,12 @@ export function HomeComponent2({ language, tour1Link, tour1Description, tour4Pri
                         </div>
                         <div className="tour-footer">
                             <div className="tour-button green">
-                                {
-                                    typeof tour1Link === "string" ? (
-                                        <Link href={tour1Link ? tour1Link : "/"}>
+                                
+                                        <Link href={"/tickets/safari-wagon-tour"}>
                                             <div className="book-tour-text">
                                                 {language === "English" ? " Book tour" : " Reserva tour"}
                                             </div>
                                         </Link>
-                                    ) : (
-                                        <button onClick={tour1Link}>
-                                            <div className="book-tour-text">
-                                                {language === "English" ? " Book tour" : " Reserva tour"}
-                                            </div>
-                                        </button>
-                                    )
-                                }
                             </div>
                         </div>
                     </div>
